@@ -21,3 +21,6 @@
 .alpha-container {
   @apply px-10;
 }
+.active-link {
+  color: #007bff; /* Change to your desired color */
+}

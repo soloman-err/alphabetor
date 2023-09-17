@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { FaBars, FaSearch, FaUserCircle } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const user = true; //TODO: (in testing mode!)
+  const location = useLocation();
 
   // USER INFO/DASHBOARD TOGGLER:
   const toggleDropdownOpen = () => {
@@ -16,6 +17,16 @@ const Navbar = () => {
     setIsDropdownOpen(false);
   };
 
+  // NAVLINKS:
+  const navLinks = [
+    { to: '/', text: 'Home' },
+    { to: '/courses', text: 'Courses' },
+    { to: '/docs', text: 'Docs' },
+    { to: '/forum', text: 'Forum' },
+    { to: '/about', text: 'About' },
+    { to: '/contact', text: 'Contact' },
+  ];
+
   return (
     <header className="flex flex-row-reverse md:flex-row justify-between items-center py-5 font-normal uppercase px-3 md:px-10 border-b border-zinc-500 shadow-md">
       {/* ICON/LOGO */}
@@ -23,13 +34,21 @@ const Navbar = () => {
         <h2 className="font-bold italic text-xl">Alphabetor</h2>
 
         {/* NAVIGATION BAR */}
-        <nav className="hidden md:flex gap-2 list-none">
-          <NavLink to={'/'}>Home</NavLink>
-          <NavLink to={'/courses'}>Courses</NavLink>
-          <NavLink to={'/docs'}>Docs</NavLink>
-          <NavLink to={'/forum'}>Forum</NavLink>
-          <NavLink to={'/about'}>About</NavLink>
-          <NavLink to={'/contact'}>Contact</NavLink>
+        <nav className="hidden md:flex gap-3 list-none">
+          {navLinks &&
+            navLinks.map((link, index) => (
+              <NavLink
+                key={index}
+                to={link.to}
+                className={
+                  location.pathname === link?.to
+                    ? 'bg-cyan-200 px-2  text-black font-semibold border-r-2 border-black'
+                    : ''
+                }
+              >
+                {link.text}
+              </NavLink>
+            ))}
         </nav>
       </div>
 
