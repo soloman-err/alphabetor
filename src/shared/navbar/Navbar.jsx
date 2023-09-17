@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <header className="flex flex-row justify-between items-center py-5 font-normal uppercase px-10">
@@ -6,12 +8,12 @@ const Navbar = () => {
 
       {/* NAVIGATION BAR */}
       <nav className="flex gap-2 list-none">
-        <li>Home</li>
-        <li>Courses</li>
-        <li>Docs</li>
-        <li>Forum</li>
-        <li>About</li>
-        <li>Contact</li>
+        <NavLink to={"/"}>Home</NavLink>
+        <NavLink to={"/courses"}>Courses</NavLink>
+        <NavLink to={"/docs"}>Docs</NavLink>
+        <NavLink to={"/forum"}>Forum</NavLink>
+        <NavLink to={"/about"}>About</NavLink>
+        <NavLink to={"/contact"}>Contact</NavLink>
       </nav>
 
       {/* LOGIN/REGISTER */}
