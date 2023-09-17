@@ -28,10 +28,10 @@ const Sponsors = () => {
   ];
 
   return (
-    <div className="flex flex-row justify-center gap-2 xl:gap-5 2xl:gap-10 items-center mt-10 w-[80%] mx-auto">
+    <div className="alpha-container mt-20 flex flex-row justify-center gap-2 xl:gap-5 2xl:gap-10 items-center">
       {sponsorsList &&
         sponsorsList.map((image, index) => (
-          <img key={index} src={image.url} alt="" className="w-32 h-16" />
+          <img key={index} src={image.url} alt="" className="w-32 h-16 opacity-60 hover:opacity-100" />
         ))}
     </div>
   );
