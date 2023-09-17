@@ -4,15 +4,15 @@ import Navbar from '../shared/navbar/Navbar';
 
 const Root = () => {
   return (
-    <div className='flex flex-col justify-between min-h-screen'>
+    <div className="flex flex-col justify-between min-h-screen gap-20">
       <div>
         <Navbar />
         <div className="">
           <Outlet />
         </div>
       </div>
-      
-      <div className='mt-auto'>
+
+      <div className="mt-auto">
         <Footer />
       </div>
     </div>
