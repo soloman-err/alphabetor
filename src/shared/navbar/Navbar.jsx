@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex flex-row-reverse md:flex-row justify-between items-center py-5 font-normal uppercase px-3 md:px-10 border-b border-black shadow-md">
+    <header className="flex flex-row-reverse md:flex-row justify-between items-center py-5 font-normal uppercase px-3 md:px-10 border-b border-zinc-500 shadow-md">
       {/* ICON/LOGO */}
       <div className="flex items-center gap-10">
         <h2 className="font-bold italic text-xl">Alphabetor</h2>
@@ -39,6 +39,7 @@ const Navbar = () => {
         <div className="relative flex items-center gap-2">
           <input
             type="text"
+            placeholder="Search for..."
             className=" rounded-full bg-white border border-zinc-400 text-sm pl-2 pr-8 py-[2px] outline-none"
           />
           <FaSearch className="absolute right-2" />
@@ -48,30 +49,30 @@ const Navbar = () => {
         <button className="relative">
           <FaUserCircle size={24} onClick={toggleDropdownOpen} />
           {isDropdownOpen && (
-            <div className="absolute right-0 top-10 shadow-lg bg-white rounded-md flex flex-col text-start space-y-2 py-2 pb-10">
+            <div className="absolute z-20 right-0 top-10 shadow-lg bg-white rounded-md flex flex-col text-start py-2 pb-10">
               <NavLink
                 onClick={closeDropdown}
-                className="hover:bg-zinc-200 px-5 w-full"
+                className="hover:bg-zinc-200 py-2 px-5 w-full"
               >
                 Profile
               </NavLink>
               <NavLink
                 onClick={closeDropdown}
-                className="hover:bg-zinc-200 px-5 w-full"
+                className="hover:bg-zinc-200 py-2 px-5 w-full"
               >
                 Dashboard
               </NavLink>
               {user ? (
                 <NavLink
                   onClick={closeDropdown}
-                  className="hover:bg-zinc-200 px-5 w-full"
+                  className="hover:bg-zinc-200 py-2 px-5 w-full"
                 >
                   Sign Out
                 </NavLink>
               ) : (
                 <NavLink
                   onClick={closeDropdown}
-                  className="hover:bg-zinc-200 px-5 w-full"
+                  className="hover:bg-zinc-200 py-2 px-5 w-full"
                 >
                   Sign In
                 </NavLink>
