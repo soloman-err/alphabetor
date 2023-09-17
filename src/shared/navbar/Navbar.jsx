@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="flex flex-row-reverse md:flex-row justify-between items-center py-5 font-normal uppercase px-3 md:px-10 border-b border-zinc-500 shadow-md">
+    <header className="sticky top-0 z-50 bg-[#eaf7fd] flex flex-row-reverse md:flex-row justify-between items-center py-5 font-normal uppercase px-3 md:px-10 border-b border-zinc-500 shadow-md">
       {/* ICON/LOGO */}
       <div className="flex items-center gap-10">
         <h2 className="font-bold italic text-xl">Alphabetor</h2>
