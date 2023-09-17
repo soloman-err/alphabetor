@@ -16,9 +16,9 @@ const Categories = () => {
     'Psychology',
     'Music',
     'Art',
-    'Health and Wellness',
-    'Language and Linguistics',
-    'Business and Finance',
+    'Health & Wellness',
+    'Language & Linguistics',
+    'Business & Finance',
     'Engineering',
     'Political Science',
     'Environmental Science',
@@ -39,7 +39,7 @@ const Categories = () => {
               key={index}
               className="font-normal py-1 px-5 bg-cyan-500/10 rounded-sm"
             >
-              <button className='cursor-pointer'>{category}</button>
+              <button className="cursor-pointer">{category}</button>
             </li>
           ))}
         </ul>

@@ -42,7 +42,7 @@ const Navbar = () => {
                 to={link.to}
                 className={
                   location.pathname === link?.to
-                    ? 'bg-cyan-200 px-2  text-black font-semibold border-r-2 border-black'
+                    ? 'bg-cyan-500/20 px-2  text-black font-semibold border-r-2 border-black'
                     : ''
                 }
               >
