@@ -1,15 +1,13 @@
-import Heading from "../../../components/heading/Heading";
+import Title from '../../../components/title/Title';
 
 const Categories = () => {
-    return (
-        <section className="alpha-container mt-20">
-            <div>
-                <Heading>
-                    Alpha Category
-                </Heading>
-            </div>
-        </section>
-    );
+  return (
+    <section className="alpha-container mt-20">
+      <div>
+        <Title title={'Alpha Category'} />
+      </div>
+    </section>
+  );
 };
 
 export default Categories;
