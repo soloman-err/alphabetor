@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
+  font-family: 'Open Sans', sans-serif;
   color-scheme: dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #111;
+  color: #111;
+  /* background-color: #bee7ff; */
+  background-color: #dff4ff;
+}
+
+.alpha-btn {
+  @apply uppercase px-2 border border-cyan-950 rounded-sm font-medium;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.alpha-container {
+  @apply px-20;
 }
