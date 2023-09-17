@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import apple from '../../../public/apple-store-badge-en.svg';
 import google from '../../../public/google-play-badge-en.webp';
 
@@ -9,15 +10,25 @@ const Footer = () => {
           {/* BRAND-INFO/LOGO */}
           <div className="flex flex-col justify-between md:col-span-2 lg:col-span-1">
             <div>
-              <h2 className="font-bold italic text-xl uppercase">Alphabetor</h2>
+              <h2 className="font-bold italic text-xl uppercase">
+                <Link to={'/'}>Alphabetor</Link>
+              </h2>
 
               <p className="text-gray-400">Where Learning Meets Inspiration</p>
             </div>
 
             {/* INSTALLATION */}
             <div className="flex flex-col md:flex-row gap-2 mt-5 md:mt-auto">
-              <img src={apple} alt="apple-store-badge" className="w-[120px] h-10" />
-              <img src={google} alt="google-play-badge" className="w-[120px] h-10" />
+              <img
+                src={apple}
+                alt="apple-store-badge"
+                className="w-[120px] h-10"
+              />
+              <img
+                src={google}
+                alt="google-play-badge"
+                className="w-[120px] h-10"
+              />
             </div>
           </div>
 
@@ -26,29 +37,29 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="list-none">
               <li className="mb-2">
-                <a href="/courses" className="text-gray-300 hover:text-white">
+                <Link to="/courses" className="text-gray-300 hover:text-white">
                   Courses
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/docs" className="text-gray-300 hover:text-white">
+                <Link to="/docs" className="text-gray-300 hover:text-white">
                   Docs
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/forum" className="text-gray-300 hover:text-white">
+                <Link to="/forum" className="text-gray-300 hover:text-white">
                   Forum
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/about" className="text-gray-300 hover:text-white">
+                <Link to="/about" className="text-gray-300 hover:text-white">
                   About
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/contact" className="text-gray-300 hover:text-white">
+                <Link to="/contact" className="text-gray-300 hover:text-white">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
