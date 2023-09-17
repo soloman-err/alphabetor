@@ -18,5 +18,5 @@
 }
 
 .alpha-container {
-  @apply px-10;
+  @apply w-[80%] mx-auto;
 }
