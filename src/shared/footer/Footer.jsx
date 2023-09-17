@@ -18,17 +18,24 @@ const Footer = () => {
             </div>
 
             {/* INSTALLATION */}
-            <div className="flex flex-col md:flex-row gap-2 mt-5 md:mt-auto">
-              <img
-                src={apple}
-                alt="apple-store-badge"
-                className="w-[120px] h-10"
-              />
-              <img
-                src={google}
-                alt="google-play-badge"
-                className="w-[120px] h-10"
-              />
+            <div>
+              <div className="flex flex-col md:flex-row gap-2 mt-5 lg:mt-auto">
+                <img
+                  src={apple}
+                  alt="apple-store-badge"
+                  className="w-[120px] h-10"
+                />
+                <img
+                  src={google}
+                  alt="google-play-badge"
+                  className="w-[120px] h-10"
+                />
+              </div>
+
+              {/* ALPHABETOR COPYRIGHT */}
+              <div className="mt-2">
+                <small>&copy;2023 ALPHABETOR all rights reserved.</small>
+              </div>
             </div>
           </div>
 
