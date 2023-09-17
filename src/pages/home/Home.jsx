@@ -1,9 +1,11 @@
 import Hero from "./hero/Hero";
+import Sponsors from "./sponsors/Sponsors";
 
 const Home = () => {
     return (
         <div>
-            <Hero/>
+            <Hero />
+            <Sponsors/>
         </div>
     );
 };

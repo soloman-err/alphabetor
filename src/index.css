@@ -8,7 +8,6 @@
   font-family: 'Open Sans', sans-serif;
   color-scheme: dark;
   color: #111;
-  /* background-color: #bee7ff; */
   background-color: #eaf7fd;
 }
 
@@ -20,7 +19,4 @@
 
 .alpha-container {
   @apply px-10;
-}
-.active-link {
-  color: #007bff; /* Change to your desired color */
 }
