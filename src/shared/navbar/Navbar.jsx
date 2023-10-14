@@ -1,15 +1,16 @@
 import { useState } from 'react';
-import { FaBars, FaSearch, FaUserCircle } from 'react-icons/fa';
+import { FaBars, FaSearch, FaTimes, FaUserCircle } from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { account } from '../../lib/appwrite';
 import { useUser } from '../../lib/context/user';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const location = useLocation();
   const user = useUser();
-  const currentUser = user?.current;
-  console.log('From Navbar: ', currentUser);
+  const { current, logOut } = user;
+  const currentUser = current;
+  console.log('From Navbar: ', user, logOut);
+  const [isOpen, setIsOpen] = useState(false);
 
   // USER INFO/DASHBOARD TOGGLER:
   const toggleDropdownOpen = () => {
@@ -21,6 +22,11 @@ const Navbar = () => {
     setIsDropdownOpen(false);
   };
 
+  // Nav-Toggler:
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
   // NAVLINKS:
   const navLinks = [
     { to: '/', text: 'Home' },
@@ -29,6 +35,29 @@ const Navbar = () => {
     { to: '/docs', text: 'Docs' },
     { to: '/about', text: 'About' },
     { to: '/contact', text: 'Contact' },
+  ];
+
+  const dropdownItems = [
+    { text: 'Profile', link: '/user-profile' },
+    { text: 'Dashboard', link: '/dashboard' },
+    ...(currentUser
+      ? []
+      : [
+          {
+            text: 'Sign In',
+            link: '/login',
+          },
+        ]),
+    ...(currentUser
+      ? [
+          {
+            text: 'Sign Out',
+            onClick: async () => {
+              logOut();
+            },
+          },
+        ]
+      : []),
   ];
 
   return (
@@ -78,53 +107,63 @@ const Navbar = () => {
             <FaUserCircle size={24} onClick={toggleDropdownOpen} />
             {isDropdownOpen && (
               <div className="absolute z-20 right-0 top-10 shadow-lg bg-white rounded-md flex flex-col text-start py-2 pb-5">
-                <NavLink
-                  to={'/user-profile'}
-                  onClick={closeDropdown}
-                  className="hover:bg-zinc-200 py-2 px-5 w-full"
-                >
-                  Profile
-                </NavLink>
-
-                <NavLink
-                  onClick={closeDropdown}
-                  className="hover:bg-zinc-200 py-2 px-5 w-full"
-                >
-                  Dashboard
-                </NavLink>
-
-                {currentUser ? (
-                  <NavLink
-                    onClick={closeDropdown}
-                    className="hover:bg-zinc-200 py-2 px-5 w-full"
-                  >
-                    <div
-                      type="button"
-                      onClick={async () => {
-                        await account.deleteSession('current');
+                {dropdownItems?.map((item, index) => {
+                  return (
+                    <NavLink
+                      key={index}
+                      to={item.link}
+                      onClick={() => {
+                        closeDropdown();
+                        if (item.onClick) {
+                          item.onClick();
+                        }
                       }}
+                      className="hover:bg-zinc-200 py-2 px-5 w-full"
                     >
-                      Sign Out
-                    </div>
-                  </NavLink>
-                ) : (
-                  <NavLink
-                    to={'/login'}
-                    onClick={closeDropdown}
-                    className="hover:bg-zinc-200 py-2 px-5 w-full"
-                  >
-                    Sign In
-                  </NavLink>
-                )}
+                      {item.text}
+                    </NavLink>
+                  );
+                })}
               </div>
             )}
           </button>
         </div>
 
         {/* RESPONSIVE SMALL SCREEN LAYOUT */}
-        <div className="md:hidden">
-          <FaBars size={20} />
-        </div>
+        {isOpen ? (
+          <FaTimes size={22} onClick={toggleNavbar} />
+        ) : (
+          <FaBars size={22} onClick={toggleNavbar} />
+        )}
+
+        {isOpen && (
+          <div className="absolute z-20 left-0 top-0 shadow-lg  text-white flex flex-col text-start py-2 pb-5 min-h-screen p-4 pt-4 bg-gray-900 w-[80%]">
+            <div className="ms-auto">
+              {isOpen ? (
+                <FaTimes size={22} onClick={toggleNavbar} />
+              ) : (
+                <FaBars size={22} onClick={toggleNavbar} />
+              )}
+            </div>
+            {dropdownItems?.map((item, index) => {
+              return (
+                <NavLink
+                  key={index}
+                  to={item.link}
+                  onClick={() => {
+                    closeDropdown();
+                    if (item.onClick) {
+                      item.onClick();
+                    }
+                  }}
+                  className="py-2 hover:bg-gray-400 w-full"
+                >
+                  {item.text}
+                </NavLink>
+              );
+            })}
+          </div>
+        )}
       </header>
     </div>
   );
