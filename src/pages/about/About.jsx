@@ -13,20 +13,23 @@ const imageUrls = [
 
 const About = () => {
   return (
-      <div className="container mx-auto w-[80%] lg:w-[60%] mt-10 text-justify">
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 my-10">
-                {imageUrls.map((imageUrl, index) => (
-                    <div key={index} className="relative h-0" style={{ paddingBottom: '100%' }}>
-                        <img
-                            src={imageUrl}
-                            alt={`Image ${index + 1}`}
-                            className="absolute object-cover w-full h-full rounded-lg"
-                        />
-                    </div>
-                ))}
+    <div className="container mx-auto w-[80%] lg:w-[60%] mt-10 text-justify">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-10">
+        {imageUrls.map((imageUrl, index) => (
+          <div
+            key={index}
+            className="relative h-0"
+            style={{ paddingBottom: '100%' }}
+          >
+            <img
+              src={imageUrl}
+              alt={`Image ${index + 1}`}
+              className="absolute object-cover w-full h-full rounded-lg"
+            />
           </div>
-          
+        ))}
+      </div>
+
       <h1 className="text-center text-3xl font-bold mb-4">
         Welcome to Alphabetor
       </h1>
@@ -48,29 +51,29 @@ const About = () => {
       </h2>
       <ul className="list-disc ml-6 mb-6">
         <li className="mb-2">
-          Comprehensive and Engaging Content: Our curated educational materials
-          cover a wide range of subjects and topics, designed to make learning
-          enjoyable and effective.
+          <strong>Comprehensive and Engaging Content:</strong> Our curated
+          educational materials cover a wide range of subjects and topics,
+          designed to make learning enjoyable and effective.
         </li>
         <li className="mb-2">
-          Expert Educators: Our team of experienced educators and subject-matter
-          experts create and review content to ensure its accuracy and
-          relevance.
+          <strong>Expert Educators:</strong> Our team of experienced educators
+          and subject-matter experts create and review content to ensure its
+          accuracy and relevance.
         </li>
         <li className="mb-2">
-          Interactive Learning: We believe in interactive learning experiences.
-          Our platform offers quizzes, games, and interactive lessons to enhance
-          understanding and retention.
+          <strong>Interactive Learning:</strong> We believe in interactive
+          learning experiences. Our platform offers quizzes, games, and
+          interactive lessons to enhance understanding and retention.
         </li>
         <li className="mb-2">
-          Community Support: Join a vibrant community of learners where you can
-          ask questions, share knowledge, and collaborate with fellow students
-          and educators.
+          <strong>Community Support:</strong> Join a vibrant community of
+          learners where you can ask questions, share knowledge, and collaborate
+          with fellow students and educators.
         </li>
         <li className="mb-2">
-          Accessibility: Our resources are accessible anytime, anywhere. Whether
-          you are a student, teacher, or lifelong learner, you can access our
-          content on various devices.
+          <strong>Accessibility:</strong> Our resources are accessible anytime,
+          anywhere. Whether you are a student, teacher, or lifelong learner, you
+          can access our content on various devices.
         </li>
       </ul>
       <h2 className="text-center text-2xl font-bold mb-2">Any query?</h2>
