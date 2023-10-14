@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "courseId": "web-development",
     "title": "Web Development Bootcamp",
     "description": "Learn web development from scratch with HTML, CSS, and JavaScript.",
     "duration": "12 weeks",
@@ -31,6 +32,7 @@
   },
   {
     "id": 2,
+    "courseId": "data-science",
     "title": "Data Science Fundamentals",
     "description": "Master data analysis and visualization with Python and data science tools.",
     "duration": "10 weeks",
@@ -49,6 +51,7 @@
   },
   {
     "id": 3,
+    "courseId": "graphic-design",
     "title": "Mobile App Development",
     "description": "Build mobile apps for iOS and Android using React Native.",
     "duration": "8 weeks",
@@ -67,6 +70,7 @@
   },
   {
     "id": 4,
+    "courseId": "machine-learning",
     "title": "Machine Learning Essentials",
     "description": "Explore the fundamentals of machine learning and artificial intelligence.",
     "duration": "14 weeks",
@@ -85,6 +89,7 @@
   },
   {
     "id": 5,
+    "courseId": "javascript",
     "title": "Full-Stack JavaScript Development",
     "description": "Learn how to build full-stack web applications with JavaScript, Node.js, and React.",
     "duration": "16 weeks",
@@ -103,6 +108,7 @@
   },
   {
     "id": 6,
+    "courseId": "python-programming",
     "title": "Introduction to Artificial Intelligence",
     "description": "Get started with AI and explore its applications in various fields.",
     "duration": "10 weeks",
@@ -120,6 +126,7 @@
   },
   {
     "id": 7,
+    "courseId": "digital-marketing",
     "title": "Blockchain and Cryptocurrency",
     "description": "Understand blockchain technology and the world of cryptocurrencies.",
     "duration": "8 weeks",
@@ -137,6 +144,7 @@
   },
   {
     "id": 8,
+    "courseId": "ux-ui-design",
     "title": "Cybersecurity Fundamentals",
     "description": "Learn the basics of cybersecurity and how to protect digital assets.",
     "duration": "12 weeks",
@@ -154,6 +162,7 @@
   },
   {
     "id": 9,
+    "courseId": "ios-app-development",
     "title": "Art and Design for Beginners",
     "description": "Explore your creative side with art and design fundamentals.",
     "duration": "6 weeks",
@@ -171,6 +180,43 @@
   },
   {
     "id": 10,
+    "courseId": "android-development",
+    "title": "Business Management Essentials",
+    "description": "Gain essential skills for effective business management and leadership.",
+    "duration": "14 weeks",
+    "instructor": "Michael Smith",
+    "imgURL": "https://cdn.filestackcontent.com/compress/output=format:webp/cache=expiry:max/resize=width:1250/iEEj9VzKSyCNOOa0omby",
+    "category": "Business",
+    "url": "/courses/business-management-essentials",
+    "level": "Intermediate",
+    "language": "English",
+    "prerequisites": "Basic understanding of business concepts.",
+    "certification": "Receive a business management certificate upon completion of projects and case studies.",
+    "fees": "$XXX (Includes course materials and access to business analysis tools)",
+    "startDate": "Next cohort starts on DD/MM/YYYY.",
+    "support": "Interactive case studies and guest lectures from industry leaders."
+  },
+  {
+    "id": 11,
+    "courseId": "android-development",
+    "title": "Business Management Essentials",
+    "description": "Gain essential skills for effective business management and leadership.",
+    "duration": "14 weeks",
+    "instructor": "Michael Smith",
+    "imgURL": "https://cdn.filestackcontent.com/compress/output=format:webp/cache=expiry:max/resize=width:1250/iEEj9VzKSyCNOOa0omby",
+    "category": "Business",
+    "url": "/courses/business-management-essentials",
+    "level": "Intermediate",
+    "language": "English",
+    "prerequisites": "Basic understanding of business concepts.",
+    "certification": "Receive a business management certificate upon completion of projects and case studies.",
+    "fees": "$XXX (Includes course materials and access to business analysis tools)",
+    "startDate": "Next cohort starts on DD/MM/YYYY.",
+    "support": "Interactive case studies and guest lectures from industry leaders."
+  },
+  {
+    "id": 12,
+    "courseId": "android-development",
     "title": "Business Management Essentials",
     "description": "Gain essential skills for effective business management and leadership.",
     "duration": "14 weeks",

@@ -1,28 +1,40 @@
 import { useState } from 'react';
-import { FaBars, FaSearch, FaTimes, FaUserCircle } from 'react-icons/fa';
+import {
+  FaAngleDown,
+  FaAngleUp,
+  FaBars,
+  FaSearch,
+  FaTimes,
+  FaUserCircle,
+} from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '../../lib/context/user';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const user = useUser();
   const { current, logOut } = user;
   const currentUser = current;
-  console.log('From Navbar: ', user, logOut);
-  const [isOpen, setIsOpen] = useState(false);
 
-  // USER INFO/DASHBOARD TOGGLER:
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   const toggleDropdownOpen = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  // CLOSE DROPDOWN:
   const closeDropdown = () => {
     setIsDropdownOpen(false);
   };
 
-  // Nav-Toggler:
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
@@ -37,6 +49,31 @@ const Navbar = () => {
     { to: '/contact', text: 'Contact' },
   ];
 
+  // Courses Submenu:
+  const onlineCourses = [
+    { title: 'Web Development', to: 'web-development' },
+    { title: 'Data Science', to: 'data-science' },
+    { title: 'Graphic Design', to: 'graphic-design' },
+    { title: 'Machine Learning', to: 'machine-learning' },
+    { title: 'JavaScript', to: 'javascript' },
+    { title: 'Python Programming', to: 'python-programming' },
+    { title: 'Digital Marketing', to: 'digital-marketing' },
+    { title: 'UX/UI Design', to: 'ux-ui-design' },
+    { title: 'iOS App Development', to: 'ios-app-development' },
+    { title: 'Android Development', to: 'android-development' },
+    { title: 'Blockchain', to: 'blockchain' },
+    { title: 'Cybersecurity', to: 'cybersecurity' },
+    { title: 'Game Development', to: 'game-development' },
+    { title: 'Cloud Computing', to: 'cloud-computing' },
+    { title: 'Artificial Intelligence', to: 'artificial-intelligence' },
+    { title: 'Frontend Development', to: 'frontend-development' },
+    { title: 'Backend Development', to: 'backend-development' },
+    { title: 'Full Stack Development', to: 'full-stack-development' },
+    { title: 'Product Management', to: 'product-management' },
+    { title: 'Mobile App Design', to: 'mobile-app-design' },
+  ];
+
+  // User Info
   const dropdownItems = [
     { text: 'Profile', link: '/user-profile' },
     { text: 'Dashboard', link: '/dashboard' },
@@ -61,34 +98,79 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-white shadow-md sticky top-0 z-50">
+    <div className="bg-[#164B59] text-white shadow-md sticky top-0 z-50">
       <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-6 font-normal uppercase px-3 md:px-10">
         {/* ICON/LOGO */}
         <div className="flex justify-between items-center gap-10">
           <Link to={'/'}>
-            <h2 className="font-bold italic text-2xl">Alphabetor</h2>
+            <h2 className="font-bold italic text-3xl">Alphabetor</h2>
           </Link>
         </div>
 
-        <div>
-          {/* NAVIGATION BAR */}
-          <nav className="hidden md:flex gap-3 list-none">
-            {navLinks &&
-              navLinks.map((link, index) => (
-                <NavLink
-                  key={index}
-                  to={link.to}
-                  className={
-                    location.pathname === link?.to
-                      ? 'px-1 pb-1  text-black text-sm font-semibold border-b-2 border-black'
-                      : 'pb-1 text-sm font-semibold'
-                  }
-                >
-                  {link.text}
-                </NavLink>
-              ))}
-          </nav>
-        </div>
+        {/* NAVIGATION BAR */}
+        <nav className="relative w-full justify-center hidden md:flex gap-3 list-none">
+          {navLinks &&
+            navLinks.map((link, index) => (
+              <NavLink
+                key={index}
+                to={link.to}
+                className={
+                  location.pathname === link?.to
+                    ? 'px-1 pb-1 text-gray-200 font-semibold border-b-2 flex items-center gap-1 hover:text-gray-200 hover:border-gray-200'
+                    : 'pb-1 font-semibold flex items-center gap-1 hover:text-gray-200 hover:border-gray-200'
+                }
+                onMouseEnter={
+                  link?.text === 'Courses' ? handleMouseEnter : null
+                }
+                onMouseLeave={
+                  link?.text === 'Courses' ? handleMouseLeave : null
+                }
+              >
+                {link.text}
+                {/* Courses Sub-Menu Items will be appeared on hover */}
+                {link?.text === 'Courses' && (
+                  <>
+                    {isHovered ? <FaAngleUp /> : <FaAngleDown />}
+                    {isHovered && (
+                      <div className="absolute bg-white top-7 left-0 flex flex-row w-full py-2 shadow-lg">
+                        <ul className="w-full text-black p-2 rounded-sm mt-2">
+                          {onlineCourses?.slice(0, 10).map((course, index) => (
+                            <li
+                              key={index}
+                              className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
+                            >
+                              <Link
+                                to={`/course/${course.to}`}
+                                className="block px-1 py-2"
+                              >
+                                {course.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+
+                        <ul className="w-full top-5 left-0 bg-white text-black p-2 rounded-sm mt-2">
+                          {onlineCourses?.slice(10, 20).map((course, index) => (
+                            <li
+                              key={index}
+                              className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
+                            >
+                              <Link
+                                to={`/course/${course.to}`}
+                                className="block px-1 py-2"
+                              >
+                                {course.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </>
+                )}
+              </NavLink>
+            ))}
+        </nav>
 
         {/* LOGIN/REGISTER */}
         <div className="hidden md:flex flex-row items-center gap-3">
@@ -130,15 +212,18 @@ const Navbar = () => {
         </div>
 
         {/* RESPONSIVE SMALL SCREEN LAYOUT */}
-        {isOpen ? (
-          <FaTimes size={22} onClick={toggleNavbar} />
-        ) : (
-          <FaBars size={22} onClick={toggleNavbar} />
-        )}
+        <div className="md:hidden">
+          {isOpen ? (
+            <FaTimes size={22} onClick={toggleNavbar} />
+          ) : (
+            <FaBars size={22} onClick={toggleNavbar} />
+          )}
+        </div>
 
+        {/* Phone Screen Navigation */}
         {isOpen && (
-          <div className="absolute z-20 left-0 top-0 shadow-lg  text-white flex flex-col text-start py-2 pb-5 min-h-screen p-4 pt-4 bg-gray-900 w-[80%]">
-            <div className="ms-auto">
+          <div className="absolute inset-0 z-20 left-0 top-0 bottom-0 shadow-lg text-white flex flex-col text-start py-2 pb-5 pt-4 bg-[#113944] w-[80%] space-y-2 h-screen">
+            <div className="ms-auto mx-4 p-1 border hover:scale-95 duration-300">
               {isOpen ? (
                 <FaTimes size={22} onClick={toggleNavbar} />
               ) : (
@@ -156,7 +241,7 @@ const Navbar = () => {
                       item.onClick();
                     }
                   }}
-                  className="py-2 hover:bg-gray-400 w-full"
+                  className="py-2 font-semibold hover:bg-gray-400 hover:text-[#113944] hover:font-bold w-full px-4"
                 >
                   {item.text}
                 </NavLink>
