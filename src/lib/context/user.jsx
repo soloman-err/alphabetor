@@ -22,7 +22,7 @@ const UserProvider = (props) => {
       setError('Registration failed');
     }
   };
-  
+
   // User sign-in:
   const login = async (email, password) => {
     try {
@@ -33,15 +33,16 @@ const UserProvider = (props) => {
     }
   };
 
-  const logout = async () => {
+  const logOut = async () => {
     try {
+      console.log('Logging out...');
       await account.deleteSession('current');
       setUser(null);
     } catch (error) {
+      console.error('Logout failed', error);
       setError('Logout failed');
     }
   };
-
 
   const clearError = () => {
     setError(null);
@@ -63,7 +64,9 @@ const UserProvider = (props) => {
   }, []);
 
   return (
-    <UserContext.Provider value={{ current: user, login, logout, register, clearError }}>
+    <UserContext.Provider
+      value={{ current: user, login, logOut, register, clearError }}
+    >
       {props.children}
     </UserContext.Provider>
   );

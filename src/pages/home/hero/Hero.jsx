@@ -78,7 +78,7 @@ const Hero = () => {
         <div className="mx-auto flex flex-row items-center gap-5">
           {bookData.map((book) => (
             <SwiperSlide key={book.id} className="">
-              <div className="w-[80%] lg:w-[60%] mx-auto flex flex-row items-center gap-8">
+              <div className="w-[80%] lg:w-[60%] mx-auto flex flex-col md:flex-row items-center gap-8">
                 {/* Book Image */}
                 <section className="relative w-full">
                   <img
