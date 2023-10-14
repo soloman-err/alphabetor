@@ -10,12 +10,12 @@ const CourseCategory = () => {
   const [filteredCourses, setFilteredCourses] = useState([]);
 
   useEffect(() => {
-    const filteredCourses = courses.filter(
+    const filteredCourses = courses?.filter(
       (course) => course?.courseId === courseId
     );
     console.log(filteredCourses);
     setFilteredCourses(filteredCourses);
-  }, [courseId]);
+  }, [courses, courseId]);
   console.log(filteredCourses);
 
   return (
