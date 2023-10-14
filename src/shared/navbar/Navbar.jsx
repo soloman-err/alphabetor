@@ -51,26 +51,26 @@ const Navbar = () => {
 
   // Courses Submenu:
   const onlineCourses = [
-    'Web Development',
-    'Data Science',
-    'Graphic Design',
-    'Machine Learning',
-    'JavaScript',
-    'Python Programming',
-    'Digital Marketing',
-    'UX/UI Design',
-    'iOS App Development',
-    'Android Development',
-    'Blockchain',
-    'Cybersecurity',
-    'Game Development',
-    'Cloud Computing',
-    'Artificial Intelligence',
-    'Frontend Development',
-    'Backend Development',
-    'Full Stack Development',
-    'Product Management',
-    'Mobile App Design',
+    { title: 'Web Development', to: 'web-development' },
+    { title: 'Data Science', to: 'data-science' },
+    { title: 'Graphic Design', to: 'graphic-design' },
+    { title: 'Machine Learning', to: 'machine-learning' },
+    { title: 'JavaScript', to: 'javascript' },
+    { title: 'Python Programming', to: 'python-programming' },
+    { title: 'Digital Marketing', to: 'digital-marketing' },
+    { title: 'UX/UI Design', to: 'ux-ui-design' },
+    { title: 'iOS App Development', to: 'ios-app-development' },
+    { title: 'Android Development', to: 'android-development' },
+    { title: 'Blockchain', to: 'blockchain' },
+    { title: 'Cybersecurity', to: 'cybersecurity' },
+    { title: 'Game Development', to: 'game-development' },
+    { title: 'Cloud Computing', to: 'cloud-computing' },
+    { title: 'Artificial Intelligence', to: 'artificial-intelligence' },
+    { title: 'Frontend Development', to: 'frontend-development' },
+    { title: 'Backend Development', to: 'backend-development' },
+    { title: 'Full Stack Development', to: 'full-stack-development' },
+    { title: 'Product Management', to: 'product-management' },
+    { title: 'Mobile App Design', to: 'mobile-app-design' },
   ];
 
   // User Info
@@ -126,7 +126,8 @@ const Navbar = () => {
                   link?.text === 'Courses' ? handleMouseLeave : null
                 }
               >
-                {link.text} {/* Sub-Menu Items will be appeared on hover */}
+                {link.text}
+                {/* Courses Sub-Menu Items will be appeared on hover */}
                 {link?.text === 'Courses' && (
                   <>
                     {isHovered ? <FaAngleUp /> : <FaAngleDown />}
@@ -136,9 +137,14 @@ const Navbar = () => {
                           {onlineCourses?.slice(0, 10).map((course, index) => (
                             <li
                               key={index}
-                              className="py-2 border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold px-1"
+                              className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
                             >
-                              {course}s
+                              <Link
+                                to={`/course/${course.to}`}
+                                className="block px-1 py-2"
+                              >
+                                {course.title}
+                              </Link>
                             </li>
                           ))}
                         </ul>
@@ -147,9 +153,14 @@ const Navbar = () => {
                           {onlineCourses?.slice(10, 20).map((course, index) => (
                             <li
                               key={index}
-                              className="py-2 border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold px-1"
+                              className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
                             >
-                              {course}s
+                              <Link
+                                to={`/course/${course.to}`}
+                                className="block px-1 py-2"
+                              >
+                                {course.title}
+                              </Link>
                             </li>
                           ))}
                         </ul>
