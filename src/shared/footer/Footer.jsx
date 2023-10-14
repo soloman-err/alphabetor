@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import apple from '../../../public/apple-store-badge-en.svg';
-import google from '../../../public/google-play-badge-en.webp';
+import apple from '/apple-store-badge-en.svg';
+import google from '/google-play-badge-en.webp';
 
 const Footer = () => {
   return (
-    <footer className="px-5 bg-gray-900 text-white py-10">
+    <footer className="px-5 bg-gray-950 text-white py-10">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* BRAND-INFO/LOGO */}
