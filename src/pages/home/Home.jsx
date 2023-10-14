@@ -1,15 +1,14 @@
 import Categories from './categories/Categories';
 import FeaturedCourses from './featuredCourses/FeaturedCourses';
 import Hero from './hero/Hero';
-import Sponsors from './sponsors/Sponsors';
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
       <Hero />
-      <Sponsors />
-      <Categories />
+      {/* <Sponsors /> */}
       <FeaturedCourses />
+      <Categories />
     </div>
   );
 };
