@@ -1,28 +1,40 @@
 import { useState } from 'react';
-import { FaBars, FaSearch, FaTimes, FaUserCircle } from 'react-icons/fa';
+import {
+  FaAngleDown,
+  FaAngleUp,
+  FaBars,
+  FaSearch,
+  FaTimes,
+  FaUserCircle,
+} from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '../../lib/context/user';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const user = useUser();
   const { current, logOut } = user;
   const currentUser = current;
-  console.log('From Navbar: ', user, logOut);
-  const [isOpen, setIsOpen] = useState(false);
 
-  // USER INFO/DASHBOARD TOGGLER:
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   const toggleDropdownOpen = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  // CLOSE DROPDOWN:
   const closeDropdown = () => {
     setIsDropdownOpen(false);
   };
 
-  // Nav-Toggler:
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
@@ -37,6 +49,31 @@ const Navbar = () => {
     { to: '/contact', text: 'Contact' },
   ];
 
+  // Courses Submenu:
+  const onlineCourses = [
+    'Web Development',
+    'Data Science',
+    'Graphic Design',
+    'Machine Learning',
+    'JavaScript',
+    'Python Programming',
+    'Digital Marketing',
+    'UX/UI Design',
+    'iOS App Development',
+    'Android Development',
+    'Blockchain',
+    'Cybersecurity',
+    'Game Development',
+    'Cloud Computing',
+    'Artificial Intelligence',
+    'Frontend Development',
+    'Backend Development',
+    'Full Stack Development',
+    'Product Management',
+    'Mobile App Design',
+  ];
+
+  // User Info
   const dropdownItems = [
     { text: 'Profile', link: '/user-profile' },
     { text: 'Dashboard', link: '/dashboard' },
@@ -70,25 +107,59 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div>
-          {/* NAVIGATION BAR */}
-          <nav className="hidden md:flex gap-3 list-none">
-            {navLinks &&
-              navLinks.map((link, index) => (
-                <NavLink
-                  key={index}
-                  to={link.to}
-                  className={
-                    location.pathname === link?.to
-                      ? 'px-1 pb-1  text-gray-200 font-semibold border-b-2'
-                      : 'pb-1 text-sm font-semibold'
-                  }
-                >
-                  {link.text}
-                </NavLink>
-              ))}
-          </nav>
-        </div>
+        {/* NAVIGATION BAR */}
+        <nav className="relative w-full justify-center hidden md:flex gap-3 list-none">
+          {navLinks &&
+            navLinks.map((link, index) => (
+              <NavLink
+                key={index}
+                to={link.to}
+                className={
+                  location.pathname === link?.to
+                    ? 'px-1 pb-1 text-gray-200 font-semibold border-b-2 flex items-center gap-1 hover:text-gray-200 hover:border-gray-200'
+                    : 'pb-1 font-semibold flex items-center gap-1 hover:text-gray-200 hover:border-gray-200'
+                }
+                onMouseEnter={
+                  link?.text === 'Courses' ? handleMouseEnter : null
+                }
+                onMouseLeave={
+                  link?.text === 'Courses' ? handleMouseLeave : null
+                }
+              >
+                {link.text} {/* Sub-Menu Items will be appeared on hover */}
+                {link?.text === 'Courses' && (
+                  <>
+                    {isHovered ? <FaAngleUp /> : <FaAngleDown />}
+                    {isHovered && (
+                      <div className="absolute bg-white top-7 left-0 flex flex-row w-full py-2 shadow-lg">
+                        <ul className="w-full text-black p-2 rounded-sm mt-2">
+                          {onlineCourses?.slice(0, 10).map((course, index) => (
+                            <li
+                              key={index}
+                              className="py-2 border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold px-1"
+                            >
+                              {course}s
+                            </li>
+                          ))}
+                        </ul>
+
+                        <ul className="w-full top-5 left-0 bg-white text-black p-2 rounded-sm mt-2">
+                          {onlineCourses?.slice(10, 20).map((course, index) => (
+                            <li
+                              key={index}
+                              className="py-2 border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold px-1"
+                            >
+                              {course}s
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </>
+                )}
+              </NavLink>
+            ))}
+        </nav>
 
         {/* LOGIN/REGISTER */}
         <div className="hidden md:flex flex-row items-center gap-3">
@@ -130,12 +201,12 @@ const Navbar = () => {
         </div>
 
         {/* RESPONSIVE SMALL SCREEN LAYOUT */}
-        <div className='md:hidden'>
+        <div className="md:hidden">
           {isOpen ? (
-          <FaTimes size={22} onClick={toggleNavbar} />
-        ) : (
-          <FaBars size={22} onClick={toggleNavbar} />
-        )}
+            <FaTimes size={22} onClick={toggleNavbar} />
+          ) : (
+            <FaBars size={22} onClick={toggleNavbar} />
+          )}
         </div>
 
         {/* Phone Screen Navigation */}
