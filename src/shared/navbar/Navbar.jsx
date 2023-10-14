@@ -61,12 +61,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-white shadow-md sticky top-0 z-50">
+    <div className="bg-[#164B59] text-white shadow-md sticky top-0 z-50">
       <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-6 font-normal uppercase px-3 md:px-10">
         {/* ICON/LOGO */}
         <div className="flex justify-between items-center gap-10">
           <Link to={'/'}>
-            <h2 className="font-bold italic text-2xl">Alphabetor</h2>
+            <h2 className="font-bold italic text-3xl">Alphabetor</h2>
           </Link>
         </div>
 
@@ -80,7 +80,7 @@ const Navbar = () => {
                   to={link.to}
                   className={
                     location.pathname === link?.to
-                      ? 'px-1 pb-1  text-black text-sm font-semibold border-b-2 border-black'
+                      ? 'px-1 pb-1  text-gray-200 font-semibold border-b-2'
                       : 'pb-1 text-sm font-semibold'
                   }
                 >
@@ -130,15 +130,18 @@ const Navbar = () => {
         </div>
 
         {/* RESPONSIVE SMALL SCREEN LAYOUT */}
-        {isOpen ? (
+        <div className='md:hidden'>
+          {isOpen ? (
           <FaTimes size={22} onClick={toggleNavbar} />
         ) : (
           <FaBars size={22} onClick={toggleNavbar} />
         )}
+        </div>
 
+        {/* Phone Screen Navigation */}
         {isOpen && (
-          <div className="absolute z-20 left-0 top-0 shadow-lg  text-white flex flex-col text-start py-2 pb-5 min-h-screen p-4 pt-4 bg-gray-900 w-[80%]">
-            <div className="ms-auto">
+          <div className="absolute inset-0 z-20 left-0 top-0 bottom-0 shadow-lg text-white flex flex-col text-start py-2 pb-5 pt-4 bg-[#113944] w-[80%] space-y-2 h-screen">
+            <div className="ms-auto mx-4 p-1 border hover:scale-95 duration-300">
               {isOpen ? (
                 <FaTimes size={22} onClick={toggleNavbar} />
               ) : (
@@ -156,7 +159,7 @@ const Navbar = () => {
                       item.onClick();
                     }
                   }}
-                  className="py-2 hover:bg-gray-400 w-full"
+                  className="py-2 font-semibold hover:bg-gray-400 hover:text-[#113944] hover:font-bold w-full px-4"
                 >
                   {item.text}
                 </NavLink>
