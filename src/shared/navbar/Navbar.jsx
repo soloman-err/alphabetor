@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaBars, FaSearch, FaUserCircle } from 'react-icons/fa';
+import { FaBars, FaSearch, FaTimes, FaUserCircle } from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '../../lib/context/user';
 
@@ -10,6 +10,7 @@ const Navbar = () => {
   const { current, logOut } = user;
   const currentUser = current;
   console.log('From Navbar: ', user, logOut);
+  const [isOpen, setIsOpen] = useState(false);
 
   // USER INFO/DASHBOARD TOGGLER:
   const toggleDropdownOpen = () => {
@@ -19,6 +20,11 @@ const Navbar = () => {
   // CLOSE DROPDOWN:
   const closeDropdown = () => {
     setIsDropdownOpen(false);
+  };
+
+  // Nav-Toggler:
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
   };
 
   // NAVLINKS:
@@ -124,9 +130,40 @@ const Navbar = () => {
         </div>
 
         {/* RESPONSIVE SMALL SCREEN LAYOUT */}
-        <div className="md:hidden">
-          <FaBars size={20} />
-        </div>
+        {isOpen ? (
+          <FaTimes size={22} onClick={toggleNavbar} />
+        ) : (
+          <FaBars size={22} onClick={toggleNavbar} />
+        )}
+
+        {isOpen && (
+          <div className="absolute z-20 left-0 top-0 shadow-lg  text-white flex flex-col text-start py-2 pb-5 min-h-screen p-4 pt-4 bg-gray-900 w-[80%]">
+            <div className="ms-auto">
+              {isOpen ? (
+                <FaTimes size={22} onClick={toggleNavbar} />
+              ) : (
+                <FaBars size={22} onClick={toggleNavbar} />
+              )}
+            </div>
+            {dropdownItems?.map((item, index) => {
+              return (
+                <NavLink
+                  key={index}
+                  to={item.link}
+                  onClick={() => {
+                    closeDropdown();
+                    if (item.onClick) {
+                      item.onClick();
+                    }
+                  }}
+                  className="py-2 hover:bg-gray-400 w-full"
+                >
+                  {item.text}
+                </NavLink>
+              );
+            })}
+          </div>
+        )}
       </header>
     </div>
   );
