@@ -11,7 +11,6 @@ const UserProvider = (props) => {
   const [user, setUser] = useState();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  console.log(user);
 
   // Create a new user:
   const register = async (email, password) => {

@@ -1,0 +1,4143 @@
+{
+  "fiction": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "ISBN-10": "0061120081",
+      "ISBN-13": "978-0061120084",
+      "description": "A powerful exploration of racial injustice, moral growth, and compassion in the American South.",
+      "language": "English",
+      "genre": ["Fiction", "Coming-of-Age"],
+      "format": "Paperback",
+      "publisher": "Harper Perennial Modern Classics",
+      "publicationDate": "July 5, 2005",
+      "pages": 336,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 14.99,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover2.jpg",
+      "reviews": {
+        "total": 387,
+        "averageRating": 4.7,
+        "highlights": [
+          "Thought-provoking narrative",
+          "Compelling characters",
+          "Timeless themes"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Adventures of Huckleberry Finn",
+          "ISBN-13": "978-0486280615",
+          "url": "/adventures-of-huckleberry-finn"
+        },
+        {
+          "title": "The Grapes of Wrath",
+          "ISBN-13": "978-0143039433",
+          "url": "/the-grapes-of-wrath"
+        }
+      ]
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "ISBN-10": "0451524934",
+      "ISBN-13": "978-0451524935",
+      "description": "A dystopian novel set in a totalitarian society ruled by the Party and its leader, Big Brother.",
+      "language": "English",
+      "genre": ["Fiction", "Dystopian"],
+      "format": "Hardcover",
+      "publisher": "Signet Classic",
+      "publicationDate": "October 21, 1983",
+      "pages": 328,
+      "dimensions": {
+        "height": "6.7 inches",
+        "width": "4.2 inches",
+        "thickness": "1 inch"
+      },
+      "weight": "8 ounces",
+      "availability": true,
+      "price": 11.95,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover3.jpg",
+      "reviews": {
+        "total": 522,
+        "averageRating": 4.5,
+        "highlights": ["Thought-provoking", "Dark and intense", "Timely themes"]
+      },
+      "relatedProducts": [
+        {
+          "title": "Brave New World",
+          "ISBN-13": "978-0060850524",
+          "url": "/brave-new-world"
+        },
+        {
+          "title": "Fahrenheit 451",
+          "ISBN-13": "978-1451673319",
+          "url": "/fahrenheit-451"
+        }
+      ]
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "ISBN-10": "0141439513",
+      "ISBN-13": "978-0141439518",
+      "description": "A classic romantic novel that explores themes of love, class, and social expectations.",
+      "language": "English",
+      "genre": ["Fiction", "Romance"],
+      "format": "Paperback",
+      "publisher": "Penguin Classics",
+      "publicationDate": "December 31, 2002",
+      "pages": 480,
+      "dimensions": {
+        "height": "7.8 inches",
+        "width": "5 inches",
+        "thickness": "1.1 inches"
+      },
+      "weight": "12.8 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover4.jpg",
+      "reviews": {
+        "total": 723,
+        "averageRating": 4.4,
+        "highlights": ["Charming characters", "Engaging plot", "Witty dialogue"]
+      },
+      "relatedProducts": [
+        {
+          "title": "Sense and Sensibility",
+          "ISBN-13": "978-0141439662",
+          "url": "/sense-and-sensibility"
+        },
+        {
+          "title": "Emma",
+          "ISBN-13": "978-0141439587",
+          "url": "/emma"
+        }
+      ]
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "ISBN-10": "0743273567",
+      "ISBN-13": "978-0743273565",
+      "description": "A tale of wealth, decadence, and unrequited love in 1920s America.",
+      "language": "English",
+      "genre": ["Fiction", "Classic Literature"],
+      "format": "Hardcover",
+      "publisher": "Scribner",
+      "publicationDate": "September 30, 2004",
+      "pages": 180,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.4 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "10.4 ounces",
+      "availability": true,
+      "price": 12.5,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover5.jpg",
+      "reviews": {
+        "total": 605,
+        "averageRating": 4.3,
+        "highlights": ["Elegant prose", "Complex characters", "Timeless themes"]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Catcher in the Rye",
+          "ISBN-13": "978-0316769488",
+          "url": "/catcher-in-the-rye"
+        },
+        {
+          "title": "Of Mice and Men",
+          "ISBN-13": "978-0140177398",
+          "url": "/of-mice-and-men"
+        }
+      ]
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "ISBN-10": "0316769487",
+      "ISBN-13": "978-0316769488",
+      "description": "Follows the experiences of Holden Caulfield, a disenchanted teenager who grapples with the phoniness of the adult world.",
+      "language": "English",
+      "genre": ["Fiction", "Coming-of-Age"],
+      "format": "Paperback",
+      "publisher": "Back Bay Books",
+      "publicationDate": "May 1, 1991",
+      "pages": 277,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "8.8 ounces",
+      "availability": true,
+      "price": 10.75,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover6.jpg",
+      "reviews": {
+        "total": 846,
+        "averageRating": 4.1,
+        "highlights": [
+          "Profound narrative",
+          "Complex protagonist",
+          "Enduring relevance"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Bell Jar",
+          "ISBN-13": "978-0060837020",
+          "url": "/the-bell-jar"
+        },
+        {
+          "title": "Lord of the Flies",
+          "ISBN-13": "978-0399501487",
+          "url": "/lord-of-the-flies"
+        }
+      ]
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "ISBN-10": "0618260307",
+      "ISBN-13": "978-0618260300",
+      "description": "Bilbo Baggins, a hobbit, is reluctantly drawn into an epic quest to help a group of dwarves reclaim their homeland from the fearsome dragon Smaug.",
+      "language": "English",
+      "genre": ["Fiction", "Fantasy"],
+      "format": "Paperback",
+      "publisher": "Mariner Books",
+      "publicationDate": "September 18, 2012",
+      "pages": 322,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 13.99,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover7.jpg",
+      "reviews": {
+        "total": 1456,
+        "averageRating": 4.7,
+        "highlights": [
+          "Enchanting tale",
+          "Rich world-building",
+          "Memorable characters"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Lord of the Rings",
+          "ISBN-13": "978-0544003415",
+          "url": "/the-lord-of-the-rings"
+        },
+        {
+          "title": "The Chronicles of Narnia",
+          "ISBN-13": "978-0066238500",
+          "url": "/the-chronicles-of-narnia"
+        }
+      ]
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "ISBN-10": "0060850523",
+      "ISBN-13": "978-0060850524",
+      "description": "Set in a dystopian future where people are engineered for specific roles in society, this novel explores the dark side of scientific advancements and societal control.",
+      "language": "English",
+      "genre": ["Fiction", "Dystopian"],
+      "format": "Paperback",
+      "publisher": "Harper Perennial Modern Classics",
+      "publicationDate": "October 18, 2006",
+      "pages": 288,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "8 ounces",
+      "availability": true,
+      "price": 12.99,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover8.jpg",
+      "reviews": {
+        "total": 892,
+        "averageRating": 4.2,
+        "highlights": [
+          "Thought-provoking",
+          "Disturbingly prophetic",
+          "Challenging societal norms"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Fahrenheit 451",
+          "ISBN-13": "978-1451673319",
+          "url": "/fahrenheit-451"
+        },
+        {
+          "title": "The Handmaid's Tale",
+          "ISBN-13": "978-0385490818",
+          "url": "/the-handmaids-tale"
+        }
+      ]
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "ISBN-10": "0061122416",
+      "ISBN-13": "978-0061122415",
+      "description": "Follows Santiago, a young shepherd, on his journey to discover his personal legend and the true meaning of life.",
+      "language": "English",
+      "genre": ["Fiction", "Philosophical"],
+      "format": "Paperback",
+      "publisher": "HarperOne",
+      "publicationDate": "April 15, 2014",
+      "pages": 208,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "6.4 ounces",
+      "availability": true,
+      "price": 16.99,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover9.jpg",
+      "reviews": {
+        "total": 2190,
+        "averageRating": 4.1,
+        "highlights": [
+          "Inspiring narrative",
+          "Philosophical depth",
+          "Life-changing insights"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Siddhartha",
+          "ISBN-13": "978-0553208849",
+          "url": "/siddhartha"
+        },
+        {
+          "title": "The Power of Now",
+          "ISBN-13": "978-1577314806",
+          "url": "/the-power-of-now"
+        }
+      ]
+    },
+    {
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "ISBN-10": "0375842209",
+      "ISBN-13": "978-0375842207",
+      "description": "Narrated by Death, this novel tells the story of Liesel Meminger, a young girl living in Nazi Germany, who finds solace in stealing books and sharing them with her neighbors and the Jewish man hiding in her basement.",
+      "language": "English",
+      "genre": ["Fiction", "Historical"],
+      "format": "Hardcover",
+      "publisher": "Knopf Books for Young Readers",
+      "publicationDate": "March 14, 2006",
+      "pages": 552,
+      "dimensions": {
+        "height": "8.5 inches",
+        "width": "5.9 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "1.6 pounds",
+      "availability": true,
+      "price": 19.99,
+      "currency": "USD",
+      "coverImage": "fiction-book-cover10.jpg",
+      "reviews": {
+        "total": 1453,
+        "averageRating": 4.4,
+        "highlights": [
+          "Unique narrative perspective",
+          "Emotionally powerful",
+          "Compelling characters"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "All the Light We Cannot See",
+          "ISBN-13": "978-1501173219",
+          "url": "/all-the-light-we-cannot-see"
+        },
+        {
+          "title": "The Nightingale",
+          "ISBN-13": "978-1250080400",
+          "url": "/the-nightingale"
+        }
+      ]
+    }
+  ],
+  "mystery": [
+    {
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "ISBN-10": "030758836X",
+      "ISBN-13": "978-0307588364",
+      "description": "A thrilling psychological mystery about a husband and wife whose marriage takes a dark turn when the wife goes missing on their fifth wedding anniversary.",
+      "language": "English",
+      "genre": ["Mystery", "Thriller"],
+      "format": "Hardcover",
+      "publisher": "Crown",
+      "publicationDate": "June 5, 2012",
+      "pages": 432,
+      "dimensions": {
+        "height": "9.3 inches",
+        "width": "6.4 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "1.4 pounds",
+      "availability": true,
+      "price": 25.0,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover1.jpg",
+      "reviews": {
+        "total": 7646,
+        "averageRating": 4.0,
+        "highlights": [
+          "Twists and turns",
+          "Compelling characters",
+          "Unpredictable plot"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Sharp Objects",
+          "ISBN-13": "978-0307341556",
+          "url": "/sharp-objects"
+        },
+        {
+          "title": "Dark Places",
+          "ISBN-13": "978-0307341570",
+          "url": "/dark-places"
+        }
+      ]
+    },
+    {
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "ISBN-10": "0307949486",
+      "ISBN-13": "978-0307949486",
+      "description": "A journalist and a hacker team up to solve the decades-old disappearance of a young heiress in this gripping mystery novel.",
+      "language": "English",
+      "genre": ["Mystery", "Crime"],
+      "format": "Paperback",
+      "publisher": "Vintage Crime/Black Lizard",
+      "publicationDate": "June 23, 2009",
+      "pages": 672,
+      "dimensions": {
+        "height": "7.9 inches",
+        "width": "5.2 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "1 pound",
+      "availability": true,
+      "price": 16.95,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover2.jpg",
+      "reviews": {
+        "total": 23005,
+        "averageRating": 4.1,
+        "highlights": [
+          "Intricate plot",
+          "Complex characters",
+          "Engrossing mystery"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Girl Who Played with Fire",
+          "ISBN-13": "978-0307949509",
+          "url": "/the-girl-who-played-with-fire"
+        },
+        {
+          "title": "The Girl Who Kicked the Hornet's Nest",
+          "ISBN-13": "978-0307742537",
+          "url": "/the-girl-who-kicked-the-hornets-nest"
+        }
+      ]
+    },
+    {
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "ISBN-10": "0307474275",
+      "ISBN-13": "978-0307474278",
+      "description": "A professor and a cryptologist unravel a secret society's ancient secrets in a race against time in this international bestselling mystery novel.",
+      "language": "English",
+      "genre": ["Mystery", "Thriller"],
+      "format": "Mass Market Paperback",
+      "publisher": "Anchor",
+      "publicationDate": "March 28, 2006",
+      "pages": 624,
+      "dimensions": {
+        "height": "7.5 inches",
+        "width": "4.2 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "10.4 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover3.jpg",
+      "reviews": {
+        "total": 25389,
+        "averageRating": 3.8,
+        "highlights": [
+          "Enthralling plot",
+          "Historical intrigue",
+          "Puzzle-like mystery"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Angels & Demons",
+          "ISBN-13": "978-1416578746",
+          "url": "/angels-and-demons"
+        },
+        {
+          "title": "Inferno",
+          "ISBN-13": "978-0385537858",
+          "url": "/inferno"
+        }
+      ]
+    },
+    {
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "ISBN-10": "0425274861",
+      "ISBN-13": "978-0425274866",
+      "description": "In a tranquil seaside town, dark secrets and scandals among a group of school moms come to light, leading to a shocking incident that will change their lives forever.",
+      "language": "English",
+      "genre": ["Mystery", "Drama"],
+      "format": "Paperback",
+      "publisher": "Berkley",
+      "publicationDate": "August 11, 2015",
+      "pages": 460,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.3 inches",
+        "thickness": "1.1 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 17.0,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover4.jpg",
+      "reviews": {
+        "total": 51144,
+        "averageRating": 4.2,
+        "highlights": ["Complex characters", "Twisty plot", "Unexpected twists"]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Husband's Secret",
+          "ISBN-13": "978-0425267721",
+          "url": "/the-husbands-secret"
+        },
+        {
+          "title": "Truly Madly Guilty",
+          "ISBN-13": "978-1250069796",
+          "url": "/truly-madly-guilty"
+        }
+      ]
+    },
+    {
+      "title": "The Cuckoo's Calling",
+      "author": "Robert Galbraith",
+      "ISBN-10": "0316206849",
+      "ISBN-13": "978-0316206846",
+      "description": "Private investigator Cormoran Strike is hired to investigate the supposed suicide of a supermodel, leading him into a world of fame, fashion, and deadly secrets.",
+      "language": "English",
+      "genre": ["Mystery", "Crime"],
+      "format": "Hardcover",
+      "publisher": "Mulholland Books",
+      "publicationDate": "April 30, 2013",
+      "pages": 464,
+      "dimensions": {
+        "height": "9.3 inches",
+        "width": "6.3 inches",
+        "thickness": "1.6 inches"
+      },
+      "weight": "1.4 pounds",
+      "availability": true,
+      "price": 28.0,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover5.jpg",
+      "reviews": {
+        "total": 16418,
+        "averageRating": 4.0,
+        "highlights": [
+          "Rich character development",
+          "Intriguing plot twists",
+          "Engaging writing style"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Silkworm",
+          "ISBN-13": "978-0316206877",
+          "url": "/the-silkworm"
+        },
+        {
+          "title": "Career of Evil",
+          "ISBN-13": "978-0316349932",
+          "url": "/career-of-evil"
+        }
+      ]
+    },
+    {
+      "title": "The No. 1 Ladies' Detective Agency",
+      "author": "Alexander McCall Smith",
+      "ISBN-10": "1400034779",
+      "ISBN-13": "978-1400034772",
+      "description": "Precious Ramotswe opens the first female-owned detective agency in Botswana, solving cases and mysteries with her wit, wisdom, and sharp observation skills.",
+      "language": "English",
+      "genre": ["Mystery", "Detective"],
+      "format": "Paperback",
+      "publisher": "Anchor",
+      "publicationDate": "February 6, 2003",
+      "pages": 256,
+      "dimensions": {
+        "height": "8.0 inches",
+        "width": "5.2 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "6.4 ounces",
+      "availability": true,
+      "price": 15.95,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover6.jpg",
+      "reviews": {
+        "total": 12089,
+        "averageRating": 4.1,
+        "highlights": [
+          "Charming characters",
+          "Unique setting",
+          "Heartwarming stories"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Tears of the Giraffe",
+          "ISBN-13": "978-1400031351",
+          "url": "/tears-of-the-giraffe"
+        },
+        {
+          "title": "Morality for Beautiful Girls",
+          "ISBN-13": "978-1400031368",
+          "url": "/morality-for-beautiful-girls"
+        }
+      ]
+    },
+    {
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "ISBN-10": "0062500509",
+      "ISBN-13": "978-0062500501",
+      "description": "Sherlock Holmes and Dr. Watson investigate the mysterious death of Sir Charles Baskerville in the eerie moors of Devonshire, uncovering an ancient family curse and a terrifying legend.",
+      "language": "English",
+      "genre": ["Mystery", "Detective"],
+      "format": "Mass Market Paperback",
+      "publisher": "Harper Perennial",
+      "publicationDate": "April 15, 2001",
+      "pages": 256,
+      "dimensions": {
+        "height": "6.7 inches",
+        "width": "4.2 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "4.8 ounces",
+      "availability": true,
+      "price": 6.99,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover7.jpg",
+      "reviews": {
+        "total": 2203,
+        "averageRating": 4.2,
+        "highlights": [
+          "Atmospheric setting",
+          "Intriguing plot",
+          "Iconic detective duo"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "A Study in Scarlet",
+          "ISBN-13": "978-1503330858",
+          "url": "/a-study-in-scarlet"
+        },
+        {
+          "title": "The Sign of Four",
+          "ISBN-13": "978-1503330865",
+          "url": "/the-sign-of-four"
+        }
+      ]
+    },
+    {
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "ISBN-10": "1250301696",
+      "ISBN-13": "978-1250301697",
+      "description": "A woman shoots her husband and then stops speaking, leading to her institutionalization. A psychotherapist becomes obsessed with uncovering the truth behind her silence in this gripping psychological mystery.",
+      "language": "English",
+      "genre": ["Mystery", "Thriller"],
+      "format": "Hardcover",
+      "publisher": "Celadon Books",
+      "publicationDate": "February 5, 2019",
+      "pages": 336,
+      "dimensions": {
+        "height": "9.3 inches",
+        "width": "6.3 inches",
+        "thickness": "1.3 inches"
+      },
+      "weight": "1.1 pounds",
+      "availability": true,
+      "price": 26.99,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover8.jpg",
+      "reviews": {
+        "total": 99324,
+        "averageRating": 4.0,
+        "highlights": [
+          "Mind-bending plot",
+          "Unexpected twists",
+          "Riveting storytelling"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Wife Between Us",
+          "ISBN-13": "978-1250130946",
+          "url": "/the-wife-between-us"
+        },
+        {
+          "title": "Behind Her Eyes",
+          "ISBN-13": "978-1250195171",
+          "url": "/behind-her-eyes"
+        }
+      ]
+    },
+    {
+      "title": "The Reversal",
+      "author": "Michael Connelly",
+      "ISBN-10": "0316069480",
+      "ISBN-13": "978-0316069489",
+      "description": "Defense attorney Mickey Haller and LAPD Detective Harry Bosch team up to prosecute a high-profile case involving a Hollywood director accused of murdering his wife and her lover.",
+      "language": "English",
+      "genre": ["Mystery", "Legal Thriller"],
+      "format": "Paperback",
+      "publisher": "Grand Central Publishing",
+      "publicationDate": "September 11, 2012",
+      "pages": 512,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.4 inches",
+        "thickness": "1.3 inches"
+      },
+      "weight": "12 ounces",
+      "availability": true,
+      "price": 16.0,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover9.jpg",
+      "reviews": {
+        "total": 1822,
+        "averageRating": 4.1,
+        "highlights": [
+          "Legal drama",
+          "Compelling courtroom scenes",
+          "Well-developed characters"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Lincoln Lawyer",
+          "ISBN-13": "978-0316069489",
+          "url": "/the-lincoln-lawyer"
+        },
+        {
+          "title": "The Fifth Witness",
+          "ISBN-13": "978-0316069489",
+          "url": "/the-fifth-witness"
+        }
+      ]
+    },
+    {
+      "title": "The Woman in White",
+      "author": "Wilkie Collins",
+      "ISBN-10": "0141439610",
+      "ISBN-13": "978-0141439617",
+      "description": "A mysterious woman in white, a dark conspiracy, and a brave hero combine in this classic Victorian mystery novel.",
+      "language": "English",
+      "genre": ["Mystery", "Gothic Fiction"],
+      "format": "Paperback",
+      "publisher": "Penguin Classics",
+      "publicationDate": "March 25, 2003",
+      "pages": 672,
+      "dimensions": {
+        "height": "7.8 inches",
+        "width": "5.1 inches",
+        "thickness": "1.3 inches"
+      },
+      "weight": "13.6 ounces",
+      "availability": true,
+      "price": 11.0,
+      "currency": "USD",
+      "coverImage": "mystery-book-cover10.jpg",
+      "reviews": {
+        "total": 3204,
+        "averageRating": 4.1,
+        "highlights": [
+          "Atmospheric writing",
+          "Compelling characters",
+          "Twists and turns"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Moonstone",
+          "ISBN-13": "978-0141439617",
+          "url": "/the-moonstone"
+        },
+        {
+          "title": "Lady Audley's Secret",
+          "ISBN-13": "978-0199538621",
+          "url": "/lady-audleys-secret"
+        }
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+      "author": "Walter Isaacson",
+      "ISBN-10": "147670869X",
+      "ISBN-13": "978-1476708690",
+      "description": "The Innovators explores the history of the digital revolution, highlighting the contributions of pioneers like Ada Lovelace, Alan Turing, and Steve Jobs. The book delves into the collaborative efforts and innovations that shaped the modern technology landscape.",
+      "language": "English",
+      "genre": ["Technology", "History of Technology"],
+      "format": "Paperback",
+      "publisher": "Simon & Schuster",
+      "publicationDate": "October 6, 2015",
+      "pages": 560,
+      "dimensions": {
+        "height": "8.4 inches",
+        "width": "5.5 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "1.1 pounds",
+      "availability": true,
+      "price": 17.99,
+      "currency": "USD",
+      "coverImage": "technology-book-cover1.jpg",
+      "reviews": {
+        "total": 2467,
+        "averageRating": 4.2,
+        "highlights": [
+          "Engaging storytelling of tech pioneers",
+          "Insightful historical context",
+          "Inspiring read for tech enthusiasts"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Steve Jobs",
+          "ISBN-13": "978-1451648539",
+          "url": "/steve-jobs"
+        },
+        {
+          "title": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
+          "ISBN-13": "978-0385495325",
+          "url": "/the-code-book"
+        }
+      ]
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "ISBN-10": "0062316095",
+      "ISBN-13": "978-0062316097",
+      "description": "Sapiens offers a compelling overview of the history of humankind, from ancient times to the present day. Harari explores how Homo sapiens became the dominant species and examines the cultural, social, and technological developments that shaped human society.",
+      "language": "English",
+      "genre": ["History", "Technology"],
+      "format": "Paperback",
+      "publisher": "Harper Perennial",
+      "publicationDate": "May 15, 2018",
+      "pages": 464,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "1 inches"
+      },
+      "weight": "12.8 ounces",
+      "availability": true,
+      "price": 18.99,
+      "currency": "USD",
+      "coverImage": "technology-book-cover2.jpg",
+      "reviews": {
+        "total": 12642,
+        "averageRating": 4.5,
+        "highlights": [
+          "Perspective-altering insights",
+          "Well-researched historical analysis",
+          "Engaging and thought-provoking"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Homo Deus: A Brief History of Tomorrow",
+          "ISBN-13": "978-0062464316",
+          "url": "/homo-deus"
+        },
+        {
+          "title": "21 Lessons for the 21st Century",
+          "ISBN-13": "978-0525512172",
+          "url": "/21-lessons"
+        }
+      ]
+    },
+    {
+      "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+      "author": "Ashlee Vance",
+      "ISBN-10": "0062301233",
+      "ISBN-13": "978-0062301239",
+      "description": "Elon Musk profiles the life and achievements of the visionary entrepreneur Elon Musk. The book explores Musk's role in founding and leading companies like Tesla, SpaceX, and PayPal, showcasing his determination and innovation in the technology and space industries.",
+      "language": "English",
+      "genre": ["Biography", "Technology"],
+      "format": "Paperback",
+      "publisher": "Ecco",
+      "publicationDate": "January 24, 2017",
+      "pages": 400,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "1.1 inches"
+      },
+      "weight": "12.8 ounces",
+      "availability": true,
+      "price": 14.99,
+      "currency": "USD",
+      "coverImage": "technology-book-cover3.jpg",
+      "reviews": {
+        "total": 22106,
+        "averageRating": 4.5,
+        "highlights": [
+          "Insightful look into Musk's life",
+          "Detailed account of SpaceX and Tesla",
+          "Inspiring story of innovation"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Everything Store: Jeff Bezos and the Age of Amazon",
+          "ISBN-13": "978-0316219266",
+          "url": "/the-everything-store"
+        },
+        {
+          "title": "Shoe Dog: A Memoir by the Creator of Nike",
+          "ISBN-13": "978-1501135927",
+          "url": "/shoe-dog"
+        }
+      ]
+    },
+    {
+      "title": "The Wright Brothers",
+      "author": "David McCullough",
+      "ISBN-10": "1476728742",
+      "ISBN-13": "978-1476728742",
+      "description": "The Wright Brothers chronicles the lives and achievements of Orville and Wilbur Wright, pioneers of aviation. The book explores their determination, ingenuity, and the challenges they faced in their quest to achieve powered flight, leading to the birth of modern aviation.",
+      "language": "English",
+      "genre": ["Biography", "Technology", "History of Aviation"],
+      "format": "Paperback",
+      "publisher": "Simon & Schuster",
+      "publicationDate": "May 3, 2016",
+      "pages": 336,
+      "dimensions": {
+        "height": "8.4 inches",
+        "width": "5.5 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 13.99,
+      "currency": "USD",
+      "coverImage": "technology-book-cover4.jpg",
+      "reviews": {
+        "total": 12878,
+        "averageRating": 4.5,
+        "highlights": [
+          "Fascinating story of innovation",
+          "Detailed historical account",
+          "Inspiring portrayal of the Wright brothers"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race",
+          "ISBN-13": "978-0062363602",
+          "url": "/hidden-figures"
+        },
+        {
+          "title": "Rocket Men: The Daring Odyssey of Apollo 8 and the Astronauts Who Made Man's First Journey to the Moon",
+          "ISBN-13": "978-0374538180",
+          "url": "/rocket-men"
+        }
+      ]
+    },
+    {
+      "title": "Hackers: Heroes of the Computer Revolution",
+      "author": "Steven Levy",
+      "ISBN-10": "1449388396",
+      "ISBN-13": "978-1449388393",
+      "description": "Hackers delves into the world of computer programming and the individuals who shaped the early days of computing. The book explores the culture of hackers and their influence on technology, providing insights into their innovative mindset and contributions to the digital era.",
+      "language": "English",
+      "genre": ["Technology", "Computer Science"],
+      "format": "Paperback",
+      "publisher": "O'Reilly Media",
+      "publicationDate": "June 4, 2010",
+      "pages": 520,
+      "dimensions": {
+        "height": "9.2 inches",
+        "width": "6.9 inches",
+        "thickness": "1.1 inches"
+      },
+      "weight": "1.6 pounds",
+      "availability": true,
+      "price": 18.99,
+      "currency": "USD",
+      "coverImage": "technology-book-cover5.jpg",
+      "reviews": {
+        "total": 2395,
+        "averageRating": 4.2,
+        "highlights": [
+          "Insightful exploration of hacker culture",
+          "Engaging storytelling of tech pioneers",
+          "Relevant and inspiring for programmers"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage",
+          "ISBN-13": "978-1416507789",
+          "url": "/the-cuckoos-egg"
+        },
+        {
+          "title": "Where Wizards Stay Up Late: The Origins of the Internet",
+          "ISBN-13": "978-0684832678",
+          "url": "/where-wizards-stay-up-late"
+        }
+      ]
+    },
+    {
+      "title": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
+      "author": "Simon Singh",
+      "ISBN-10": "0385495323",
+      "ISBN-13": "978-0385495325",
+      "description": "The Code Book explores the history of cryptography and its impact on human civilization. From ancient encryption techniques to modern quantum cryptography, the book reveals the fascinating stories behind secret codes and codebreakers, highlighting their role in shaping world events.",
+      "language": "English",
+      "genre": ["Technology", "Cryptography"],
+      "format": "Paperback",
+      "publisher": "Anchor",
+      "publicationDate": "August 29, 2000",
+      "pages": 432,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.2 inches",
+        "thickness": "1 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 15.95,
+      "currency": "USD",
+      "coverImage": "technology-book-cover6.jpg",
+      "reviews": {
+        "total": 1834,
+        "averageRating": 4.3,
+        "highlights": [
+          "Engaging history of cryptography",
+          "Accessible explanations of complex concepts",
+          "Illustrative examples and stories"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Cryptonomicon",
+          "ISBN-13": "978-0060512804",
+          "url": "/cryptonomicon"
+        },
+        {
+          "title": "Enigma",
+          "ISBN-13": "978-0307389732",
+          "url": "/enigma"
+        }
+      ]
+    }
+  ],
+  "science-fiction": [
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "ISBN-10": "0441172717",
+      "ISBN-13": "978-0441172719",
+      "description": "In the distant future, young Paul Atreides must navigate political intrigue, betrayal, and desert battles on the desert planet Arrakis, the only source of the most valuable substance in the universe, in this epic science fiction masterpiece.",
+      "language": "English",
+      "genre": ["Science Fiction"],
+      "format": "Mass Market Paperback",
+      "publisher": "Ace",
+      "publicationDate": "September 1, 1990",
+      "pages": 896,
+      "dimensions": {
+        "height": "6.7 inches",
+        "width": "4.2 inches",
+        "thickness": "1.6 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "https://sarehlovasen.files.wordpress.com/2021/10/img_5621.jpg",
+      "reviews": {
+        "total": 12130,
+        "averageRating": 4.3,
+        "highlights": [
+          "Rich world-building",
+          "Complex characters",
+          "Intriguing plot"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Dune Messiah",
+          "ISBN-13": "978-0441172702",
+          "url": "/dune-messiah"
+        },
+        {
+          "title": "Children of Dune",
+          "ISBN-13": "978-0441104024",
+          "url": "/children-of-dune"
+        }
+      ]
+    },
+    {
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "ISBN-10": "0441569595",
+      "ISBN-13": "978-0441569595",
+      "description": "Case was a washed-up computer hacker until he was hired for one last job that would change his life. Set in a cyberpunk future, this groundbreaking novel explores virtual reality, artificial intelligence, and the nature of humanity.",
+      "language": "English",
+      "genre": ["Science Fiction", "Cyberpunk"],
+      "format": "Mass Market Paperback",
+      "publisher": "Ace",
+      "publicationDate": "July 1, 1984",
+      "pages": 320,
+      "dimensions": {
+        "height": "6.7 inches",
+        "width": "4.2 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "5.6 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "https://m.media-amazon.com/images/I/91Bx5ilP+EL._SL1500_.jpg",
+      "reviews": {
+        "total": 7805,
+        "averageRating": 4.0,
+        "highlights": [
+          "Visionary storytelling",
+          "Gritty cyberpunk atmosphere",
+          "Mind-bending plot"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Count Zero",
+          "ISBN-13": "978-0441117734",
+          "url": "/count-zero"
+        },
+        {
+          "title": "Mona Lisa Overdrive",
+          "ISBN-13": "978-0553281743",
+          "url": "/mona-lisa-overdrive"
+        }
+      ]
+    },
+    {
+      "title": "Snow Crash",
+      "author": "Neal Stephenson",
+      "ISBN-10": "0553380958",
+      "ISBN-13": "978-0553380958",
+      "description": "In the future, Hiro Protagonist, a hacker and swordsman, teams up with a courier named Y.T. to unravel a conspiracy involving a new drug called Snow Crash, a virtual reality metaverse, and ancient Sumerian culture.",
+      "language": "English",
+      "genre": ["Science Fiction", "Cyberpunk"],
+      "format": "Paperback",
+      "publisher": "Bantam Books",
+      "publicationDate": "June 13, 2000",
+      "pages": 470,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.5 inches",
+        "thickness": "1.1 inches"
+      },
+      "weight": "12.8 ounces",
+      "availability": true,
+      "price": 16.0,
+      "currency": "USD",
+      "coverImage": "science-fiction-book-cover3.jpg",
+      "reviews": {
+        "total": 7589,
+        "averageRating": 4.2,
+        "highlights": [
+          "Fast-paced action",
+          "Satirical social commentary",
+          "Inventive world-building"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Diamond Age",
+          "ISBN-13": "978-0553380965",
+          "url": "/diamond-age"
+        },
+        {
+          "title": "Cryptonomicon",
+          "ISBN-13": "978-0060512804",
+          "url": "/cryptonomicon"
+        }
+      ]
+    },
+    {
+      "title": "Altered Carbon",
+      "author": "Richard K. Morgan",
+      "ISBN-10": "0345457684",
+      "ISBN-13": "978-0345457684",
+      "description": "In a future where consciousness can be transferred to different bodies, former soldier Takeshi Kovacs is hired to investigate a wealthy man's apparent suicide. As Kovacs delves deeper, he uncovers a web of corruption and violence.",
+      "language": "English",
+      "genre": ["Science Fiction", "Cyberpunk"],
+      "format": "Mass Market Paperback",
+      "publisher": "Del Rey",
+      "publicationDate": "June 28, 2005",
+      "pages": 544,
+      "dimensions": {
+        "height": "6.9 inches",
+        "width": "4.2 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "8 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "science-fiction-book-cover4.jpg",
+      "reviews": {
+        "total": 9745,
+        "averageRating": 4.1,
+        "highlights": [
+          "Hard-boiled detective narrative",
+          "Intriguing futuristic concepts",
+          "Compelling protagonist"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Broken Angels",
+          "ISBN-13": "978-0345457714",
+          "url": "/broken-angels"
+        },
+        {
+          "title": "Woken Furies",
+          "ISBN-13": "978-0345457721",
+          "url": "/woken-furies"
+        }
+      ]
+    },
+    {
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "ISBN-10": "0441478123",
+      "ISBN-13": "978-0441478125",
+      "description": "A human envoy, Genly Ai, is sent to a distant planet called Gethen to convince its inhabitants to join an interplanetary alliance. The inhabitants can change genders at will, leading to a deep exploration of gender and identity.",
+      "language": "English",
+      "genre": ["Science Fiction"],
+      "format": "Mass Market Paperback",
+      "publisher": "Ace",
+      "publicationDate": "June 15, 1987",
+      "pages": 304,
+      "dimensions": {
+        "height": "6.8 inches",
+        "width": "4.2 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "5.6 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "science-fiction-book-cover5.jpg",
+      "reviews": {
+        "total": 8124,
+        "averageRating": 4.1,
+        "highlights": [
+          "Thought-provoking exploration of gender",
+          "Rich world-building",
+          "Complex characters"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Dispossessed",
+          "ISBN-13": "978-0441478125",
+          "url": "/the-dispossessed"
+        },
+        {
+          "title": "The Lathe of Heaven",
+          "ISBN-13": "978-1416556961",
+          "url": "/the-lathe-of-heaven"
+        }
+      ]
+    },
+    {
+      "title": "Hyperion",
+      "author": "Dan Simmons",
+      "ISBN-10": "0553283685",
+      "ISBN-13": "978-0553283687",
+      "description": "A group of pilgrims travels to the distant world of Hyperion, each with a dark secret and a unique reason for their journey. As they share their stories, they uncover a greater cosmic mystery that could change the fate of humanity.",
+      "language": "English",
+      "genre": ["Science Fiction"],
+      "format": "Mass Market Paperback",
+      "publisher": "Spectra",
+      "publicationDate": "July 1, 1990",
+      "pages": 482,
+      "dimensions": {
+        "height": "6.9 inches",
+        "width": "4.2 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "science-fiction-book-cover6.jpg",
+      "reviews": {
+        "total": 8931,
+        "averageRating": 4.2,
+        "highlights": [
+          "Epic storytelling",
+          "Intriguing characters",
+          "Blend of science fiction and fantasy elements"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Fall of Hyperion",
+          "ISBN-13": "978-0553288200",
+          "url": "/the-fall-of-hyperion"
+        },
+        {
+          "title": "Endymion",
+          "ISBN-13": "978-0553572940",
+          "url": "/endymion"
+        }
+      ]
+    },
+    {
+      "title": "Altered Carbon",
+      "author": "Richard K. Morgan",
+      "ISBN-10": "0345457684",
+      "ISBN-13": "978-0345457684",
+      "description": "In a future where consciousness can be transferred to different bodies, former soldier Takeshi Kovacs is hired to investigate a wealthy man's apparent suicide. As Kovacs delves deeper, he uncovers a web of corruption and violence.",
+      "language": "English",
+      "genre": ["Science Fiction", "Cyberpunk"],
+      "format": "Mass Market Paperback",
+      "publisher": "Del Rey",
+      "publicationDate": "June 28, 2005",
+      "pages": 544,
+      "dimensions": {
+        "height": "6.9 inches",
+        "width": "4.2 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "8 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "science-fiction-book-cover4.jpg",
+      "reviews": {
+        "total": 9745,
+        "averageRating": 4.1,
+        "highlights": [
+          "Hard-boiled detective narrative",
+          "Intriguing futuristic concepts",
+          "Compelling protagonist"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Broken Angels",
+          "ISBN-13": "978-0345457714",
+          "url": "/broken-angels"
+        },
+        {
+          "title": "Woken Furies",
+          "ISBN-13": "978-0345457721",
+          "url": "/woken-furies"
+        }
+      ]
+    },
+    {
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "ISBN-10": "0441478123",
+      "ISBN-13": "978-0441478125",
+      "description": "A human envoy, Genly Ai, is sent to a distant planet called Gethen to convince its inhabitants to join an interplanetary alliance. The inhabitants can change genders at will, leading to a deep exploration of gender and identity.",
+      "language": "English",
+      "genre": ["Science Fiction"],
+      "format": "Mass Market Paperback",
+      "publisher": "Ace",
+      "publicationDate": "June 15, 1987",
+      "pages": 304,
+      "dimensions": {
+        "height": "6.8 inches",
+        "width": "4.2 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "5.6 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "science-fiction-book-cover5.jpg",
+      "reviews": {
+        "total": 8124,
+        "averageRating": 4.1,
+        "highlights": [
+          "Thought-provoking exploration of gender",
+          "Rich world-building",
+          "Complex characters"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Dispossessed",
+          "ISBN-13": "978-0441478125",
+          "url": "/the-dispossessed"
+        },
+        {
+          "title": "The Lathe of Heaven",
+          "ISBN-13": "978-1416556961",
+          "url": "/the-lathe-of-heaven"
+        }
+      ]
+    },
+    {
+      "title": "Hyperion",
+      "author": "Dan Simmons",
+      "ISBN-10": "0553283685",
+      "ISBN-13": "978-0553283687",
+      "description": "A group of pilgrims travels to the distant world of Hyperion, each with a dark secret and a unique reason for their journey. As they share their stories, they uncover a greater cosmic mystery that could change the fate of humanity.",
+      "language": "English",
+      "genre": ["Science Fiction"],
+      "format": "Mass Market Paperback",
+      "publisher": "Spectra",
+      "publicationDate": "July 1, 1990",
+      "pages": 482,
+      "dimensions": {
+        "height": "6.9 inches",
+        "width": "4.2 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "science-fiction-book-cover6.jpg",
+      "reviews": {
+        "total": 8931,
+        "averageRating": 4.2,
+        "highlights": [
+          "Epic storytelling",
+          "Intriguing characters",
+          "Blend of science fiction and fantasy elements"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Fall of Hyperion",
+          "ISBN-13": "978-0553288200",
+          "url": "/the-fall-of-hyperion"
+        },
+        {
+          "title": "Endymion",
+          "ISBN-13": "978-0553572940",
+          "url": "/endymion"
+        }
+      ]
+    }
+  ],
+  "fantasy": [
+    {
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "ISBN-10": "075640407X",
+      "ISBN-13": "978-0756404079",
+      "description": "The Name of the Wind follows the life of Kvothe, a gifted young man who grows up to become a legendary figure. The story delves into his adventures, magical abilities, and the pursuit of knowledge, set against a richly detailed fantasy world filled with music, magic, and mystery.",
+      "language": "English",
+      "genre": ["Fantasy", "Adventure"],
+      "format": "Paperback",
+      "publisher": "DAW Books",
+      "publicationDate": "April 7, 2009",
+      "pages": 722,
+      "dimensions": {
+        "height": "9 inches",
+        "width": "6 inches",
+        "thickness": "1.5 inches"
+      },
+      "weight": "1.8 pounds",
+      "availability": true,
+      "price": 10.99,
+      "currency": "USD",
+      "coverImage": "fantasy-book-cover1.jpg",
+      "reviews": {
+        "total": 24276,
+        "averageRating": 4.6,
+        "highlights": [
+          "Masterful storytelling",
+          "Rich world-building",
+          "Complex and relatable characters"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Wise Man's Fear",
+          "ISBN-13": "978-0756407919",
+          "url": "/the-wise-mans-fear"
+        },
+        {
+          "title": "Mistborn: The Final Empire",
+          "ISBN-13": "978-0765377135",
+          "url": "/mistborn-the-final-empire"
+        }
+      ]
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "ISBN-10": "054792822X",
+      "ISBN-13": "978-0547928227",
+      "description": "The Hobbit follows the journey of Bilbo Baggins, a hobbit who is reluctantly dragged into an epic quest to reclaim a kingdom. Along the way, he encounters dwarves, elves, trolls, and dragons, embarking on an adventure that would change his life and the fate of Middle-earth.",
+      "language": "English",
+      "genre": ["Fantasy", "Adventure"],
+      "format": "Paperback",
+      "publisher": "Mariner Books",
+      "publicationDate": "September 18, 2012",
+      "pages": 310,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "fantasy-book-cover2.jpg",
+      "reviews": {
+        "total": 24876,
+        "averageRating": 4.7,
+        "highlights": [
+          "Timeless classic",
+          "Charming and adventurous",
+          "Epic world-building"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Lord of the Rings",
+          "ISBN-13": "978-0544003415",
+          "url": "/the-lord-of-the-rings"
+        },
+        {
+          "title": "The Silmarillion",
+          "ISBN-13": "978-0345325815",
+          "url": "/the-silmarillion"
+        }
+      ]
+    },
+    {
+      "title": "A Song of Ice and Fire Series",
+      "author": "George R.R. Martin",
+      "ISBN-10": "0345535529",
+      "ISBN-13": "978-0345535528",
+      "description": "The A Song of Ice and Fire series (Game of Thrones) is a sprawling epic that follows the power struggles among noble families in the fictional continents of Westeros and Essos. Filled with political intrigue, dragons, and a vast array of characters, the series explores themes of loyalty, honor, and betrayal.",
+      "language": "English",
+      "genre": ["Fantasy", "Political Drama"],
+      "format": "Boxed Set",
+      "publisher": "Bantam",
+      "publicationDate": "October 29, 2013",
+      "pages": 5216,
+      "dimensions": {
+        "height": "9.5 inches",
+        "width": "6.2 inches",
+        "thickness": "6.8 inches"
+      },
+      "weight": "9.3 pounds",
+      "availability": true,
+      "price": 42.99,
+      "currency": "USD",
+      "coverImage": "fantasy-book-cover3.jpg",
+      "reviews": {
+        "total": 38902,
+        "averageRating": 4.8,
+        "highlights": [
+          "Complex characters",
+          "Intricate plot twists",
+          "Unpredictable storytelling"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Fire & Blood",
+          "ISBN-13": "978-1524796280",
+          "url": "/fire-and-blood"
+        },
+        {
+          "title": "The World of Ice & Fire",
+          "ISBN-13": "978-0553805444",
+          "url": "/the-world-of-ice-and-fire"
+        }
+      ]
+    },
+    {
+      "title": "Mistborn: The Final Empire",
+      "author": "Brandon Sanderson",
+      "ISBN-10": "0765377136",
+      "ISBN-13": "978-0765377135",
+      "description": "Mistborn: The Final Empire is set in a world where the Dark Lord has won, and a young street thief named Vin discovers her extraordinary Allomantic powers. With the help of a group of rebels, she embarks on a mission to overthrow the immortal ruler, leading to epic battles, political intrigue, and surprising alliances.",
+      "language": "English",
+      "genre": ["Fantasy", "Adventure"],
+      "format": "Paperback",
+      "publisher": "Tor Books",
+      "publicationDate": "July 17, 2007",
+      "pages": 672,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.5 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "1.1 pounds",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "fantasy-book-cover4.jpg",
+      "reviews": {
+        "total": 19747,
+        "averageRating": 4.6,
+        "highlights": [
+          "Unique magic system",
+          "Complex characters",
+          "Intriguing plot twists"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Well of Ascension",
+          "ISBN-13": "978-0765316882",
+          "url": "/the-well-of-ascension"
+        },
+        {
+          "title": "The Hero of Ages",
+          "ISBN-13": "978-0765316899",
+          "url": "/the-hero-of-ages"
+        }
+      ]
+    },
+    {
+      "title": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "ISBN-10": "055358894X",
+      "ISBN-13": "978-0553588941",
+      "description": "The Lies of Locke Lamora follows a group of skilled con artists in the city of Camorr. Led by the cunning Locke Lamora, they navigate the criminal underworld while executing heists and scams. However, they soon find themselves targeted by a dark and powerful enemy, leading to a high-stakes battle of wits and survival.",
+      "language": "English",
+      "genre": ["Fantasy", "Adventure"],
+      "format": "Mass Market Paperback",
+      "publisher": "Spectra",
+      "publicationDate": "June 27, 2006",
+      "pages": 752,
+      "dimensions": {
+        "height": "6.9 inches",
+        "width": "4.2 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "12 ounces",
+      "availability": true,
+      "price": 7.99,
+      "currency": "USD",
+      "coverImage": "fantasy-book-cover5.jpg",
+      "reviews": {
+        "total": 18937,
+        "averageRating": 4.3,
+        "highlights": [
+          "Witty and charismatic characters",
+          "Intriguing heist plot",
+          "Richly detailed world"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Red Seas Under Red Skies",
+          "ISBN-13": "978-0553588965",
+          "url": "/red-seas-under-red-skies"
+        },
+        {
+          "title": "The Republic of Thieves",
+          "ISBN-13": "978-0553588958",
+          "url": "/the-republic-of-thieves"
+        }
+      ]
+    },
+    {
+      "title": "The Final Empire",
+      "author": "Brandon Sanderson",
+      "ISBN-10": "0765350386",
+      "ISBN-13": "978-0765350381",
+      "description": "The Final Empire is the first book in the Mistborn series, set in a world ruled by the immortal Lord Ruler. The story follows a young street thief named Vin who discovers her unique Allomantic powers and becomes entangled in a plot to overthrow the Lord Ruler's tyranny. With the help of a skilled mentor, Vin joins a group of rebels to challenge the oppressive regime.",
+      "language": "English",
+      "genre": ["Fantasy", "Adventure"],
+      "format": "Mass Market Paperback",
+      "publisher": "Tor Books",
+      "publicationDate": "July 25, 2006",
+      "pages": 672,
+      "dimensions": {
+        "height": "6.8 inches",
+        "width": "4.2 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "12.8 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "fantasy-book-cover6.jpg",
+      "reviews": {
+        "total": 23588,
+        "averageRating": 4.5,
+        "highlights": [
+          "Intriguing magic system",
+          "Complex characters",
+          "Epic battle sequences"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Well of Ascension",
+          "ISBN-13": "978-0765316882",
+          "url": "/the-well-of-ascension"
+        },
+        {
+          "title": "The Hero of Ages",
+          "ISBN-13": "978-0765316899",
+          "url": "/the-hero-of-ages"
+        }
+      ]
+    },
+    {
+      "title": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "ISBN-10": "0553588966",
+      "ISBN-13": "978-0553588965",
+      "description": "The Lies of Locke Lamora follows a group of skilled con artists in the city of Camorr. Led by the cunning Locke Lamora, they navigate the criminal underworld while executing heists and scams. However, they soon find themselves targeted by a dark and powerful enemy, leading to a high-stakes battle of wits and survival.",
+      "language": "English",
+      "genre": ["Fantasy", "Adventure"],
+      "format": "Mass Market Paperback",
+      "publisher": "Spectra",
+      "publicationDate": "June 27, 2006",
+      "pages": 752,
+      "dimensions": {
+        "height": "6.7 inches",
+        "width": "4.2 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "12 ounces",
+      "availability": true,
+      "price": 7.99,
+      "currency": "USD",
+      "coverImage": "fantasy-book-cover7.jpg",
+      "reviews": {
+        "total": 18937,
+        "averageRating": 4.3,
+        "highlights": [
+          "Witty and charismatic characters",
+          "Intriguing heist plot",
+          "Richly detailed world"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Red Seas Under Red Skies",
+          "ISBN-13": "978-0553588972",
+          "url": "/red-seas-under-red-skies"
+        },
+        {
+          "title": "The Republic of Thieves",
+          "ISBN-13": "978-0553588989",
+          "url": "/the-republic-of-thieves"
+        }
+      ]
+    }
+  ],
+  "romance": [
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "ISBN-10": "9780141439518",
+      "ISBN-13": "978-0141439518",
+      "description": "Pride and Prejudice is a timeless romance novel that explores the complex relationships and societal expectations of the 19th century. The story follows Elizabeth Bennet, an intelligent and independent young woman, as she navigates love, class, and family pressures. Along the way, she encounters the enigmatic Mr. Darcy, sparking a relationship that challenges both of their beliefs.",
+      "language": "English",
+      "genre": ["Romance", "Classic Literature"],
+      "format": "Paperback",
+      "publisher": "Penguin Classics",
+      "publicationDate": "December 31, 2002",
+      "pages": 480,
+      "dimensions": {
+        "height": "7.8 inches",
+        "width": "5.1 inches",
+        "thickness": "1 inches"
+      },
+      "weight": "12.8 ounces",
+      "availability": true,
+      "price": 7.99,
+      "currency": "USD",
+      "coverImage": "romance-book-cover1.jpg",
+      "reviews": {
+        "total": 30875,
+        "averageRating": 4.5,
+        "highlights": [
+          "Complex and relatable characters",
+          "Satisfying character development",
+          "Witty and engaging dialogue"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Sense and Sensibility",
+          "ISBN-13": "978-0141439662",
+          "url": "/sense-and-sensibility"
+        },
+        {
+          "title": "Emma",
+          "ISBN-13": "978-0141439587",
+          "url": "/emma"
+        }
+      ]
+    },
+    {
+      "title": "The Notebook",
+      "author": "Nicholas Sparks",
+      "ISBN-10": "0446605239",
+      "ISBN-13": "978-0446605236",
+      "description": "The Notebook tells the story of Noah Calhoun and Allie Nelson, two young lovers separated by circumstances and class differences. Despite their challenges, their love story spans decades and endures through heartbreak, separation, and reunion. The novel explores themes of love, fate, and the enduring power of true love.",
+      "language": "English",
+      "genre": ["Romance", "Contemporary Fiction"],
+      "format": "Mass Market Paperback",
+      "publisher": "Grand Central Publishing",
+      "publicationDate": "October 1, 1996",
+      "pages": 214,
+      "dimensions": {
+        "height": "6.7 inches",
+        "width": "4.2 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "5.6 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "romance-book-cover2.jpg",
+      "reviews": {
+        "total": 27693,
+        "averageRating": 4.1,
+        "highlights": [
+          "Heartwarming and emotional",
+          "Believable and relatable characters",
+          "Tender and poignant storytelling"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "A Walk to Remember",
+          "ISBN-13": "978-0446608954",
+          "url": "/a-walk-to-remember"
+        },
+        {
+          "title": "Message in a Bottle",
+          "ISBN-13": "978-0446606813",
+          "url": "/message-in-a-bottle"
+        }
+      ]
+    },
+    {
+      "title": "Outlander",
+      "author": "Diana Gabaldon",
+      "ISBN-10": "0440242940",
+      "ISBN-13": "978-0440242949",
+      "description": "Outlander follows the story of Claire Randall, a married former nurse who is mysteriously transported back in time to 18th-century Scotland. There, she becomes embroiled in political intrigue, adventure, and a passionate romance with Jamie Fraser, a dashing Scottish warrior. The novel masterfully blends historical fiction, romance, and time travel elements, creating a captivating and immersive tale.",
+      "language": "English",
+      "genre": ["Romance", "Historical Fiction", "Time Travel"],
+      "format": "Mass Market Paperback",
+      "publisher": "Dell",
+      "publicationDate": "July 26, 2005",
+      "pages": 896,
+      "dimensions": {
+        "height": "6.9 inches",
+        "width": "4.2 inches",
+        "thickness": "1.5 inches"
+      },
+      "weight": "15.2 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "romance-book-cover3.jpg",
+      "reviews": {
+        "total": 72268,
+        "averageRating": 4.2,
+        "highlights": [
+          "Epic historical backdrop",
+          "Strong and relatable heroine",
+          "Steamy and heartfelt romance"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Dragonfly in Amber",
+          "ISBN-13": "978-0440215622",
+          "url": "/dragonfly-in-amber"
+        },
+        {
+          "title": "Voyager",
+          "ISBN-13": "978-0440217565",
+          "url": "/voyager"
+        }
+      ]
+    },
+    {
+      "title": "Me Before You",
+      "author": "Jojo Moyes",
+      "ISBN-10": "0143130153",
+      "ISBN-13": "978-0143130154",
+      "description": "Me Before You tells the story of Louisa Clark, a young woman who becomes the caregiver for Will Traynor, a quadriplegic man. Despite their differences and initial challenges, they develop a deep and transformative relationship. The novel explores themes of love, sacrifice, and the value of life, prompting readers to question their perspectives on disability, happiness, and fulfillment.",
+      "language": "English",
+      "genre": ["Romance", "Contemporary Fiction"],
+      "format": "Paperback",
+      "publisher": "Penguin Books",
+      "publicationDate": "April 26, 2016",
+      "pages": 448,
+      "dimensions": {
+        "height": "7.9 inches",
+        "width": "5.1 inches",
+        "thickness": "1 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "romance-book-cover4.jpg",
+      "reviews": {
+        "total": 24850,
+        "averageRating": 4.2,
+        "highlights": [
+          "Heartfelt and emotional storytelling",
+          "Complex and authentic characters",
+          "Thought-provoking themes"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "After You",
+          "ISBN-13": "978-0143108863",
+          "url": "/after-you"
+        },
+        {
+          "title": "Still Me",
+          "ISBN-13": "978-0399562457",
+          "url": "/still-me"
+        }
+      ]
+    },
+    {
+      "title": "The Hating Game",
+      "author": "Sally Thorne",
+      "ISBN-10": "0062439596",
+      "ISBN-13": "978-0062439598",
+      "description": "The Hating Game is a delightful romantic comedy that follows Lucy Hutton and Joshua Templeman, coworkers who share a mutual disdain for each other. However, their playful banter and rivalry gradually evolve into a complex and passionate relationship. Filled with humor, tension, and genuine emotion, the novel explores the thin line between love and hate, making it a charming and engaging read.",
+      "language": "English",
+      "genre": ["Romance", "Contemporary Fiction"],
+      "format": "Paperback",
+      "publisher": "William Morrow Paperbacks",
+      "publicationDate": "August 9, 2016",
+      "pages": 384,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "1 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 13.99,
+      "currency": "USD",
+      "coverImage": "romance-book-cover5.jpg",
+      "reviews": {
+        "total": 45890,
+        "averageRating": 4.2,
+        "highlights": [
+          "Sizzling chemistry between characters",
+          "Sharp and witty dialogue",
+          "Heartwarming and hilarious moments"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "99 Percent Mine",
+          "ISBN-13": "978-0062439611",
+          "url": "/99-percent-mine"
+        },
+        {
+          "title": "Second First Impressions",
+          "ISBN-13": "978-0063042491",
+          "url": "/second-first-impressions"
+        }
+      ]
+    }
+  ],
+  "horror": [
+    {
+      "title": "The Shining",
+      "author": "Stephen King",
+      "ISBN-10": "0385121679",
+      "ISBN-13": "978-0385121675",
+      "description": "A family heads to an isolated hotel for the winter where sinister forces influence the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+      "language": "English",
+      "genre": ["Horror"],
+      "format": "Hardcover",
+      "publisher": "Doubleday",
+      "publicationDate": "January 28, 1977",
+      "pages": 447,
+      "dimensions": {
+        "height": "9.3 inches",
+        "width": "6.3 inches",
+        "thickness": "1.7 inches"
+      },
+      "weight": "1.6 pounds",
+      "availability": true,
+      "price": 26.95,
+      "currency": "USD",
+      "coverImage": "horror-book-cover1.jpg",
+      "reviews": {
+        "total": 14000,
+        "averageRating": 4.2,
+        "highlights": [
+          "Terrifying atmosphere",
+          "Complex characters",
+          "Psychological horror"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Doctor Sleep",
+          "ISBN-13": "978-1476727653",
+          "url": "/doctor-sleep"
+        }
+      ]
+    },
+    {
+      "title": "Psycho",
+      "author": "Robert Bloch",
+      "ISBN-10": "1590203356",
+      "ISBN-13": "978-1590203354",
+      "description": "Norman Bates, a troubled young man, operates a remote motel under the watchful eye of his dominating mother. When Marion Crane, a secretary on the run, checks in, the stage is set for a series of horrifying events.",
+      "language": "English",
+      "genre": ["Horror"],
+      "format": "Paperback",
+      "publisher": "The Overlook Press",
+      "publicationDate": "April 1, 2010",
+      "pages": 208,
+      "dimensions": {
+        "height": "8.3 inches",
+        "width": "5.5 inches",
+        "thickness": "0.7 inches"
+      },
+      "weight": "8.8 ounces",
+      "availability": true,
+      "price": 16.95,
+      "currency": "USD",
+      "coverImage": "horror-book-cover2.jpg",
+      "reviews": {
+        "total": 7500,
+        "averageRating": 4.1,
+        "highlights": [
+          "Iconic horror villain",
+          "Tense and suspenseful",
+          "Twisted plot"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Psycho II",
+          "ISBN-13": "978-0380821048",
+          "url": "/psycho-ii"
+        }
+      ]
+    },
+    {
+      "title": "The Exorcist",
+      "author": "William Peter Blatty",
+      "ISBN-10": "0061007226",
+      "ISBN-13": "978-0061007224",
+      "description": "When a young girl named Regan MacNeil exhibits strange and terrifying behavior, her mother seeks the help of two priests to perform an exorcism, leading to a battle against a powerful demonic force.",
+      "language": "English",
+      "genre": ["Horror"],
+      "format": "Mass Market Paperback",
+      "publisher": "HarperTorch",
+      "publicationDate": "February 4, 1971",
+      "pages": 385,
+      "dimensions": {
+        "height": "6.7 inches",
+        "width": "4.2 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "7.2 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "horror-book-cover3.jpg",
+      "reviews": {
+        "total": 9800,
+        "averageRating": 4.4,
+        "highlights": [
+          "Intense and terrifying",
+          "Deep psychological themes",
+          "Suspenseful"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Legion",
+          "ISBN-13": "978-0765327130",
+          "url": "/legion"
+        }
+      ]
+    },
+    {
+      "title": "It",
+      "author": "Stephen King",
+      "ISBN-10": "0451169514",
+      "ISBN-13": "978-0451169518",
+      "description": "A group of children in Derry, Maine, confronts a malevolent force that takes the shape of a clown named Pennywise. The entity resurfaces every 27 years, terrorizing the town's children and forcing the group to confront their deepest fears.",
+      "language": "English",
+      "genre": ["Horror"],
+      "format": "Mass Market Paperback",
+      "publisher": "Signet",
+      "publicationDate": "September 15, 1987",
+      "pages": 1138,
+      "dimensions": {
+        "height": "6.8 inches",
+        "width": "4.1 inches",
+        "thickness": "2.2 inches"
+      },
+      "weight": "1 pound",
+      "availability": true,
+      "price": 10.99,
+      "currency": "USD",
+      "coverImage": "horror-book-cover4.jpg",
+      "reviews": {
+        "total": 15600,
+        "averageRating": 4.3,
+        "highlights": [
+          "Creepy atmosphere",
+          "Compelling characters",
+          "Epic storytelling"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Doctor Sleep",
+          "ISBN-13": "978-1476727653",
+          "url": "/doctor-sleep"
+        }
+      ]
+    },
+    {
+      "title": "Bird Box",
+      "author": "Josh Malerman",
+      "ISBN-10": "0062259652",
+      "ISBN-13": "978-0062259653",
+      "description": "In a post-apocalyptic world where mysterious creatures drive people to madness upon sight, a mother and her two children must make it through a forest and river blindfolded to reach safety, all while facing the unknown horrors that await them.",
+      "language": "English",
+      "genre": ["Horror"],
+      "format": "Paperback",
+      "publisher": "Ecco",
+      "publicationDate": "May 13, 2014",
+      "pages": 262,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.7 inches"
+      },
+      "weight": "8 ounces",
+      "availability": true,
+      "price": 16.99,
+      "currency": "USD",
+      "coverImage": "horror-book-cover5.jpg",
+      "reviews": {
+        "total": 8900,
+        "averageRating": 4.0,
+        "highlights": ["Tense and suspenseful", "Unique premise", "Page-turner"]
+      },
+      "relatedProducts": [
+        {
+          "title": "Malorie",
+          "ISBN-13": "978-0593156857",
+          "url": "/malorie"
+        }
+      ]
+    }
+  ],
+  "business": [
+    {
+      "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+      "author": "Eric Ries",
+      "ISBN-10": "0307887898",
+      "ISBN-13": "978-0307887894",
+      "description": "This book introduces the concept of the Lean Startup, a method for developing businesses and products. It encourages entrepreneurs to build a sustainable business by continuously testing their vision and adapting to new information.",
+      "language": "English",
+      "genre": ["Business"],
+      "format": "Paperback",
+      "publisher": "Currency",
+      "publicationDate": "September 13, 2011",
+      "pages": 336,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.2 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "10.4 ounces",
+      "availability": true,
+      "price": 18.0,
+      "currency": "USD",
+      "coverImage": "business-book-cover1.jpg",
+      "reviews": {
+        "total": 14500,
+        "averageRating": 4.2,
+        "highlights": [
+          "Practical advice for startups",
+          "Actionable strategies",
+          "Real-world examples"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Startup Owner's Manual",
+          "ISBN-13": "978-0984999309",
+          "url": "/the-startup-owners-manual"
+        }
+      ]
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "ISBN-10": "0374533555",
+      "ISBN-13": "978-0374533557",
+      "description": "This book explores the two systems that drive the way humans think: the fast, intuitive, and emotional system, and the slow, deliberate, and logical system. It provides insights into decision-making processes and how biases can affect judgments.",
+      "language": "English",
+      "genre": ["Business"],
+      "format": "Paperback",
+      "publisher": "Farrar, Straus and Giroux",
+      "publicationDate": "April 2, 2013",
+      "pages": 499,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.5 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "15.2 ounces",
+      "availability": true,
+      "price": 17.0,
+      "currency": "USD",
+      "coverImage": "business-book-cover2.jpg",
+      "reviews": {
+        "total": 18000,
+        "averageRating": 4.3,
+        "highlights": [
+          "Insightful psychological analysis",
+          "Engaging writing style",
+          "Practical applications"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+          "ISBN-13": "978-0143115267",
+          "url": "/nudge"
+        }
+      ]
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "ISBN-10": "0062316117",
+      "ISBN-13": "978-0062316110",
+      "description": "This book provides a compelling overview of the history of Homo sapiens, from ancient times to the present day. It explores how cultural and technological developments have shaped human societies and offers insights into the future of humankind.",
+      "language": "English",
+      "genre": ["Business"],
+      "format": "Paperback",
+      "publisher": "Harper Perennial",
+      "publicationDate": "February 10, 2015",
+      "pages": 464,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "12.8 ounces",
+      "availability": true,
+      "price": 22.99,
+      "currency": "USD",
+      "coverImage": "business-book-cover3.jpg",
+      "reviews": {
+        "total": 22000,
+        "averageRating": 4.5,
+        "highlights": [
+          "Broad historical perspective",
+          "Thought-provoking concepts",
+          "Accessible writing"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Homo Deus: A Brief History of Tomorrow",
+          "ISBN-13": "978-0062464316",
+          "url": "/homo-deus"
+        }
+      ]
+    },
+    {
+      "title": "Drive: The Surprising Truth About What Motivates Us",
+      "author": "Daniel H. Pink",
+      "ISBN-10": "1594484805",
+      "ISBN-13": "978-1594484803",
+      "description": "Pink examines the three elements of true motivation: autonomy, mastery, and purpose. He argues that traditional rewards aren't always effective and that understanding what truly motivates people can lead to higher productivity and satisfaction.",
+      "language": "English",
+      "genre": ["Business"],
+      "format": "Paperback",
+      "publisher": "Riverhead Books",
+      "publicationDate": "December 29, 2009",
+      "pages": 288,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.4 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 16.0,
+      "currency": "USD",
+      "coverImage": "business-book-cover4.jpg",
+      "reviews": {
+        "total": 16500,
+        "averageRating": 4.4,
+        "highlights": [
+          "Eye-opening concepts",
+          "Well-researched",
+          "Engaging storytelling"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "To Sell Is Human: The Surprising Truth About Moving Others",
+          "ISBN-13": "978-1594631900",
+          "url": "/to-sell-is-human"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": "A People's History of the United States",
+      "author": "Howard Zinn",
+      "ISBN-10": "0061965588",
+      "ISBN-13": "978-0061965586",
+      "description": "This book presents American history from the perspective of marginalized communities, including Native Americans, African Americans, women, and laborers. It offers a critical examination of historical events, focusing on social and economic injustices.",
+      "language": "English",
+      "genre": ["History"],
+      "format": "Paperback",
+      "publisher": "Harper Perennial Modern Classics",
+      "publicationDate": "November 17, 2015",
+      "pages": 784,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "1.5 inches"
+      },
+      "weight": "1.2 pounds",
+      "availability": true,
+      "price": 20.0,
+      "currency": "USD",
+      "coverImage": "history-book-cover1.jpg",
+      "reviews": {
+        "total": 18500,
+        "averageRating": 4.6,
+        "highlights": [
+          "Alternative historical perspective",
+          "Eye-opening narratives",
+          "Well-researched"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Voices of a People's History of the United States",
+          "ISBN-13": "978-1583229163",
+          "url": "/voices-of-a-peoples-history"
+        }
+      ]
+    },
+    {
+      "title": "The Wright Brothers",
+      "author": "David McCullough",
+      "ISBN-10": "1476728759",
+      "ISBN-13": "978-1476728759",
+      "description": "This biography explores the lives of Orville and Wilbur Wright, the inventors of the first successful airplane. It chronicles their journey from bicycle mechanics to pioneering aviators, including their trials, triumphs, and contributions to aviation history.",
+      "language": "English",
+      "genre": ["History"],
+      "format": "Paperback",
+      "publisher": "Simon & Schuster",
+      "publicationDate": "May 3, 2016",
+      "pages": 336,
+      "dimensions": {
+        "height": "8.4 inches",
+        "width": "5.5 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 17.0,
+      "currency": "USD",
+      "coverImage": "history-book-cover2.jpg",
+      "reviews": {
+        "total": 12000,
+        "averageRating": 4.5,
+        "highlights": [
+          "In-depth biography",
+          "Inspiring storytelling",
+          "Historical context"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+          "ISBN-13": "978-1476708690",
+          "url": "/the-innovators"
+        }
+      ]
+    },
+    {
+      "title": "SPQR: A History of Ancient Rome",
+      "author": "Mary Beard",
+      "ISBN-10": "1631492225",
+      "ISBN-13": "978-1631492228",
+      "description": "This book provides a comprehensive and accessible history of ancient Rome, from its legendary foundation to the end of the Roman Empire. It explores the political, social, and cultural developments that shaped one of the world's most influential civilizations.",
+      "language": "English",
+      "genre": ["History"],
+      "format": "Paperback",
+      "publisher": "Liveright",
+      "publicationDate": "September 6, 2016",
+      "pages": 608,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.5 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "1.2 pounds",
+      "availability": true,
+      "price": 17.95,
+      "currency": "USD",
+      "coverImage": "history-book-cover3.jpg",
+      "reviews": {
+        "total": 14500,
+        "averageRating": 4.4,
+        "highlights": [
+          "Engaging narrative",
+          "Scholarly depth",
+          "Vivid historical portrayal"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Rubicon: The Last Years of the Roman Republic",
+          "ISBN-13": "978-1400078974",
+          "url": "/rubicon"
+        }
+      ]
+    }
+  ],
+  "biography": [
+    {
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "ISBN-10": "1451648537",
+      "ISBN-13": "978-1451648539",
+      "description": "This biography provides an in-depth look into the life of Steve Jobs, the co-founder of Apple Inc. It explores his innovative spirit, tumultuous personal life, and the creation of iconic products like the iPhone and Macintosh, shaping the technology industry.",
+      "language": "English",
+      "genre": ["Biography"],
+      "format": "Paperback",
+      "publisher": "Simon & Schuster",
+      "publicationDate": "September 10, 2013",
+      "pages": 656,
+      "dimensions": {
+        "height": "8.4 inches",
+        "width": "5.5 inches",
+        "thickness": "1.3 inches"
+      },
+      "weight": "1.2 pounds",
+      "availability": true,
+      "price": 20.0,
+      "currency": "USD",
+      "coverImage": "biography-book-cover1.jpg",
+      "reviews": {
+        "total": 24000,
+        "averageRating": 4.4,
+        "highlights": [
+          "Insightful exploration of Jobs' life",
+          "Rich storytelling",
+          "In-depth research"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Becoming Steve Jobs: The Evolution of a Reckless Upstart into a Visionary Leader",
+          "ISBN-13": "978-0385347402",
+          "url": "/becoming-steve-jobs"
+        }
+      ]
+    },
+    {
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "ISBN-10": "0553296981",
+      "ISBN-13": "978-0553296983",
+      "description": "Anne Frank's diary, written during her time in hiding from the Nazis, provides a poignant account of her thoughts, emotions, and experiences. It offers a glimpse into the life of a young Jewish girl during the Holocaust and has become a symbol of resilience and hope.",
+      "language": "English",
+      "genre": ["Biography"],
+      "format": "Mass Market Paperback",
+      "publisher": "Bantam Books",
+      "publicationDate": "June 1, 1993",
+      "pages": 352,
+      "dimensions": {
+        "height": "6.9 inches",
+        "width": "4.2 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "6.4 ounces",
+      "availability": true,
+      "price": 7.99,
+      "currency": "USD",
+      "coverImage": "biography-book-cover2.jpg",
+      "reviews": {
+        "total": 18500,
+        "averageRating": 4.5,
+        "highlights": [
+          "Heart-wrenching and powerful",
+          "Historical significance",
+          "Personal and intimate"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Anne Frank: The Biography",
+          "ISBN-13": "978-0312371325",
+          "url": "/anne-frank-the-biography"
+        }
+      ]
+    },
+    {
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "ISBN-10": "1400052181",
+      "ISBN-13": "978-1400052189",
+      "description": "This biography tells the story of Henrietta Lacks, an African American woman whose cells were unknowingly taken for research in 1951. Her cells, known as HeLa, became instrumental in scientific discoveries but raised ethical questions about consent and privacy.",
+      "language": "English",
+      "genre": ["Biography"],
+      "format": "Paperback",
+      "publisher": "Broadway Books",
+      "publicationDate": "March 8, 2011",
+      "pages": 400,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.2 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "10.4 ounces",
+      "availability": true,
+      "price": 16.0,
+      "currency": "USD",
+      "coverImage": "biography-book-cover3.jpg",
+      "reviews": {
+        "total": 16500,
+        "averageRating": 4.2,
+        "highlights": [
+          "Fascinating scientific and ethical exploration",
+          "Compelling storytelling",
+          "Thought-provoking"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Henrietta Lacks Foundation",
+          "ISBN-13": "978-0307589385",
+          "url": "/the-henrietta-lacks-foundation"
+        }
+      ]
+    }
+  ],
+  "travel": [
+    {
+      "title": "Into the Wild",
+      "author": "Jon Krakauer",
+      "ISBN-10": "0385486804",
+      "ISBN-13": "978-0385486804",
+      "description": "This book tells the true story of Christopher McCandless, a young man who left his comfortable life to embark on a journey into the Alaskan wilderness. Krakauer retraces McCandless's steps, exploring the beauty and dangers of the wild, as well as the essence of the human spirit.",
+      "language": "English",
+      "genre": ["Travel"],
+      "format": "Paperback",
+      "publisher": "Anchor Books",
+      "publicationDate": "January 20, 1997",
+      "pages": 240,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.2 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "7.2 ounces",
+      "availability": true,
+      "price": 15.0,
+      "currency": "USD",
+      "coverImage": "travel-book-cover1.jpg",
+      "reviews": {
+        "total": 19000,
+        "averageRating": 4.2,
+        "highlights": [
+          "Adventure and self-discovery",
+          "Beautiful prose",
+          "Exploration of the wilderness"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Wild: From Lost to Found on the Pacific Crest Trail",
+          "ISBN-13": "978-0307476074",
+          "url": "/wild-pacific-crest-trail"
+        }
+      ]
+    },
+    {
+      "title": "In a Sunburned Country",
+      "author": "Bill Bryson",
+      "ISBN-10": "0767903862",
+      "ISBN-13": "978-0767903868",
+      "description": "Bill Bryson takes readers on a journey through Australia, exploring its diverse landscapes, unique wildlife, and the quirks of its culture and history. With his trademark humor and curiosity, Bryson provides an entertaining and informative travel narrative.",
+      "language": "English",
+      "genre": ["Travel"],
+      "format": "Paperback",
+      "publisher": "Broadway Books",
+      "publicationDate": "May 15, 2001",
+      "pages": 352,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.2 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 17.0,
+      "currency": "USD",
+      "coverImage": "travel-book-cover2.jpg",
+      "reviews": {
+        "total": 16500,
+        "averageRating": 4.4,
+        "highlights": [
+          "Humorous and engaging",
+          "Insightful cultural observations",
+          "Vivid descriptions"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "A Walk in the Woods: Rediscovering America on the Appalachian Trail",
+          "ISBN-13": "978-0767902526",
+          "url": "/walk-in-the-woods"
+        }
+      ]
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "ISBN-10": "0062315005",
+      "ISBN-13": "978-0062315007",
+      "description": "Santiago, a young shepherd, embarks on a journey from Spain to Egypt in search of a hidden treasure. Along the way, he discovers profound life lessons and meets extraordinary characters. This allegorical novel explores the pursuit of dreams and the importance of listening to one's heart.",
+      "language": "English",
+      "genre": ["Travel"],
+      "format": "Paperback",
+      "publisher": "HarperOne",
+      "publicationDate": "April 15, 2014",
+      "pages": 208,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "6.4 ounces",
+      "availability": true,
+      "price": 16.99,
+      "currency": "USD",
+      "coverImage": "travel-book-cover3.jpg",
+      "reviews": {
+        "total": 28500,
+        "averageRating": 4.3,
+        "highlights": [
+          "Philosophical and inspirational",
+          "Captivating storytelling",
+          "Spiritual journey"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Brida",
+          "ISBN-13": "978-0061578957",
+          "url": "/brida"
+        }
+      ]
+    }
+  ],
+  "cooking": [
+    {
+      "title": "The Joy of Cooking",
+      "author": "Irma S. Rombauer",
+      "ISBN-10": "1501169714",
+      "ISBN-13": "978-1501169717",
+      "description": "A timeless classic, 'The Joy of Cooking' has been a beloved resource for generations of home cooks. This comprehensive cookbook covers a wide range of recipes, from traditional to contemporary, offering detailed instructions and tips for cooking techniques. It's a must-have for anyone passionate about the art of cooking.",
+      "language": "English",
+      "genre": ["Cooking"],
+      "format": "Hardcover",
+      "publisher": "Scribner",
+      "publicationDate": "November 14, 2017",
+      "pages": 1200,
+      "dimensions": {
+        "height": "9.2 inches",
+        "width": "6.1 inches",
+        "thickness": "2.3 inches"
+      },
+      "weight": "4.2 pounds",
+      "availability": true,
+      "price": 40.0,
+      "currency": "USD",
+      "coverImage": "cooking-book-cover1.jpg",
+      "reviews": {
+        "total": 32000,
+        "averageRating": 4.8,
+        "highlights": [
+          "Comprehensive recipe collection",
+          "Clear instructions",
+          "Kitchen essential"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The New Joy of Cooking",
+          "ISBN-13": "978-1501169717",
+          "url": "/new-joy-of-cooking"
+        }
+      ]
+    },
+    {
+      "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+      "author": "Samin Nosrat",
+      "ISBN-10": "1476753830",
+      "ISBN-13": "978-1476753836",
+      "description": "In this groundbreaking cookbook, Samin Nosrat explores the fundamental elements of good cooking: salt, fat, acid, and heat. Through engaging storytelling and vibrant illustrations, she teaches readers how to balance these elements to create delicious and well-balanced dishes. This book is both a practical guide and a culinary adventure.",
+      "language": "English",
+      "genre": ["Cooking"],
+      "format": "Hardcover",
+      "publisher": "Simon & Schuster",
+      "publicationDate": "April 25, 2017",
+      "pages": 480,
+      "dimensions": {
+        "height": "9.3 inches",
+        "width": "7.5 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "2.6 pounds",
+      "availability": true,
+      "price": 35.0,
+      "currency": "USD",
+      "coverImage": "cooking-book-cover2.jpg",
+      "reviews": {
+        "total": 28000,
+        "averageRating": 4.7,
+        "highlights": [
+          "Foundational cooking principles",
+          "Beautiful illustrations",
+          "Accessible and informative"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Salt, Fat, Acid, Heat (Netflix Tie-In Edition)",
+          "ISBN-13": "978-1984826929",
+          "url": "/salt-fat-acid-heat-netflix"
+        }
+      ]
+    },
+    {
+      "title": "Mastering the Art of French Cooking",
+      "author": "Julia Child, Louisette Bertholle, Simone Beck",
+      "ISBN-10": "0375413405",
+      "ISBN-13": "978-0375413407",
+      "description": "Julia Child, along with her co-authors, presents the essential techniques and recipes of French cuisine in this iconic cookbook. With detailed instructions and illustrations, this book guides readers through the art of French cooking, from classic dishes to intricate desserts. It's a culinary masterpiece that continues to inspire home cooks and chefs worldwide.",
+      "language": "English",
+      "genre": ["Cooking"],
+      "format": "Hardcover",
+      "publisher": "Alfred A. Knopf",
+      "publicationDate": "October 16, 2001",
+      "pages": 752,
+      "dimensions": {
+        "height": "9.3 inches",
+        "width": "7.7 inches",
+        "thickness": "1.6 inches"
+      },
+      "weight": "3.6 pounds",
+      "availability": true,
+      "price": 40.0,
+      "currency": "USD",
+      "coverImage": "cooking-book-cover3.jpg",
+      "reviews": {
+        "total": 26000,
+        "averageRating": 4.9,
+        "highlights": [
+          "Classic French recipes",
+          "Thorough and precise",
+          "Indispensable for cooks"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Julia's Kitchen Wisdom: Essential Techniques and Recipes from a Lifetime of Cooking",
+          "ISBN-13": "978-0375711856",
+          "url": "/julias-kitchen-wisdom"
+        }
+      ]
+    }
+  ],
+  "art": [
+    {
+      "title": "The Story of Art",
+      "author": "E.H. Gombrich",
+      "ISBN-10": "0714832472",
+      "ISBN-13": "978-0714832470",
+      "description": "The Story of Art is a comprehensive and accessible overview of the history of art, from ancient cave paintings to modern abstract sculptures. Written by renowned art historian E.H. Gombrich, this book explores the major artistic movements, styles, and artists that have shaped the world of art. With engaging narratives and vivid illustrations, it offers readers a rich understanding of art's evolution and impact on human culture.",
+      "language": "English",
+      "genre": ["Art History"],
+      "format": "Paperback",
+      "publisher": "Phaidon Press",
+      "publicationDate": "April 17, 1995",
+      "pages": 688,
+      "dimensions": {
+        "height": "9.2 inches",
+        "width": "6.5 inches",
+        "thickness": "1.3 inches"
+      },
+      "weight": "3.2 pounds",
+      "availability": true,
+      "price": 29.99,
+      "currency": "USD",
+      "coverImage": "art-book-cover1.jpg",
+      "reviews": {
+        "total": 1098,
+        "averageRating": 4.7,
+        "highlights": [
+          "Comprehensive and insightful",
+          "Clear and engaging writing style",
+          "Beautifully illustrated"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Lives of the Artists",
+          "ISBN-13": "978-0199538259",
+          "url": "/the-lives-of-the-artists"
+        },
+        {
+          "title": "Ways of Seeing",
+          "ISBN-13": "978-0140135152",
+          "url": "/ways-of-seeing"
+        }
+      ]
+    },
+    {
+      "title": "Vincent Van Gogh: The Complete Paintings",
+      "author": "Rainer Metzger",
+      "ISBN-10": "3836527151",
+      "ISBN-13": "978-3836527155",
+      "description": "Vincent Van Gogh: The Complete Paintings is a comprehensive collection showcasing the entire body of work of the legendary Dutch painter Vincent van Gogh. With over 2000 high-quality reproductions, this book offers a detailed exploration of Van Gogh's masterpieces, including his iconic self-portraits, vibrant landscapes, and expressive still lifes. Accompanied by insightful commentary, this volume provides a deep insight into the life and art of one of the most influential artists of all time.",
+      "language": "English",
+      "genre": ["Art", "Biography"],
+      "format": "Hardcover",
+      "publisher": "Taschen",
+      "publicationDate": "June 25, 2015",
+      "pages": 740,
+      "dimensions": {
+        "height": "12.8 inches",
+        "width": "9.8 inches",
+        "thickness": "2 inches"
+      },
+      "weight": "9.8 pounds",
+      "availability": true,
+      "price": 69.99,
+      "currency": "USD",
+      "coverImage": "art-book-cover2.jpg",
+      "reviews": {
+        "total": 512,
+        "averageRating": 4.9,
+        "highlights": [
+          "In-depth analysis of Van Gogh's work",
+          "High-quality reproductions",
+          "Comprehensive and visually stunning"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Van Gogh: The Life",
+          "ISBN-13": "978-0375507489",
+          "url": "/van-gogh-the-life"
+        },
+        {
+          "title": "Dear Theo: The Autobiography of Vincent Van Gogh",
+          "ISBN-13": "978-0452275043",
+          "url": "/dear-theo"
+        }
+      ]
+    },
+    {
+      "title": "The Artist's Way: A Spiritual Path to Higher Creativity",
+      "author": "Julia Cameron",
+      "ISBN-10": "1585421464",
+      "ISBN-13": "978-1585421466",
+      "description": "The Artist's Way is a transformative guidebook for artists, writers, and anyone seeking to enhance their creativity and embrace their artistic potential. Written by Julia Cameron, a renowned creativity expert, this book offers a 12-week program designed to unlock the creative spirit within. Through a series of exercises, reflections, and inspirational guidance, readers can overcome creative blocks, tap into their imagination, and discover the joy of self-expression. Whether you're a seasoned artist or a beginner, this book provides valuable insights and practical tools to nurture your creative journey.",
+      "language": "English",
+      "genre": ["Creativity", "Self-Help"],
+      "format": "Paperback",
+      "publisher": "TarcherPerigee",
+      "publicationDate": "March 4, 2002",
+      "pages": 272,
+      "dimensions": {
+        "height": "9 inches",
+        "width": "6 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "12 ounces",
+      "availability": true,
+      "price": 17.99,
+      "currency": "USD",
+      "coverImage": "art-book-cover3.jpg",
+      "reviews": {
+        "total": 2787,
+        "averageRating": 4.6,
+        "highlights": [
+          "Inspiring and empowering",
+          "Effective tools for creative growth",
+          "Practical and encouraging"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Big Magic: Creative Living Beyond Fear",
+          "ISBN-13": "978-1594634727",
+          "url": "/big-magic"
+        },
+        {
+          "title": "Steal Like an Artist: 10 Things Nobody Told You About Being Creative",
+          "ISBN-13": "978-0761169253",
+          "url": "/steal-like-an-artist"
+        }
+      ]
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Sophie's World",
+      "author": "Jostein Gaarder",
+      "ISBN-10": "0374530718",
+      "ISBN-13": "978-0374530716",
+      "description": "Sophie's World is a captivating journey through the history of philosophy, exploring fundamental ideas and philosophical concepts from ancient thinkers to modern philosophers. The story follows a young girl named Sophie who embarks on a philosophical quest guided by a mysterious mentor. As she delves into the world of philosophy, readers are introduced to key philosophical theories, from Socrates and Plato to Nietzsche and Sartre. This engaging and thought-provoking novel provides a comprehensive overview of philosophy's evolution, making complex ideas accessible and inspiring readers to contemplate life's biggest questions.",
+      "language": "English",
+      "genre": ["Philosophy", "Fiction"],
+      "format": "Paperback",
+      "publisher": "Farrar, Straus and Giroux",
+      "publicationDate": "April 20, 2007",
+      "pages": 560,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.5 inches",
+        "thickness": "1.2 inches"
+      },
+      "weight": "1.2 pounds",
+      "availability": true,
+      "price": 14.99,
+      "currency": "USD",
+      "coverImage": "philosophy-book-cover1.jpg",
+      "reviews": {
+        "total": 1856,
+        "averageRating": 4.5,
+        "highlights": [
+          "Engaging and informative",
+          "Clear explanations of complex concepts",
+          "Thought-provoking narrative"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "At the Existentialist Café: Freedom, Being, and Apricot Cocktails",
+          "ISBN-13": "978-1590518892",
+          "url": "/existentialist-cafe"
+        },
+        {
+          "title": "The Philosophy Book: Big Ideas Simply Explained",
+          "ISBN-13": "978-0756668617",
+          "url": "/philosophy-book"
+        }
+      ]
+    },
+    {
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "ISBN-10": "048629823X",
+      "ISBN-13": "978-0486298238",
+      "description": "Meditations is a series of personal writings by Marcus Aurelius, the Roman Emperor, in which he outlines his Stoic philosophy and reflections on life, leadership, and virtue. Written as a source of guidance for himself, Aurelius explores themes of self-discipline, emotional resilience, and ethical conduct. This timeless work offers profound insights into the human psyche and the pursuit of inner peace amid the challenges of existence. Meditations continues to inspire readers with its wisdom and introspective depth, making it a classic in the realm of philosophy.",
+      "language": "English",
+      "genre": ["Philosophy", "Classics"],
+      "format": "Paperback",
+      "publisher": "Dover Publications",
+      "publicationDate": "July 20, 1997",
+      "pages": 112,
+      "dimensions": {
+        "height": "8.3 inches",
+        "width": "5.2 inches",
+        "thickness": "0.3 inches"
+      },
+      "weight": "3.2 ounces",
+      "availability": true,
+      "price": 6.95,
+      "currency": "USD",
+      "coverImage": "philosophy-book-cover2.jpg",
+      "reviews": {
+        "total": 1325,
+        "averageRating": 4.2,
+        "highlights": [
+          "Practical wisdom for daily life",
+          "Timeless philosophical insights",
+          "Eloquent and profound"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Letters from a Stoic",
+          "ISBN-13": "978-0140442106",
+          "url": "/letters-from-a-stoic"
+        },
+        {
+          "title": "The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph",
+          "ISBN-13": "978-1591846352",
+          "url": "/obstacle-is-the-way"
+        }
+      ]
+    },
+    {
+      "title": "The Republic",
+      "author": "Plato",
+      "ISBN-10": "0140449140",
+      "ISBN-13": "978-0140449143",
+      "description": "The Republic is a philosophical dialogue by Plato that explores the nature of justice, the ideal state, and the essence of the human soul. Written in the form of a conversation between Socrates and other characters, the book delves into fundamental questions about governance, morality, and the meaning of an ethical life. Through allegories, metaphors, and intellectual discourse, Plato presents his vision of a just society governed by philosopher-kings. The Republic remains a cornerstone of Western philosophy, addressing timeless themes and challenging readers to contemplate the foundations of a just and harmonious society.",
+      "language": "English",
+      "genre": ["Philosophy", "Classics"],
+      "format": "Paperback",
+      "publisher": "Penguin Classics",
+      "publicationDate": "January 1, 2007",
+      "pages": 416,
+      "dimensions": {
+        "height": "7.8 inches",
+        "width": "5.1 inches",
+        "thickness": "1 inches"
+      },
+      "weight": "12 ounces",
+      "availability": true,
+      "price": 11.99,
+      "currency": "USD",
+      "coverImage": "philosophy-book-cover3.jpg",
+      "reviews": {
+        "total": 1687,
+        "averageRating": 4.5,
+        "highlights": [
+          "Profound exploration of justice",
+          "Philosophical depth and complexity",
+          "Thought-provoking dialogues"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Symposium",
+          "ISBN-13": "978-0140449273",
+          "url": "/the-symposium"
+        },
+        {
+          "title": "Five Dialogues: Euthyphro, Apology, Crito, Meno, Phaedo",
+          "ISBN-13": "978-0872206335",
+          "url": "/five-dialogues"
+        }
+      ]
+    }
+  ],
+  "science": [
+    {
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "ISBN-10": "0553380168",
+      "ISBN-13": "978-0553380163",
+      "description": "A Brief History of Time is a landmark book in the field of theoretical physics, written by the renowned physicist Stephen Hawking. In this accessible and engaging work, Hawking explores complex scientific concepts such as the Big Bang theory, black holes, and the nature of the universe. With clarity and wit, he delves into the fundamental questions of existence, time, and the cosmos. A Brief History of Time continues to captivate readers, offering profound insights into the nature of the universe and our place in it.",
+      "language": "English",
+      "genre": ["Science", "Physics"],
+      "format": "Paperback",
+      "publisher": "Bantam",
+      "publicationDate": "September 1, 1998",
+      "pages": 256,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.4 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "8.8 ounces",
+      "availability": true,
+      "price": 14.99,
+      "currency": "USD",
+      "coverImage": "science-book-cover1.jpg",
+      "reviews": {
+        "total": 1867,
+        "averageRating": 4.5,
+        "highlights": [
+          "Accessible explanation of complex concepts",
+          "Engaging and thought-provoking",
+          "Inspiring exploration of the universe"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Universe in a Nutshell",
+          "ISBN-13": "978-0553802023",
+          "url": "/universe-in-a-nutshell"
+        },
+        {
+          "title": "Cosmos",
+          "ISBN-13": "978-0345539434",
+          "url": "/cosmos-carl-sagan"
+        }
+      ]
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "ISBN-10": "0062316095",
+      "ISBN-13": "978-0062316097",
+      "description": "Sapiens: A Brief History of Humankind provides a compelling overview of the history of our species, Homo sapiens. From the emergence of Homo sapiens in Africa to the present day, Yuval Noah Harari explores the key events, revolutions, and developments that have shaped human history. With a focus on cultural, social, and cognitive revolutions, Harari offers insights into the factors that have enabled Homo sapiens to dominate the planet. This thought-provoking book challenges conventional narratives and encourages readers to reconsider their understanding of human history and the future of humanity.",
+      "language": "English",
+      "genre": ["Science", "History"],
+      "format": "Paperback",
+      "publisher": "Harper Perennial",
+      "publicationDate": "February 10, 2015",
+      "pages": 464,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.3 inches",
+        "thickness": "1 inches"
+      },
+      "weight": "13.6 ounces",
+      "availability": true,
+      "price": 18.99,
+      "currency": "USD",
+      "coverImage": "science-book-cover2.jpg",
+      "reviews": {
+        "total": 2536,
+        "averageRating": 4.6,
+        "highlights": [
+          "Perspective-altering exploration of history",
+          "Clear and engaging writing style",
+          "Thought-provoking analysis of humanity"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Homo Deus: A Brief History of Tomorrow",
+          "ISBN-13": "978-0062464347",
+          "url": "/homo-deus"
+        },
+        {
+          "title": "21 Lessons for the 21st Century",
+          "ISBN-13": "978-0525512172",
+          "url": "/21-lessons-21st-century"
+        }
+      ]
+    },
+    {
+      "title": "Astrophysics for Young People in a Hurry",
+      "author": "Neil deGrasse Tyson",
+      "ISBN-10": "0393356506",
+      "ISBN-13": "978-0393356502",
+      "description": "Astrophysics for Young People in a Hurry simplifies the complex field of astrophysics for young readers. Written by renowned astrophysicist Neil deGrasse Tyson, this book presents fundamental concepts in astronomy and astrophysics in an accessible and engaging manner. Through clear explanations and captivating illustrations, young readers can explore topics such as black holes, the Big Bang, and the nature of the universe. This book serves as a gateway to the wonders of the cosmos, inspiring curiosity and a passion for science in young minds.",
+      "language": "English",
+      "genre": ["Science", "Astronomy"],
+      "format": "Paperback",
+      "publisher": "W. W. Norton & Company",
+      "publicationDate": "February 5, 2019",
+      "pages": 192,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "7 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "13.6 ounces",
+      "availability": true,
+      "price": 12.99,
+      "currency": "USD",
+      "coverImage": "science-book-cover3.jpg",
+      "reviews": {
+        "total": 478,
+        "averageRating": 4.7,
+        "highlights": [
+          "Engaging introduction to astrophysics",
+          "Accessible to young readers",
+          "Inspires interest in space science"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Cosmos",
+          "ISBN-13": "978-0345539434",
+          "url": "/cosmos-carl-sagan"
+        },
+        {
+          "title": "Welcome to the Universe",
+          "ISBN-13": "978-0691177810",
+          "url": "/welcome-to-the-universe"
+        }
+      ]
+    },
+    {
+      "title": "The Gene: An Intimate History",
+      "author": "Siddhartha Mukherjee",
+      "ISBN-10": "1476733503",
+      "ISBN-13": "978-1476733500",
+      "description": "The Gene: An Intimate History provides a comprehensive exploration of the history, impact, and future implications of genetics. Written by Pulitzer Prize-winning author Siddhartha Mukherjee, this book delves into the science of genetics and its profound influence on human life, health, and society. From the discovery of DNA to the ethical dilemmas of genetic engineering, Mukherjee examines the complex and fascinating world of genetics. Through captivating storytelling and meticulous research, The Gene offers readers a deep understanding of the genetic code that shapes all living beings.",
+      "language": "English",
+      "genre": ["Science", "Genetics"],
+      "format": "Paperback",
+      "publisher": "Scribner",
+      "publicationDate": "May 16, 2017",
+      "pages": 608,
+      "dimensions": {
+        "height": "8.4 inches",
+        "width": "5.5 inches",
+        "thickness": "1.3 inches"
+      },
+      "weight": "1.1 pounds",
+      "availability": true,
+      "price": 18.99,
+      "currency": "USD",
+      "coverImage": "science-book-cover4.jpg",
+      "reviews": {
+        "total": 1462,
+        "averageRating": 4.6,
+        "highlights": [
+          "In-depth exploration of genetics",
+          "Accessible to general readers",
+          "Thought-provoking ethical discussions"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Emperor of All Maladies",
+          "ISBN-13": "978-1439170915",
+          "url": "/emperor-of-all-maladies"
+        },
+        {
+          "title": "The Immortal Life of Henrietta Lacks",
+          "ISBN-13": "978-1400052189",
+          "url": "/immortal-life-of-henrietta-lacks"
+        }
+      ]
+    },
+    {
+      "title": "A Short History of Nearly Everything",
+      "author": "Bill Bryson",
+      "ISBN-10": "076790818X",
+      "ISBN-13": "978-0767908184",
+      "description": "A Short History of Nearly Everything is a fascinating journey through the realms of science and discovery. In this enlightening work, Bill Bryson explores the wonders of the natural world, the universe, and the history of scientific inquiry. With humor and curiosity, Bryson delves into topics ranging from geology and chemistry to astronomy and biology. He uncovers the stories of remarkable scientists and their contributions, shedding light on the complexities of our existence and the mysteries of the cosmos. A captivating blend of storytelling and scientific exploration, this book offers readers a profound appreciation for the intricacies of the universe.",
+      "language": "English",
+      "genre": ["Science", "Natural History"],
+      "format": "Paperback",
+      "publisher": "Broadway Books",
+      "publicationDate": "September 14, 2004",
+      "pages": 560,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.2 inches",
+        "thickness": "1.1 inches"
+      },
+      "weight": "1 pound",
+      "availability": true,
+      "price": 16.99,
+      "currency": "USD",
+      "coverImage": "science-book-cover5.jpg",
+      "reviews": {
+        "total": 2398,
+        "averageRating": 4.2,
+        "highlights": [
+          "Engaging and accessible science writing",
+          "Informative and comprehensive",
+          "Entertaining anecdotes and stories"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Body: A Guide for Occupants",
+          "ISBN-13": "978-0385539302",
+          "url": "/the-body-guide-for-occupants"
+        },
+        {
+          "title": "The Immortal Life of Henrietta Lacks",
+          "ISBN-13": "978-1400052189",
+          "url": "/immortal-life-of-henrietta-lacks"
+        }
+      ]
+    }
+  ],
+  "poetry": [
+    {
+      "title": "The Waste Land",
+      "author": "T.S. Eliot",
+      "ISBN-10": "0156027321",
+      "ISBN-13": "978-0156027322",
+      "description": "The Waste Land is a landmark poem in 20th-century literature, written by T.S. Eliot. This complex and multi-layered work explores themes of disillusionment, despair, and the fragmented nature of modern life after World War I. Drawing from various mythologies, literary traditions, and cultural references, Eliot creates a poetic collage that captures the dissonance and uncertainty of the post-war era. The Waste Land remains a seminal work in the realm of modernist poetry, challenging readers with its intricate structure and profound reflections on the human condition.",
+      "language": "English",
+      "genre": ["Poetry", "Modernist Literature"],
+      "format": "Paperback",
+      "publisher": "Harcourt Brace Jovanovich",
+      "publicationDate": "February 17, 1998",
+      "pages": 88,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.4 inches",
+        "thickness": "0.3 inches"
+      },
+      "weight": "4.8 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "poetry-book-cover1.jpg",
+      "reviews": {
+        "total": 715,
+        "averageRating": 4.1,
+        "highlights": [
+          "Profound and thought-provoking",
+          "Rich symbolism and imagery",
+          "Captures the essence of the modern era"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Selected Poems",
+          "ISBN-13": "978-0156806479",
+          "url": "/selected-poems"
+        },
+        {
+          "title": "The Love Song of J. Alfred Prufrock and Other Poems",
+          "ISBN-13": "978-0486272849",
+          "url": "/j-alfred-prufrock-poems"
+        }
+      ]
+    },
+    {
+      "title": "Leaves of Grass",
+      "author": "Walt Whitman",
+      "ISBN-10": "0486417093",
+      "ISBN-13": "978-0486417091",
+      "description": "Leaves of Grass is a collection of poems by Walt Whitman, one of the most influential American poets. First published in 1855, this groundbreaking work celebrates the diversity and unity of the American experience. Whitman's free verse poetry captures the essence of democracy, individualism, and the interconnectedness of humanity. With its exploration of nature, love, and the human spirit, Leaves of Grass continues to inspire readers and remains a timeless classic of American literature.",
+      "language": "English",
+      "genre": ["Poetry", "American Literature"],
+      "format": "Paperback",
+      "publisher": "Dover Publications",
+      "publicationDate": "May 21, 2001",
+      "pages": 64,
+      "dimensions": {
+        "height": "8.5 inches",
+        "width": "5.4 inches",
+        "thickness": "0.2 inches"
+      },
+      "weight": "3.2 ounces",
+      "availability": true,
+      "price": 4.99,
+      "currency": "USD",
+      "coverImage": "poetry-book-cover2.jpg",
+      "reviews": {
+        "total": 1357,
+        "averageRating": 4.6,
+        "highlights": [
+          "Profound and transformative poetry",
+          "Celebration of human existence",
+          "Eloquent and passionate verses"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Song of Myself and Other Poems",
+          "ISBN-13": "978-0486406620",
+          "url": "/song-of-myself-poems"
+        },
+        {
+          "title": "Leaves of Grass: The Original 1855 Edition",
+          "ISBN-13": "978-0486456762",
+          "url": "/leaves-of-grass-1855"
+        }
+      ]
+    },
+    {
+      "title": "The Raven",
+      "author": "Edgar Allan Poe",
+      "ISBN-10": "0486272954",
+      "ISBN-13": "978-0486272955",
+      "description": "The Raven is a narrative poem by Edgar Allan Poe, first published in 1845. This haunting and melancholic poem tells the story of a man who is visited by a mysterious raven late at night. Through a series of eerie and supernatural events, the poem explores themes of grief, loss, and the descent into madness. Poe's mastery of language and atmosphere creates a chilling and unforgettable reading experience, making The Raven one of the most famous and enduring works in American poetry.",
+      "language": "English",
+      "genre": ["Poetry", "Gothic Literature"],
+      "format": "Paperback",
+      "publisher": "Dover Publications",
+      "publicationDate": "July 22, 1992",
+      "pages": 32,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.3 inches",
+        "thickness": "0.2 inches"
+      },
+      "weight": "2.4 ounces",
+      "availability": true,
+      "price": 3.99,
+      "currency": "USD",
+      "coverImage": "poetry-book-cover3.jpg",
+      "reviews": {
+        "total": 1245,
+        "averageRating": 4.5,
+        "highlights": [
+          "Mysterious and atmospheric",
+          "Intriguing narrative",
+          "Masterpiece of gothic poetry"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Complete Stories and Poems of Edgar Allan Poe",
+          "ISBN-13": "978-0385074070",
+          "url": "/complete-stories-poems-poe"
+        },
+        {
+          "title": "Selected Tales",
+          "ISBN-13": "978-0199535774",
+          "url": "/selected-tales-poe"
+        }
+      ]
+    },
+    {
+      "title": "The Love Poems of Rumi",
+      "author": "Rumi",
+      "ISBN-10": "0520932404",
+      "ISBN-13": "978-0520932409",
+      "description": "The Love Poems of Rumi is a collection of mystical and passionate poetry by the renowned 13th-century Persian poet and Sufi mystic, Rumi. Translated by Nader Khalili, this book captures the essence of Rumi's spiritual teachings and his deep love for the divine. The poems explore themes of love, spirituality, and the soul's journey towards union with the divine beloved. Rumi's profound verses continue to inspire readers around the world, offering solace and insight into the nature of love and existence.",
+      "language": "English",
+      "genre": ["Poetry", "Sufism"],
+      "format": "Paperback",
+      "publisher": "University of California Press",
+      "publicationDate": "January 5, 2007",
+      "pages": 240,
+      "dimensions": {
+        "height": "7.9 inches",
+        "width": "5.5 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "11.2 ounces",
+      "availability": true,
+      "price": 14.99,
+      "currency": "USD",
+      "coverImage": "poetry-book-cover4.jpg",
+      "reviews": {
+        "total": 912,
+        "averageRating": 4.8,
+        "highlights": [
+          "Timeless and spiritually uplifting",
+          "Beautifully translated",
+          "Expressions of divine love"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Essential Rumi",
+          "ISBN-13": "978-0062509598",
+          "url": "/essential-rumi"
+        },
+        {
+          "title": "Rumi: The Book of Love",
+          "ISBN-13": "978-0060750503",
+          "url": "/rumi-book-of-love"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "ISBN-10": "059035342X",
+      "ISBN-13": "978-0590353427",
+      "description": "Harry Potter and the Sorcerer's Stone follows the journey of a young wizard, Harry Potter, who discovers his magical heritage and begins his education at Hogwarts School of Witchcraft and Wizardry. As Harry navigates the challenges of the wizarding world, he uncovers the truth about his parents' mysterious past and confronts the dark wizard Voldemort. This captivating tale of magic, friendship, and bravery has enchanted readers of all ages and continues to be a beloved classic.",
+      "language": "English",
+      "genre": ["Children's Literature", "Fantasy"],
+      "format": "Paperback",
+      "publisher": "Scholastic",
+      "publicationDate": "September 8, 1999",
+      "pages": 320,
+      "dimensions": {
+        "height": "7.6 inches",
+        "width": "5.2 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 10.99,
+      "currency": "USD",
+      "coverImage": "children-book-cover1.jpg",
+      "reviews": {
+        "total": 18247,
+        "averageRating": 4.8,
+        "highlights": [
+          "Magical and imaginative world-building",
+          "Relatable and well-developed characters",
+          "Engaging and adventurous plot"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Harry Potter and the Chamber of Secrets",
+          "ISBN-13": "978-0439064866",
+          "url": "/harry-potter-chamber-of-secrets"
+        },
+        {
+          "title": "Harry Potter and the Prisoner of Azkaban",
+          "ISBN-13": "978-0439136365",
+          "url": "/harry-potter-prisoner-of-azkaban"
+        }
+      ]
+    },
+    {
+      "title": "Where the Wild Things Are",
+      "author": "Maurice Sendak",
+      "ISBN-10": "0060254920",
+      "ISBN-13": "978-0060254926",
+      "description": "Where the Wild Things Are tells the story of Max, a young boy who embarks on a magical journey to an island inhabited by the Wild Things. In this imaginative world, Max becomes their king and experiences the joy of wild adventures. Through Maurice Sendak's evocative illustrations and heartfelt narrative, readers are transported into a realm of creativity and imagination. This timeless children's book explores themes of friendship, imagination, and the comfort of home, resonating with readers of all ages.",
+      "language": "English",
+      "genre": ["Children's Literature"],
+      "format": "Hardcover",
+      "publisher": "Harper & Row",
+      "publicationDate": "April 19, 1963",
+      "pages": 48,
+      "dimensions": {
+        "height": "9.4 inches",
+        "width": "8 inches",
+        "thickness": "0.4 inches"
+      },
+      "weight": "10.4 ounces",
+      "availability": true,
+      "price": 18.99,
+      "currency": "USD",
+      "coverImage": "children-book-cover2.jpg",
+      "reviews": {
+        "total": 9823,
+        "averageRating": 4.7,
+        "highlights": [
+          "Beautiful and expressive illustrations",
+          "Imaginative and heartfelt storytelling",
+          "Timeless classic for all ages"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Gruffalo",
+          "ISBN-13": "978-0142403877",
+          "url": "/the-gruffalo"
+        },
+        {
+          "title": "Goodnight Moon",
+          "ISBN-13": "978-0060775858",
+          "url": "/goodnight-moon"
+        }
+      ]
+    },
+    {
+      "title": "Charlotte's Web",
+      "author": "E.B. White",
+      "ISBN-10": "0061124958",
+      "ISBN-13": "978-0061124952",
+      "description": "Charlotte's Web is a heartwarming tale of friendship and loyalty between a young girl named Fern and a wise and caring spider named Charlotte. When Wilbur, a pig destined for slaughter, befriends Charlotte, she hatches a plan to save him from his fate. Through the power of words and compassion, Charlotte weaves messages in her web to convince the farm's owner and the community of Wilbur's worth. E.B. White's timeless story explores themes of kindness, acceptance, and the enduring bonds of friendship.",
+      "language": "English",
+      "genre": ["Children's Literature"],
+      "format": "Paperback",
+      "publisher": "HarperCollins",
+      "publicationDate": "October 17, 2017",
+      "pages": 192,
+      "dimensions": {
+        "height": "7.6 inches",
+        "width": "5.1 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "7.2 ounces",
+      "availability": true,
+      "price": 8.99,
+      "currency": "USD",
+      "coverImage": "children-book-cover3.jpg",
+      "reviews": {
+        "total": 18654,
+        "averageRating": 4.8,
+        "highlights": [
+          "Touching and memorable story",
+          "Well-developed characters",
+          "Timeless classic for readers of all ages"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Stuart Little",
+          "ISBN-13": "978-0061124952",
+          "url": "/stuart-little"
+        },
+        {
+          "title": "The Tale of Despereaux",
+          "ISBN-13": "978-0763680893",
+          "url": "/tale-of-despereaux"
+        }
+      ]
+    },
+    {
+      "title": "Matilda",
+      "author": "Roald Dahl",
+      "ISBN-10": "0142410373",
+      "ISBN-13": "978-0142410370",
+      "description": "Matilda is a brilliant and precocious young girl who discovers her extraordinary telekinetic powers while navigating the challenges of her dysfunctional family and the oppressive school she attends. Despite facing adversity, Matilda's intelligence and resilience lead her to unexpected friendships and triumphs. Roald Dahl's enchanting tale celebrates the power of knowledge, kindness, and the courage to stand up against injustice. Matilda's story continues to captivate readers with its empowering message and whimsical storytelling.",
+      "language": "English",
+      "genre": ["Children's Literature"],
+      "format": "Paperback",
+      "publisher": "Puffin Books",
+      "publicationDate": "August 16, 2007",
+      "pages": 240,
+      "dimensions": {
+        "height": "7.8 inches",
+        "width": "5 inches",
+        "thickness": "0.6 inches"
+      },
+      "weight": "5.6 ounces",
+      "availability": true,
+      "price": 7.99,
+      "currency": "USD",
+      "coverImage": "children-book-cover4.jpg",
+      "reviews": {
+        "total": 8321,
+        "averageRating": 4.9,
+        "highlights": [
+          "Empowering and inspiring protagonist",
+          "Engaging and imaginative storytelling",
+          "Timeless classic for young readers"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The BFG",
+          "ISBN-13": "978-0142410387",
+          "url": "/bfg"
+        },
+        {
+          "title": "Charlie and the Chocolate Factory",
+          "ISBN-13": "978-0142410318",
+          "url": "/charlie-and-the-chocolate-factory"
+        }
+      ]
+    },
+    {
+      "title": "The Very Hungry Caterpillar",
+      "author": "Eric Carle",
+      "ISBN-10": "0399226907",
+      "ISBN-13": "978-0399226908",
+      "description": "The Very Hungry Caterpillar is a beloved children's book that follows the journey of a tiny caterpillar as it eats its way through various foods before transforming into a beautiful butterfly. With vibrant illustrations and simple, rhythmic text, Eric Carle captures the wonder of nature's transformations. The book also introduces basic concepts such as counting, days of the week, and different types of food. Perfect for young readers, this timeless story encourages learning and exploration.",
+      "language": "English",
+      "genre": ["Children's Literature"],
+      "format": "Board Book",
+      "publisher": "Philomel Books",
+      "publicationDate": "March 23, 1994",
+      "pages": 26,
+      "dimensions": {
+        "height": "5.8 inches",
+        "width": "4.5 inches",
+        "thickness": "0.7 inches"
+      },
+      "weight": "5.6 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "children-book-cover5.jpg",
+      "reviews": {
+        "total": 10428,
+        "averageRating": 4.7,
+        "highlights": [
+          "Engaging artwork and design",
+          "Educational and interactive content",
+          "Entertaining and educational for toddlers"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Brown Bear, Brown Bear, What Do You See?",
+          "ISBN-13": "978-0805047905",
+          "url": "/brown-bear-brown-bear"
+        },
+        {
+          "title": "Goodnight Moon",
+          "ISBN-13": "978-0694003617",
+          "url": "/goodnight-moon"
+        }
+      ]
+    }
+  ],
+  "health-fitness": [
+    {
+      "title": "The Whole 30: The 30-Day Guide to Total Health and Food Freedom",
+      "author": "Melissa Hartwig Urban and Dallas Hartwig",
+      "ISBN-10": "0544609719",
+      "ISBN-13": "978-0544609716",
+      "description": "The Whole 30 is a 30-day nutritional reset program designed to help individuals improve their health, habits, and relationship with food. This comprehensive guide provides a step-by-step plan to eliminate certain food groups and focus on whole, nutrient-dense foods. Through the Whole 30 program, readers can achieve better digestion, increased energy, improved sleep, and a healthier relationship with food. The book includes meal plans, recipes, and practical tips to support a transformative journey to better health and fitness.",
+      "language": "English",
+      "genre": ["Health", "Diet", "Nutrition"],
+      "format": "Hardcover",
+      "publisher": "Houghton Mifflin Harcourt",
+      "publicationDate": "April 21, 2015",
+      "pages": 432,
+      "dimensions": {
+        "height": "9.1 inches",
+        "width": "7.4 inches",
+        "thickness": "1.1 inches"
+      },
+      "weight": "2.4 pounds",
+      "availability": true,
+      "price": 29.99,
+      "currency": "USD",
+      "coverImage": "health-fitness-book-cover1.jpg",
+      "reviews": {
+        "total": 8796,
+        "averageRating": 4.6,
+        "highlights": [
+          "Effective and transformative program",
+          "Clear and practical guidelines",
+          "Inspiring success stories"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Food Freedom Forever",
+          "ISBN-13": "978-1328493033",
+          "url": "/food-freedom-forever"
+        },
+        {
+          "title": "It Starts With Food",
+          "ISBN-13": "978-1628600544",
+          "url": "/it-starts-with-food"
+        }
+      ]
+    },
+    {
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "ISBN-10": "1524763136",
+      "ISBN-13": "978-1524763138",
+      "description": "Becoming is a powerful and inspiring memoir by Michelle Obama, the former First Lady of the United States. In this candid account, Michelle Obama shares her personal journey, from her childhood in Chicago to her experiences in the White House. The memoir explores her values, struggles, triumphs, and the importance of embracing one's true identity. With honesty and grace, Michelle Obama's narrative resonates with readers, offering insights into resilience, leadership, and the pursuit of a meaningful life.",
+      "language": "English",
+      "genre": ["Biography", "Memoir"],
+      "format": "Hardcover",
+      "publisher": "Crown Publishing Group",
+      "publicationDate": "November 13, 2018",
+      "pages": 448,
+      "dimensions": {
+        "height": "9.6 inches",
+        "width": "6.5 inches",
+        "thickness": "1.4 inches"
+      },
+      "weight": "1.7 pounds",
+      "availability": true,
+      "price": 32.5,
+      "currency": "USD",
+      "coverImage": "health-fitness-book-cover2.jpg",
+      "reviews": {
+        "total": 30184,
+        "averageRating": 4.8,
+        "highlights": [
+          "Empowering and insightful narrative",
+          "Engaging writing style",
+          "Inspiring and relatable"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Educated",
+          "ISBN-13": "978-0399590504",
+          "url": "/educated"
+        },
+        {
+          "title": "Bossypants",
+          "ISBN-13": "978-0316056861",
+          "url": "/bossypants"
+        }
+      ]
+    },
+    {
+      "title": "Born a Crime: Stories from a South African Childhood",
+      "author": "Trevor Noah",
+      "ISBN-10": "0399588175",
+      "ISBN-13": "978-0399588174",
+      "description": "Born a Crime is a memoir by Trevor Noah, the host of The Daily Show. The book chronicles Trevor's experiences growing up in South Africa during the final years of apartheid and the tumultuous transition to a post-apartheid society. Despite being born to a black mother and a white father, Trevor was classified as 'colored' under apartheid law, making his existence a crime. Through humor, wit, and poignant storytelling, Trevor Noah explores themes of identity, race, and resilience, offering a unique perspective on the challenges and absurdities of life.",
+      "language": "English",
+      "genre": ["Biography", "Memoir", "Humor"],
+      "format": "Paperback",
+      "publisher": "One World",
+      "publicationDate": "February 12, 2019",
+      "pages": 304,
+      "dimensions": {
+        "height": "8.3 inches",
+        "width": "5.5 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 18.0,
+      "currency": "USD",
+      "coverImage": "health-fitness-book-cover3.jpg",
+      "reviews": {
+        "total": 31041,
+        "averageRating": 4.8,
+        "highlights": [
+          "Hilarious and insightful storytelling",
+          "Thought-provoking exploration of race",
+          "Heartwarming and engaging"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Between the World and Me",
+          "ISBN-13": "978-0812993547",
+          "url": "/between-the-world-and-me"
+        },
+        {
+          "title": "The Glass Castle",
+          "ISBN-13": "978-0743247542",
+          "url": "/the-glass-castle"
+        }
+      ]
+    },
+    {
+      "title": "The Immortal Life of Henrietta Lacks",
+      "author": "Rebecca Skloot",
+      "ISBN-10": "1400052173",
+      "ISBN-13": "978-1400052172",
+      "description": "The Immortal Life of Henrietta Lacks tells the remarkable story of Henrietta Lacks, an African American woman whose cells were unknowingly harvested and became the foundation for groundbreaking medical research. The book explores the ethical and scientific implications of this event, examining issues of consent, medical ethics, and the impact of Henrietta's legacy on her family. Through extensive research and compelling narrative, Rebecca Skloot delves into the intersection of science, ethics, and humanity, creating a thought-provoking and emotionally resonant account.",
+      "language": "English",
+      "genre": ["Science", "History", "Biography"],
+      "format": "Paperback",
+      "publisher": "Broadway Books",
+      "publicationDate": "March 8, 2011",
+      "pages": 400,
+      "dimensions": {
+        "height": "8 inches",
+        "width": "5.2 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "9.6 ounces",
+      "availability": true,
+      "price": 16.0,
+      "currency": "USD",
+      "coverImage": "health-fitness-book-cover4.jpg",
+      "reviews": {
+        "total": 8886,
+        "averageRating": 4.6,
+        "highlights": [
+          "Fascinating and thought-provoking",
+          "Ethical and moral complexities explored",
+          "Compelling blend of science and human story"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Henrietta Lacks Collection",
+          "ISBN-13": "978-0812980660",
+          "url": "/henrietta-lacks-collection"
+        },
+        {
+          "title": "The Radium Girls",
+          "ISBN-13": "978-1492649359",
+          "url": "/radium-girls"
+        }
+      ]
+    }
+  ],
+  "drama": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "ISBN-10": "0061120081",
+      "ISBN-13": "978-0061120084",
+      "description": "To Kill a Mockingbird is a classic novel that explores themes of racial injustice, moral growth, and compassion. Set in the American South during the 1930s, the story follows Scout Finch, a young girl, and her brother Jem as their father, Atticus Finch, a lawyer, defends a black man accused of raping a white woman. Through the eyes of Scout, the novel delves into the complexities of human nature and societal prejudices, offering profound insights into empathy, courage, and the fight for justice.",
+      "language": "English",
+      "genre": ["Fiction", "Classic", "Social Issues"],
+      "format": "Paperback",
+      "publisher": "Harper Perennial Modern Classics",
+      "publicationDate": "July 5, 2005",
+      "pages": 336,
+      "dimensions": {
+        "height": "8.2 inches",
+        "width": "5.3 inches",
+        "thickness": "0.9 inches"
+      },
+      "weight": "8 ounces",
+      "availability": true,
+      "price": 14.99,
+      "currency": "USD",
+      "coverImage": "drama-book-cover1.jpg",
+      "reviews": {
+        "total": 106481,
+        "averageRating": 4.8,
+        "highlights": [
+          "Profound and timeless narrative",
+          "Deep exploration of social issues",
+          "Memorable characters"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Go Set a Watchman",
+          "ISBN-13": "978-0062409867",
+          "url": "/go-set-a-watchman"
+        },
+        {
+          "title": "The Help",
+          "ISBN-13": "978-0425232200",
+          "url": "/the-help"
+        }
+      ]
+    }
+  ],
+  "comics": [
+    {
+      "title": "Maus",
+      "author": "Art Spiegelman",
+      "ISBN-10": "0394747232",
+      "ISBN-13": "978-0394747231",
+      "description": "Maus is a graphic novel that tells the story of the author's father's experiences during the Holocaust, portraying Jews as mice and Nazis as cats. Through the unique visual narrative, Maus explores the impact of historical trauma, family relationships, and survival against all odds. The novel delves into the complexities of human nature and the enduring legacy of the Holocaust, offering profound insights into resilience, memory, and the human spirit.",
+      "language": "English",
+      "genre": ["Graphic Novel", "Historical Fiction", "Biography"],
+      "format": "Paperback",
+      "publisher": "Pantheon",
+      "publicationDate": "October 1, 1991",
+      "pages": 296,
+      "dimensions": {
+        "height": "8.9 inches",
+        "width": "6 inches",
+        "thickness": "0.8 inches"
+      },
+      "weight": "1.2 pounds",
+      "availability": true,
+      "price": 25.99,
+      "currency": "USD",
+      "coverImage": "comics-book-cover1.jpg",
+      "reviews": {
+        "total": 9487,
+        "averageRating": 4.7,
+        "highlights": [
+          "Powerful and thought-provoking narrative",
+          "Innovative use of graphic storytelling",
+          "Emotionally impactful"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Persepolis",
+          "ISBN-13": "978-0375714573",
+          "url": "/persepolis"
+        },
+        {
+          "title": "Blankets",
+          "ISBN-13": "978-1891830433",
+          "url": "/blankets"
+        }
+      ]
+    }
+  ],
+  "religion": [
+    {
+      "title": "The Tao Te Ching",
+      "author": "Laozi",
+      "ISBN-10": "014044131X",
+      "ISBN-13": "978-0140441314",
+      "description": "The Tao Te Ching, also known as the Laozi, is a fundamental text in Taoism. It offers philosophical and spiritual insights on living in harmony with the Tao, the fundamental principle that is the source, pattern, and substance of everything that exists. Written in poetic and profound language, the Tao Te Ching explores themes of balance, simplicity, and the natural way of life. It has been highly influential in Eastern philosophy and continues to inspire readers seeking wisdom and inner peace.",
+      "language": "English",
+      "genre": ["Philosophy", "Spirituality"],
+      "format": "Paperback",
+      "publisher": "Penguin Classics",
+      "publicationDate": "August 1, 1989",
+      "pages": 160,
+      "dimensions": {
+        "height": "7.7 inches",
+        "width": "5 inches",
+        "thickness": "0.4 inches"
+      },
+      "weight": "5.6 ounces",
+      "availability": true,
+      "price": 9.99,
+      "currency": "USD",
+      "coverImage": "religion-book-cover2.jpg",
+      "reviews": {
+        "total": 980,
+        "averageRating": 4.7,
+        "highlights": [
+          "Profound wisdom",
+          "Clear and poetic language",
+          "Life-changing insights"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "Zen Mind, Beginner's Mind",
+          "ISBN-13": "978-1590308493",
+          "url": "/zen-mind-beginners-mind"
+        },
+        {
+          "title": "The Art of Happiness",
+          "ISBN-13": "978-1573221115",
+          "url": "/art-of-happiness"
+        }
+      ]
+    },
+    {
+      "title": "The Book of Mormon",
+      "author": "Joseph Smith Jr.",
+      "ISBN-10": "0974012483",
+      "ISBN-13": "978-0974012482",
+      "description": "The Book of Mormon is a religious scripture of the Latter-day Saint movement. It is regarded as a sacred text by members of The Church of Jesus Christ of Latter-day Saints. The Book of Mormon tells the story of ancient inhabitants of the Americas and their interactions with God. It explores themes of faith, repentance, and the plan of salvation. For believers, it is a testament to the divinity of Jesus Christ and serves as a guide for moral and spiritual living.",
+      "language": "English",
+      "genre": ["Religious Text", "Christianity"],
+      "format": "Hardcover",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "publicationDate": "March 26, 1830",
+      "pages": 531,
+      "dimensions": {
+        "height": "9.2 inches",
+        "width": "6.2 inches",
+        "thickness": "1.5 inches"
+      },
+      "weight": "1.9 pounds",
+      "availability": true,
+      "price": 24.99,
+      "currency": "USD",
+      "coverImage": "religion-book-cover3.jpg",
+      "reviews": {
+        "total": 1245,
+        "averageRating": 4.6,
+        "highlights": [
+          "Inspirational teachings",
+          "Spiritual guidance",
+          "Historical significance"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Holy Bible",
+          "ISBN-13": "978-0310930768",
+          "url": "/holy-bible"
+        },
+        {
+          "title": "The Quran",
+          "ISBN-13": "978-0199535958",
+          "url": "/quran"
+        }
+      ]
+    },
+    {
+      "title": "The Dhammapada",
+      "author": "Anonymous",
+      "ISBN-10": "0140442847",
+      "ISBN-13": "978-0140442847",
+      "description": "The Dhammapada is a collection of verses that are among the earliest and most beloved of Buddhist scriptures. It consists of teachings attributed to Gautama Buddha and covers various aspects of ethical and spiritual conduct. The verses provide insights into the path of righteousness, the nature of the mind, and the importance of mindfulness. The Dhammapada is highly regarded in Buddhism and offers guidance for practitioners seeking enlightenment and inner peace.",
+      "language": "English",
+      "genre": ["Religious Text", "Buddhism"],
+      "format": "Paperback",
+      "publisher": "Penguin Classics",
+      "publicationDate": "December 1, 2009",
+      "pages": 96,
+      "dimensions": {
+        "height": "7.7 inches",
+        "width": "5 inches",
+        "thickness": "0.3 inches"
+      },
+      "weight": "3.2 ounces",
+      "availability": true,
+      "price": 7.99,
+      "currency": "USD",
+      "coverImage": "religion-book-cover4.jpg",
+      "reviews": {
+        "total": 760,
+        "averageRating": 4.5,
+        "highlights": [
+          "Profound teachings",
+          "Simple and accessible language",
+          "Spiritual depth"
+        ]
+      },
+      "relatedProducts": [
+        {
+          "title": "The Heart of the Buddha's Teaching",
+          "ISBN-13": "978-0767903691",
+          "url": "/heart-of-buddhas-teaching"
+        },
+        {
+          "title": "Buddhism Plain and Simple",
+          "ISBN-13": "978-0385260923",
+          "url": "/buddhism-plain-and-simple"
+        }
+      ]
+    }
+  ]
+}

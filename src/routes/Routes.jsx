@@ -3,6 +3,9 @@ import CourseDetails from '../components/courseDetails/CourseDetails';
 import Dashboard from '../layout/Dashboard';
 import Root from '../layout/Root';
 import About from '../pages/about/About';
+import Bookshop from '../pages/bookshop/Bookshop';
+import BookDetails from '../pages/bookshop/bookDetails/BookDetails';
+import BooksCategory from '../pages/bookshop/booksCategory/BooksCategory';
 import Contact from '../pages/contact/Contact';
 import Courses from '../pages/courses/Courses';
 import CourseCategory from '../pages/courses/courseCategory/CourseCategory';
@@ -12,7 +15,6 @@ import Reports from '../pages/dashboard/admin/reports/Reports';
 import Settings from '../pages/dashboard/admin/settings/Settings';
 import TotalStudents from '../pages/dashboard/admin/totalStudents/TotalStudents';
 import UploadCourse from '../pages/dashboard/admin/uploadCourse/UploadCourse';
-import Docs from '../pages/docs/Docs';
 import Forum from '../pages/forum/Forum';
 import Home from '../pages/home/Home';
 import Login from '../pages/login/Login';
@@ -26,7 +28,9 @@ const router = createBrowserRouter([
       { path: '/', element: <Home /> },
       { path: '/courses', element: <Courses /> },
       { path: '/course/:courseId', element: <CourseCategory /> },
-      { path: '/docs', element: <Docs /> },
+      { path: '/bookshop', element: <Bookshop /> },
+      { path: '/books/:booksId', element: <BooksCategory /> },
+      { path: '/book/:title', element: <BookDetails /> },
       { path: '/forum', element: <Forum /> },
       { path: '/about', element: <About /> },
       { path: '/contact', element: <Contact /> },
