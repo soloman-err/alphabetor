@@ -11,20 +11,28 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '../../lib/context/user';
 
 const Navbar = () => {
+  const { current: currentUser, logOut } = useUser();
+
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
+  const [isCoursesHovered, setIsCoursesHovered] = useState(false);
+  const [isBookshopHovered, setIsBookshopHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  const user = useUser();
-  const { current, logOut } = user;
-  const currentUser = current;
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
+  const handleCoursesMouseEnter = () => {
+    setIsCoursesHovered(true);
   };
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
+  const handleCoursesMouseLeave = () => {
+    setIsCoursesHovered(false);
+  };
+
+  const handleBookshopMouseEnter = () => {
+    setIsBookshopHovered(true);
+  };
+
+  const handleBookshopMouseLeave = () => {
+    setIsBookshopHovered(false);
   };
 
   const toggleDropdownOpen = () => {
@@ -44,7 +52,7 @@ const Navbar = () => {
     { to: '/', text: 'Home' },
     { to: '/courses', text: 'Courses' },
     // { to: '/journals', text: 'Journals' },
-    { to: '/docs', text: 'Docs' },
+    { to: '/bookshop', text: 'Bookshop' },
     { to: '/about', text: 'About' },
     { to: '/contact', text: 'Contact' },
   ];
@@ -73,6 +81,31 @@ const Navbar = () => {
     { title: 'Mobile App Design', to: 'mobile-app-design' },
   ];
 
+  // Bookshop Submenu:
+  const bookCategories = [
+    { title: 'Fiction', to: 'fiction' },
+    { title: 'Mystery', to: 'mystery' },
+    { title: 'Technology', to: 'technology' },
+    { title: 'Science Fiction', to: 'science-fiction' },
+    { title: 'Fantasy', to: 'fantasy' },
+    { title: 'Romance', to: 'romance' },
+    { title: 'Horror', to: 'horror' },
+    { title: 'Business', to: 'business' },
+    { title: 'History', to: 'history' },
+    { title: 'Biography', to: 'biography' },
+    { title: 'Travel', to: 'travel' },
+    { title: 'Cooking', to: 'cooking' },
+    { title: 'Art', to: 'art' },
+    { title: 'Philosophy', to: 'philosophy' },
+    { title: 'Science', to: 'science' },
+    { title: 'Poetry', to: 'poetry' },
+    { title: "Children's Books", to: 'children' },
+    { title: 'Health & Fitness', to: 'health-fitness' },
+    { title: 'Drama', to: 'drama' },
+    { title: 'Comics & Graphic Novels', to: 'comics' },
+    { title: 'Religion & Spirituality', to: 'religion' },
+  ];
+
   // User Info
   const dropdownItems = [
     { text: 'Profile', link: '/user-profile' },
@@ -99,12 +132,12 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#164B59] text-white shadow-md sticky top-0 z-50">
-      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-6 font-normal uppercase px-3 md:px-10">
+      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-6 font-normal uppercase px-2">
         {/* ICON/LOGO */}
         <div className="flex justify-between items-center gap-10">
-          <Link to={'/'}>
+          <NavLink to={'/'}>
             <h2 className="font-bold italic text-3xl">Alphabetor</h2>
-          </Link>
+          </NavLink>
         </div>
 
         {/* NAVIGATION BAR */}
@@ -119,19 +152,29 @@ const Navbar = () => {
                     ? 'px-1 pb-1 text-gray-200 font-semibold border-b-2 flex items-center gap-1 hover:text-gray-200 hover:border-gray-200'
                     : 'pb-1 font-semibold flex items-center gap-1 hover:text-gray-200 hover:border-gray-200'
                 }
-                onMouseEnter={
-                  link?.text === 'Courses' ? handleMouseEnter : null
-                }
-                onMouseLeave={
-                  link?.text === 'Courses' ? handleMouseLeave : null
-                }
+                onMouseEnter={() => {
+                  if (link?.text === 'Courses') {
+                    handleCoursesMouseEnter();
+                  } else if (link?.text === 'Bookshop') {
+                    handleBookshopMouseEnter();
+                  }
+                }}
+                onMouseLeave={() => {
+                  if (link?.text === 'Courses') {
+                    handleCoursesMouseLeave();
+                  } else if (link?.text === 'Bookshop') {
+                    handleBookshopMouseLeave();
+                  }
+                }}
               >
                 {link.text}
-                {/* Courses Sub-Menu Items will be appeared on hover */}
+
+                {/* Courses Sub-Menu Items will be appeared on hover
+                 */}
                 {link?.text === 'Courses' && (
                   <>
-                    {isHovered ? <FaAngleUp /> : <FaAngleDown />}
-                    {isHovered && (
+                    {isCoursesHovered ? <FaAngleUp /> : <FaAngleDown />}
+                    {isCoursesHovered && (
                       <div className="absolute bg-white top-7 left-0 flex flex-row w-full py-2 shadow-lg">
                         <ul className="w-full text-black p-2 rounded-sm mt-2">
                           {onlineCourses?.slice(0, 10).map((course, index) => (
@@ -139,12 +182,12 @@ const Navbar = () => {
                               key={index}
                               className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
                             >
-                              <Link
+                              <NavLink
                                 to={`/course/${course.to}`}
                                 className="block px-1 py-2"
                               >
                                 {course.title}
-                              </Link>
+                              </NavLink>
                             </li>
                           ))}
                         </ul>
@@ -155,14 +198,61 @@ const Navbar = () => {
                               key={index}
                               className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
                             >
-                              <Link
+                              <NavLink
                                 to={`/course/${course.to}`}
                                 className="block px-1 py-2"
                               >
                                 {course.title}
-                              </Link>
+                              </NavLink>
                             </li>
                           ))}
+                        </ul>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* Bookshop Sub-Menu Items will be appeared on hover
+                 */}
+                {link?.text === 'Bookshop' && (
+                  <>
+                    {isBookshopHovered ? <FaAngleUp /> : <FaAngleDown />}
+                    {isBookshopHovered && (
+                      <div className="absolute bg-white top-7 left-0 flex flex-row w-full py-2 shadow-lg">
+                        <ul className="w-full text-black p-2 rounded-sm mt-2">
+                          {bookCategories
+                            ?.slice(0, 10)
+                            .map((category, index) => (
+                              <li
+                                key={index}
+                                className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
+                              >
+                                <NavLink
+                                  to={`/books/${category?.to}`}
+                                  className="block px-1 py-2"
+                                >
+                                  {category?.title}
+                                </NavLink>
+                              </li>
+                            ))}
+                        </ul>
+
+                        <ul className="w-full top-5 left-0 bg-white text-black p-2 rounded-sm mt-2">
+                          {bookCategories
+                            ?.slice(10, 20)
+                            .map((category, index) => (
+                              <li
+                                key={index}
+                                className="border-b text-sm hover:bg-[#164B59]/90 hover:text-white hover:font-bold"
+                              >
+                                <Link
+                                  to={`/books/${category?.to}`}
+                                  className="block px-1 py-2"
+                                >
+                                  {category?.title}
+                                </Link>
+                              </li>
+                            ))}
                         </ul>
                       </div>
                     )}
@@ -188,7 +278,7 @@ const Navbar = () => {
           <button className="relative">
             <FaUserCircle size={24} onClick={toggleDropdownOpen} />
             {isDropdownOpen && (
-              <div className="absolute z-20 right-0 top-10 shadow-lg bg-white rounded-md flex flex-col text-start py-2 pb-5">
+              <div className="absolute z-20 right-0 top-10 shadow-lg bg-white text-black font-semibold rounded-md flex flex-col text-start py-2">
                 {dropdownItems?.map((item, index) => {
                   return (
                     <NavLink
@@ -200,7 +290,7 @@ const Navbar = () => {
                           item.onClick();
                         }
                       }}
-                      className="hover:bg-zinc-200 py-2 px-5 w-full"
+                      className="hover:bg-[#164B59]/20 py-2 px-5 w-full"
                     >
                       {item.text}
                     </NavLink>

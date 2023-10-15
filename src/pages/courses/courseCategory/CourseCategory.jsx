@@ -5,6 +5,7 @@ import CourseCard from '../../../shared/courseCard/CourseCard';
 
 const CourseCategory = () => {
   const { courses } = useCourses();
+  // console.log(courses);
 
   const { courseId } = useParams();
   const [filteredCourses, setFilteredCourses] = useState([]);
@@ -13,10 +14,8 @@ const CourseCategory = () => {
     const filteredCourses = courses?.filter(
       (course) => course?.courseId === courseId
     );
-    console.log(filteredCourses);
     setFilteredCourses(filteredCourses);
   }, [courses, courseId]);
-  console.log(filteredCourses);
 
   return (
     <div className="container mx-auto mt-5">
