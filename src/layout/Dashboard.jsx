@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  FaAddressBook,
   FaAngleLeft,
   FaAngleRight,
   FaBook,
@@ -18,7 +19,13 @@ const menuItems = [
   { id: 2, icon: FaChartBar, text: 'Analytics', to: 'analytics' },
   { id: 3, icon: FaFileAlt, text: 'Reports', to: 'reports' },
   { id: 4, icon: FaBook, text: 'Books', to: 'all-books' },
-  { id: 5, icon: FaCaretSquareRight, text: 'Upload Course', to: 'upload-course' },
+  { id: 4, icon: FaAddressBook, text: 'Add New Book', to: 'add-new-book' },
+  {
+    id: 5,
+    icon: FaCaretSquareRight,
+    text: 'Upload Course',
+    to: 'upload-course',
+  },
   {
     id: 6,
     icon: FaUserGraduate,
