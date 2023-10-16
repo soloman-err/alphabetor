@@ -3,7 +3,7 @@
     {
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
-      "ISBN-10": "0061120081",
+      "ISBN10": "0061120081",
       "ISBN-13": "978-0061120084",
       "description": "A powerful exploration of racial injustice, moral growth, and compassion in the American South.",
       "language": "English",
@@ -47,7 +47,7 @@
     {
       "title": "1984",
       "author": "George Orwell",
-      "ISBN-10": "0451524934",
+      "ISBN10": "0451524934",
       "ISBN-13": "978-0451524935",
       "description": "A dystopian novel set in a totalitarian society ruled by the Party and its leader, Big Brother.",
       "language": "English",
@@ -87,7 +87,7 @@
     {
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
-      "ISBN-10": "0141439513",
+      "ISBN10": "0141439513",
       "ISBN-13": "978-0141439518",
       "description": "A classic romantic novel that explores themes of love, class, and social expectations.",
       "language": "English",
@@ -127,7 +127,7 @@
     {
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
-      "ISBN-10": "0743273567",
+      "ISBN10": "0743273567",
       "ISBN-13": "978-0743273565",
       "description": "A tale of wealth, decadence, and unrequited love in 1920s America.",
       "language": "English",
@@ -167,7 +167,7 @@
     {
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
-      "ISBN-10": "0316769487",
+      "ISBN10": "0316769487",
       "ISBN-13": "978-0316769488",
       "description": "Follows the experiences of Holden Caulfield, a disenchanted teenager who grapples with the phoniness of the adult world.",
       "language": "English",
@@ -211,7 +211,7 @@
     {
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
-      "ISBN-10": "0618260307",
+      "ISBN10": "0618260307",
       "ISBN-13": "978-0618260300",
       "description": "Bilbo Baggins, a hobbit, is reluctantly drawn into an epic quest to help a group of dwarves reclaim their homeland from the fearsome dragon Smaug.",
       "language": "English",
@@ -255,7 +255,7 @@
     {
       "title": "Brave New World",
       "author": "Aldous Huxley",
-      "ISBN-10": "0060850523",
+      "ISBN10": "0060850523",
       "ISBN-13": "978-0060850524",
       "description": "Set in a dystopian future where people are engineered for specific roles in society, this novel explores the dark side of scientific advancements and societal control.",
       "language": "English",
@@ -299,7 +299,7 @@
     {
       "title": "The Alchemist",
       "author": "Paulo Coelho",
-      "ISBN-10": "0061122416",
+      "ISBN10": "0061122416",
       "ISBN-13": "978-0061122415",
       "description": "Follows Santiago, a young shepherd, on his journey to discover his personal legend and the true meaning of life.",
       "language": "English",
@@ -343,7 +343,7 @@
     {
       "title": "The Book Thief",
       "author": "Markus Zusak",
-      "ISBN-10": "0375842209",
+      "ISBN10": "0375842209",
       "ISBN-13": "978-0375842207",
       "description": "Narrated by Death, this novel tells the story of Liesel Meminger, a young girl living in Nazi Germany, who finds solace in stealing books and sharing them with her neighbors and the Jewish man hiding in her basement.",
       "language": "English",
@@ -389,7 +389,7 @@
     {
       "title": "Gone Girl",
       "author": "Gillian Flynn",
-      "ISBN-10": "030758836X",
+      "ISBN10": "030758836X",
       "ISBN-13": "978-0307588364",
       "description": "A thrilling psychological mystery about a husband and wife whose marriage takes a dark turn when the wife goes missing on their fifth wedding anniversary.",
       "language": "English",
@@ -433,7 +433,7 @@
     {
       "title": "The Girl with the Dragon Tattoo",
       "author": "Stieg Larsson",
-      "ISBN-10": "0307949486",
+      "ISBN10": "0307949486",
       "ISBN-13": "978-0307949486",
       "description": "A journalist and a hacker team up to solve the decades-old disappearance of a young heiress in this gripping mystery novel.",
       "language": "English",
@@ -477,7 +477,7 @@
     {
       "title": "The Da Vinci Code",
       "author": "Dan Brown",
-      "ISBN-10": "0307474275",
+      "ISBN10": "0307474275",
       "ISBN-13": "978-0307474278",
       "description": "A professor and a cryptologist unravel a secret society's ancient secrets in a race against time in this international bestselling mystery novel.",
       "language": "English",
@@ -521,7 +521,7 @@
     {
       "title": "Big Little Lies",
       "author": "Liane Moriarty",
-      "ISBN-10": "0425274861",
+      "ISBN10": "0425274861",
       "ISBN-13": "978-0425274866",
       "description": "In a tranquil seaside town, dark secrets and scandals among a group of school moms come to light, leading to a shocking incident that will change their lives forever.",
       "language": "English",
@@ -561,7 +561,7 @@
     {
       "title": "The Cuckoo's Calling",
       "author": "Robert Galbraith",
-      "ISBN-10": "0316206849",
+      "ISBN10": "0316206849",
       "ISBN-13": "978-0316206846",
       "description": "Private investigator Cormoran Strike is hired to investigate the supposed suicide of a supermodel, leading him into a world of fame, fashion, and deadly secrets.",
       "language": "English",
@@ -605,7 +605,7 @@
     {
       "title": "The No. 1 Ladies' Detective Agency",
       "author": "Alexander McCall Smith",
-      "ISBN-10": "1400034779",
+      "ISBN10": "1400034779",
       "ISBN-13": "978-1400034772",
       "description": "Precious Ramotswe opens the first female-owned detective agency in Botswana, solving cases and mysteries with her wit, wisdom, and sharp observation skills.",
       "language": "English",
@@ -649,7 +649,7 @@
     {
       "title": "The Hound of the Baskervilles",
       "author": "Arthur Conan Doyle",
-      "ISBN-10": "0062500509",
+      "ISBN10": "0062500509",
       "ISBN-13": "978-0062500501",
       "description": "Sherlock Holmes and Dr. Watson investigate the mysterious death of Sir Charles Baskerville in the eerie moors of Devonshire, uncovering an ancient family curse and a terrifying legend.",
       "language": "English",
@@ -693,7 +693,7 @@
     {
       "title": "The Silent Patient",
       "author": "Alex Michaelides",
-      "ISBN-10": "1250301696",
+      "ISBN10": "1250301696",
       "ISBN-13": "978-1250301697",
       "description": "A woman shoots her husband and then stops speaking, leading to her institutionalization. A psychotherapist becomes obsessed with uncovering the truth behind her silence in this gripping psychological mystery.",
       "language": "English",
@@ -737,7 +737,7 @@
     {
       "title": "The Reversal",
       "author": "Michael Connelly",
-      "ISBN-10": "0316069480",
+      "ISBN10": "0316069480",
       "ISBN-13": "978-0316069489",
       "description": "Defense attorney Mickey Haller and LAPD Detective Harry Bosch team up to prosecute a high-profile case involving a Hollywood director accused of murdering his wife and her lover.",
       "language": "English",
@@ -781,7 +781,7 @@
     {
       "title": "The Woman in White",
       "author": "Wilkie Collins",
-      "ISBN-10": "0141439610",
+      "ISBN10": "0141439610",
       "ISBN-13": "978-0141439617",
       "description": "A mysterious woman in white, a dark conspiracy, and a brave hero combine in this classic Victorian mystery novel.",
       "language": "English",
@@ -827,7 +827,7 @@
     {
       "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
       "author": "Walter Isaacson",
-      "ISBN-10": "147670869X",
+      "ISBN10": "147670869X",
       "ISBN-13": "978-1476708690",
       "description": "The Innovators explores the history of the digital revolution, highlighting the contributions of pioneers like Ada Lovelace, Alan Turing, and Steve Jobs. The book delves into the collaborative efforts and innovations that shaped the modern technology landscape.",
       "language": "English",
@@ -871,7 +871,7 @@
     {
       "title": "Sapiens: A Brief History of Humankind",
       "author": "Yuval Noah Harari",
-      "ISBN-10": "0062316095",
+      "ISBN10": "0062316095",
       "ISBN-13": "978-0062316097",
       "description": "Sapiens offers a compelling overview of the history of humankind, from ancient times to the present day. Harari explores how Homo sapiens became the dominant species and examines the cultural, social, and technological developments that shaped human society.",
       "language": "English",
@@ -915,7 +915,7 @@
     {
       "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
       "author": "Ashlee Vance",
-      "ISBN-10": "0062301233",
+      "ISBN10": "0062301233",
       "ISBN-13": "978-0062301239",
       "description": "Elon Musk profiles the life and achievements of the visionary entrepreneur Elon Musk. The book explores Musk's role in founding and leading companies like Tesla, SpaceX, and PayPal, showcasing his determination and innovation in the technology and space industries.",
       "language": "English",
@@ -959,7 +959,7 @@
     {
       "title": "The Wright Brothers",
       "author": "David McCullough",
-      "ISBN-10": "1476728742",
+      "ISBN10": "1476728742",
       "ISBN-13": "978-1476728742",
       "description": "The Wright Brothers chronicles the lives and achievements of Orville and Wilbur Wright, pioneers of aviation. The book explores their determination, ingenuity, and the challenges they faced in their quest to achieve powered flight, leading to the birth of modern aviation.",
       "language": "English",
@@ -1003,7 +1003,7 @@
     {
       "title": "Hackers: Heroes of the Computer Revolution",
       "author": "Steven Levy",
-      "ISBN-10": "1449388396",
+      "ISBN10": "1449388396",
       "ISBN-13": "978-1449388393",
       "description": "Hackers delves into the world of computer programming and the individuals who shaped the early days of computing. The book explores the culture of hackers and their influence on technology, providing insights into their innovative mindset and contributions to the digital era.",
       "language": "English",
@@ -1047,7 +1047,7 @@
     {
       "title": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
       "author": "Simon Singh",
-      "ISBN-10": "0385495323",
+      "ISBN10": "0385495323",
       "ISBN-13": "978-0385495325",
       "description": "The Code Book explores the history of cryptography and its impact on human civilization. From ancient encryption techniques to modern quantum cryptography, the book reveals the fascinating stories behind secret codes and codebreakers, highlighting their role in shaping world events.",
       "language": "English",
@@ -1093,7 +1093,7 @@
     {
       "title": "Dune",
       "author": "Frank Herbert",
-      "ISBN-10": "0441172717",
+      "ISBN10": "0441172717",
       "ISBN-13": "978-0441172719",
       "description": "In the distant future, young Paul Atreides must navigate political intrigue, betrayal, and desert battles on the desert planet Arrakis, the only source of the most valuable substance in the universe, in this epic science fiction masterpiece.",
       "language": "English",
@@ -1137,7 +1137,7 @@
     {
       "title": "Neuromancer",
       "author": "William Gibson",
-      "ISBN-10": "0441569595",
+      "ISBN10": "0441569595",
       "ISBN-13": "978-0441569595",
       "description": "Case was a washed-up computer hacker until he was hired for one last job that would change his life. Set in a cyberpunk future, this groundbreaking novel explores virtual reality, artificial intelligence, and the nature of humanity.",
       "language": "English",
@@ -1181,7 +1181,7 @@
     {
       "title": "Snow Crash",
       "author": "Neal Stephenson",
-      "ISBN-10": "0553380958",
+      "ISBN10": "0553380958",
       "ISBN-13": "978-0553380958",
       "description": "In the future, Hiro Protagonist, a hacker and swordsman, teams up with a courier named Y.T. to unravel a conspiracy involving a new drug called Snow Crash, a virtual reality metaverse, and ancient Sumerian culture.",
       "language": "English",
@@ -1225,7 +1225,7 @@
     {
       "title": "Altered Carbon",
       "author": "Richard K. Morgan",
-      "ISBN-10": "0345457684",
+      "ISBN10": "0345457684",
       "ISBN-13": "978-0345457684",
       "description": "In a future where consciousness can be transferred to different bodies, former soldier Takeshi Kovacs is hired to investigate a wealthy man's apparent suicide. As Kovacs delves deeper, he uncovers a web of corruption and violence.",
       "language": "English",
@@ -1269,7 +1269,7 @@
     {
       "title": "The Left Hand of Darkness",
       "author": "Ursula K. Le Guin",
-      "ISBN-10": "0441478123",
+      "ISBN10": "0441478123",
       "ISBN-13": "978-0441478125",
       "description": "A human envoy, Genly Ai, is sent to a distant planet called Gethen to convince its inhabitants to join an interplanetary alliance. The inhabitants can change genders at will, leading to a deep exploration of gender and identity.",
       "language": "English",
@@ -1313,7 +1313,7 @@
     {
       "title": "Hyperion",
       "author": "Dan Simmons",
-      "ISBN-10": "0553283685",
+      "ISBN10": "0553283685",
       "ISBN-13": "978-0553283687",
       "description": "A group of pilgrims travels to the distant world of Hyperion, each with a dark secret and a unique reason for their journey. As they share their stories, they uncover a greater cosmic mystery that could change the fate of humanity.",
       "language": "English",
@@ -1357,7 +1357,7 @@
     {
       "title": "Altered Carbon",
       "author": "Richard K. Morgan",
-      "ISBN-10": "0345457684",
+      "ISBN10": "0345457684",
       "ISBN-13": "978-0345457684",
       "description": "In a future where consciousness can be transferred to different bodies, former soldier Takeshi Kovacs is hired to investigate a wealthy man's apparent suicide. As Kovacs delves deeper, he uncovers a web of corruption and violence.",
       "language": "English",
@@ -1401,7 +1401,7 @@
     {
       "title": "The Left Hand of Darkness",
       "author": "Ursula K. Le Guin",
-      "ISBN-10": "0441478123",
+      "ISBN10": "0441478123",
       "ISBN-13": "978-0441478125",
       "description": "A human envoy, Genly Ai, is sent to a distant planet called Gethen to convince its inhabitants to join an interplanetary alliance. The inhabitants can change genders at will, leading to a deep exploration of gender and identity.",
       "language": "English",
@@ -1445,7 +1445,7 @@
     {
       "title": "Hyperion",
       "author": "Dan Simmons",
-      "ISBN-10": "0553283685",
+      "ISBN10": "0553283685",
       "ISBN-13": "978-0553283687",
       "description": "A group of pilgrims travels to the distant world of Hyperion, each with a dark secret and a unique reason for their journey. As they share their stories, they uncover a greater cosmic mystery that could change the fate of humanity.",
       "language": "English",
@@ -1491,7 +1491,7 @@
     {
       "title": "The Name of the Wind",
       "author": "Patrick Rothfuss",
-      "ISBN-10": "075640407X",
+      "ISBN10": "075640407X",
       "ISBN-13": "978-0756404079",
       "description": "The Name of the Wind follows the life of Kvothe, a gifted young man who grows up to become a legendary figure. The story delves into his adventures, magical abilities, and the pursuit of knowledge, set against a richly detailed fantasy world filled with music, magic, and mystery.",
       "language": "English",
@@ -1535,7 +1535,7 @@
     {
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
-      "ISBN-10": "054792822X",
+      "ISBN10": "054792822X",
       "ISBN-13": "978-0547928227",
       "description": "The Hobbit follows the journey of Bilbo Baggins, a hobbit who is reluctantly dragged into an epic quest to reclaim a kingdom. Along the way, he encounters dwarves, elves, trolls, and dragons, embarking on an adventure that would change his life and the fate of Middle-earth.",
       "language": "English",
@@ -1579,7 +1579,7 @@
     {
       "title": "A Song of Ice and Fire Series",
       "author": "George R.R. Martin",
-      "ISBN-10": "0345535529",
+      "ISBN10": "0345535529",
       "ISBN-13": "978-0345535528",
       "description": "The A Song of Ice and Fire series (Game of Thrones) is a sprawling epic that follows the power struggles among noble families in the fictional continents of Westeros and Essos. Filled with political intrigue, dragons, and a vast array of characters, the series explores themes of loyalty, honor, and betrayal.",
       "language": "English",
@@ -1623,7 +1623,7 @@
     {
       "title": "Mistborn: The Final Empire",
       "author": "Brandon Sanderson",
-      "ISBN-10": "0765377136",
+      "ISBN10": "0765377136",
       "ISBN-13": "978-0765377135",
       "description": "Mistborn: The Final Empire is set in a world where the Dark Lord has won, and a young street thief named Vin discovers her extraordinary Allomantic powers. With the help of a group of rebels, she embarks on a mission to overthrow the immortal ruler, leading to epic battles, political intrigue, and surprising alliances.",
       "language": "English",
@@ -1667,7 +1667,7 @@
     {
       "title": "The Lies of Locke Lamora",
       "author": "Scott Lynch",
-      "ISBN-10": "055358894X",
+      "ISBN10": "055358894X",
       "ISBN-13": "978-0553588941",
       "description": "The Lies of Locke Lamora follows a group of skilled con artists in the city of Camorr. Led by the cunning Locke Lamora, they navigate the criminal underworld while executing heists and scams. However, they soon find themselves targeted by a dark and powerful enemy, leading to a high-stakes battle of wits and survival.",
       "language": "English",
@@ -1711,7 +1711,7 @@
     {
       "title": "The Final Empire",
       "author": "Brandon Sanderson",
-      "ISBN-10": "0765350386",
+      "ISBN10": "0765350386",
       "ISBN-13": "978-0765350381",
       "description": "The Final Empire is the first book in the Mistborn series, set in a world ruled by the immortal Lord Ruler. The story follows a young street thief named Vin who discovers her unique Allomantic powers and becomes entangled in a plot to overthrow the Lord Ruler's tyranny. With the help of a skilled mentor, Vin joins a group of rebels to challenge the oppressive regime.",
       "language": "English",
@@ -1755,7 +1755,7 @@
     {
       "title": "The Lies of Locke Lamora",
       "author": "Scott Lynch",
-      "ISBN-10": "0553588966",
+      "ISBN10": "0553588966",
       "ISBN-13": "978-0553588965",
       "description": "The Lies of Locke Lamora follows a group of skilled con artists in the city of Camorr. Led by the cunning Locke Lamora, they navigate the criminal underworld while executing heists and scams. However, they soon find themselves targeted by a dark and powerful enemy, leading to a high-stakes battle of wits and survival.",
       "language": "English",
@@ -1801,7 +1801,7 @@
     {
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
-      "ISBN-10": "9780141439518",
+      "ISBN10": "9780141439518",
       "ISBN-13": "978-0141439518",
       "description": "Pride and Prejudice is a timeless romance novel that explores the complex relationships and societal expectations of the 19th century. The story follows Elizabeth Bennet, an intelligent and independent young woman, as she navigates love, class, and family pressures. Along the way, she encounters the enigmatic Mr. Darcy, sparking a relationship that challenges both of their beliefs.",
       "language": "English",
@@ -1845,7 +1845,7 @@
     {
       "title": "The Notebook",
       "author": "Nicholas Sparks",
-      "ISBN-10": "0446605239",
+      "ISBN10": "0446605239",
       "ISBN-13": "978-0446605236",
       "description": "The Notebook tells the story of Noah Calhoun and Allie Nelson, two young lovers separated by circumstances and class differences. Despite their challenges, their love story spans decades and endures through heartbreak, separation, and reunion. The novel explores themes of love, fate, and the enduring power of true love.",
       "language": "English",
@@ -1889,7 +1889,7 @@
     {
       "title": "Outlander",
       "author": "Diana Gabaldon",
-      "ISBN-10": "0440242940",
+      "ISBN10": "0440242940",
       "ISBN-13": "978-0440242949",
       "description": "Outlander follows the story of Claire Randall, a married former nurse who is mysteriously transported back in time to 18th-century Scotland. There, she becomes embroiled in political intrigue, adventure, and a passionate romance with Jamie Fraser, a dashing Scottish warrior. The novel masterfully blends historical fiction, romance, and time travel elements, creating a captivating and immersive tale.",
       "language": "English",
@@ -1933,7 +1933,7 @@
     {
       "title": "Me Before You",
       "author": "Jojo Moyes",
-      "ISBN-10": "0143130153",
+      "ISBN10": "0143130153",
       "ISBN-13": "978-0143130154",
       "description": "Me Before You tells the story of Louisa Clark, a young woman who becomes the caregiver for Will Traynor, a quadriplegic man. Despite their differences and initial challenges, they develop a deep and transformative relationship. The novel explores themes of love, sacrifice, and the value of life, prompting readers to question their perspectives on disability, happiness, and fulfillment.",
       "language": "English",
@@ -1977,7 +1977,7 @@
     {
       "title": "The Hating Game",
       "author": "Sally Thorne",
-      "ISBN-10": "0062439596",
+      "ISBN10": "0062439596",
       "ISBN-13": "978-0062439598",
       "description": "The Hating Game is a delightful romantic comedy that follows Lucy Hutton and Joshua Templeman, coworkers who share a mutual disdain for each other. However, their playful banter and rivalry gradually evolve into a complex and passionate relationship. Filled with humor, tension, and genuine emotion, the novel explores the thin line between love and hate, making it a charming and engaging read.",
       "language": "English",
@@ -2023,7 +2023,7 @@
     {
       "title": "The Shining",
       "author": "Stephen King",
-      "ISBN-10": "0385121679",
+      "ISBN10": "0385121679",
       "ISBN-13": "978-0385121675",
       "description": "A family heads to an isolated hotel for the winter where sinister forces influence the father into violence, while his psychic son sees horrific forebodings from both past and future.",
       "language": "English",
@@ -2062,7 +2062,7 @@
     {
       "title": "Psycho",
       "author": "Robert Bloch",
-      "ISBN-10": "1590203356",
+      "ISBN10": "1590203356",
       "ISBN-13": "978-1590203354",
       "description": "Norman Bates, a troubled young man, operates a remote motel under the watchful eye of his dominating mother. When Marion Crane, a secretary on the run, checks in, the stage is set for a series of horrifying events.",
       "language": "English",
@@ -2101,7 +2101,7 @@
     {
       "title": "The Exorcist",
       "author": "William Peter Blatty",
-      "ISBN-10": "0061007226",
+      "ISBN10": "0061007226",
       "ISBN-13": "978-0061007224",
       "description": "When a young girl named Regan MacNeil exhibits strange and terrifying behavior, her mother seeks the help of two priests to perform an exorcism, leading to a battle against a powerful demonic force.",
       "language": "English",
@@ -2140,7 +2140,7 @@
     {
       "title": "It",
       "author": "Stephen King",
-      "ISBN-10": "0451169514",
+      "ISBN10": "0451169514",
       "ISBN-13": "978-0451169518",
       "description": "A group of children in Derry, Maine, confronts a malevolent force that takes the shape of a clown named Pennywise. The entity resurfaces every 27 years, terrorizing the town's children and forcing the group to confront their deepest fears.",
       "language": "English",
@@ -2179,7 +2179,7 @@
     {
       "title": "Bird Box",
       "author": "Josh Malerman",
-      "ISBN-10": "0062259652",
+      "ISBN10": "0062259652",
       "ISBN-13": "978-0062259653",
       "description": "In a post-apocalyptic world where mysterious creatures drive people to madness upon sight, a mother and her two children must make it through a forest and river blindfolded to reach safety, all while facing the unknown horrors that await them.",
       "language": "English",
@@ -2216,7 +2216,7 @@
     {
       "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
       "author": "Eric Ries",
-      "ISBN-10": "0307887898",
+      "ISBN10": "0307887898",
       "ISBN-13": "978-0307887894",
       "description": "This book introduces the concept of the Lean Startup, a method for developing businesses and products. It encourages entrepreneurs to build a sustainable business by continuously testing their vision and adapting to new information.",
       "language": "English",
@@ -2255,7 +2255,7 @@
     {
       "title": "Thinking, Fast and Slow",
       "author": "Daniel Kahneman",
-      "ISBN-10": "0374533555",
+      "ISBN10": "0374533555",
       "ISBN-13": "978-0374533557",
       "description": "This book explores the two systems that drive the way humans think: the fast, intuitive, and emotional system, and the slow, deliberate, and logical system. It provides insights into decision-making processes and how biases can affect judgments.",
       "language": "English",
@@ -2294,7 +2294,7 @@
     {
       "title": "Sapiens: A Brief History of Humankind",
       "author": "Yuval Noah Harari",
-      "ISBN-10": "0062316117",
+      "ISBN10": "0062316117",
       "ISBN-13": "978-0062316110",
       "description": "This book provides a compelling overview of the history of Homo sapiens, from ancient times to the present day. It explores how cultural and technological developments have shaped human societies and offers insights into the future of humankind.",
       "language": "English",
@@ -2333,7 +2333,7 @@
     {
       "title": "Drive: The Surprising Truth About What Motivates Us",
       "author": "Daniel H. Pink",
-      "ISBN-10": "1594484805",
+      "ISBN10": "1594484805",
       "ISBN-13": "978-1594484803",
       "description": "Pink examines the three elements of true motivation: autonomy, mastery, and purpose. He argues that traditional rewards aren't always effective and that understanding what truly motivates people can lead to higher productivity and satisfaction.",
       "language": "English",
@@ -2374,7 +2374,7 @@
     {
       "title": "A People's History of the United States",
       "author": "Howard Zinn",
-      "ISBN-10": "0061965588",
+      "ISBN10": "0061965588",
       "ISBN-13": "978-0061965586",
       "description": "This book presents American history from the perspective of marginalized communities, including Native Americans, African Americans, women, and laborers. It offers a critical examination of historical events, focusing on social and economic injustices.",
       "language": "English",
@@ -2413,7 +2413,7 @@
     {
       "title": "The Wright Brothers",
       "author": "David McCullough",
-      "ISBN-10": "1476728759",
+      "ISBN10": "1476728759",
       "ISBN-13": "978-1476728759",
       "description": "This biography explores the lives of Orville and Wilbur Wright, the inventors of the first successful airplane. It chronicles their journey from bicycle mechanics to pioneering aviators, including their trials, triumphs, and contributions to aviation history.",
       "language": "English",
@@ -2452,7 +2452,7 @@
     {
       "title": "SPQR: A History of Ancient Rome",
       "author": "Mary Beard",
-      "ISBN-10": "1631492225",
+      "ISBN10": "1631492225",
       "ISBN-13": "978-1631492228",
       "description": "This book provides a comprehensive and accessible history of ancient Rome, from its legendary foundation to the end of the Roman Empire. It explores the political, social, and cultural developments that shaped one of the world's most influential civilizations.",
       "language": "English",
@@ -2493,7 +2493,7 @@
     {
       "title": "Steve Jobs",
       "author": "Walter Isaacson",
-      "ISBN-10": "1451648537",
+      "ISBN10": "1451648537",
       "ISBN-13": "978-1451648539",
       "description": "This biography provides an in-depth look into the life of Steve Jobs, the co-founder of Apple Inc. It explores his innovative spirit, tumultuous personal life, and the creation of iconic products like the iPhone and Macintosh, shaping the technology industry.",
       "language": "English",
@@ -2532,7 +2532,7 @@
     {
       "title": "The Diary of a Young Girl",
       "author": "Anne Frank",
-      "ISBN-10": "0553296981",
+      "ISBN10": "0553296981",
       "ISBN-13": "978-0553296983",
       "description": "Anne Frank's diary, written during her time in hiding from the Nazis, provides a poignant account of her thoughts, emotions, and experiences. It offers a glimpse into the life of a young Jewish girl during the Holocaust and has become a symbol of resilience and hope.",
       "language": "English",
@@ -2571,7 +2571,7 @@
     {
       "title": "The Immortal Life of Henrietta Lacks",
       "author": "Rebecca Skloot",
-      "ISBN-10": "1400052181",
+      "ISBN10": "1400052181",
       "ISBN-13": "978-1400052189",
       "description": "This biography tells the story of Henrietta Lacks, an African American woman whose cells were unknowingly taken for research in 1951. Her cells, known as HeLa, became instrumental in scientific discoveries but raised ethical questions about consent and privacy.",
       "language": "English",
@@ -2612,7 +2612,7 @@
     {
       "title": "Into the Wild",
       "author": "Jon Krakauer",
-      "ISBN-10": "0385486804",
+      "ISBN10": "0385486804",
       "ISBN-13": "978-0385486804",
       "description": "This book tells the true story of Christopher McCandless, a young man who left his comfortable life to embark on a journey into the Alaskan wilderness. Krakauer retraces McCandless's steps, exploring the beauty and dangers of the wild, as well as the essence of the human spirit.",
       "language": "English",
@@ -2651,7 +2651,7 @@
     {
       "title": "In a Sunburned Country",
       "author": "Bill Bryson",
-      "ISBN-10": "0767903862",
+      "ISBN10": "0767903862",
       "ISBN-13": "978-0767903868",
       "description": "Bill Bryson takes readers on a journey through Australia, exploring its diverse landscapes, unique wildlife, and the quirks of its culture and history. With his trademark humor and curiosity, Bryson provides an entertaining and informative travel narrative.",
       "language": "English",
@@ -2690,7 +2690,7 @@
     {
       "title": "The Alchemist",
       "author": "Paulo Coelho",
-      "ISBN-10": "0062315005",
+      "ISBN10": "0062315005",
       "ISBN-13": "978-0062315007",
       "description": "Santiago, a young shepherd, embarks on a journey from Spain to Egypt in search of a hidden treasure. Along the way, he discovers profound life lessons and meets extraordinary characters. This allegorical novel explores the pursuit of dreams and the importance of listening to one's heart.",
       "language": "English",
@@ -2731,7 +2731,7 @@
     {
       "title": "The Joy of Cooking",
       "author": "Irma S. Rombauer",
-      "ISBN-10": "1501169714",
+      "ISBN10": "1501169714",
       "ISBN-13": "978-1501169717",
       "description": "A timeless classic, 'The Joy of Cooking' has been a beloved resource for generations of home cooks. This comprehensive cookbook covers a wide range of recipes, from traditional to contemporary, offering detailed instructions and tips for cooking techniques. It's a must-have for anyone passionate about the art of cooking.",
       "language": "English",
@@ -2770,7 +2770,7 @@
     {
       "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
       "author": "Samin Nosrat",
-      "ISBN-10": "1476753830",
+      "ISBN10": "1476753830",
       "ISBN-13": "978-1476753836",
       "description": "In this groundbreaking cookbook, Samin Nosrat explores the fundamental elements of good cooking: salt, fat, acid, and heat. Through engaging storytelling and vibrant illustrations, she teaches readers how to balance these elements to create delicious and well-balanced dishes. This book is both a practical guide and a culinary adventure.",
       "language": "English",
@@ -2809,7 +2809,7 @@
     {
       "title": "Mastering the Art of French Cooking",
       "author": "Julia Child, Louisette Bertholle, Simone Beck",
-      "ISBN-10": "0375413405",
+      "ISBN10": "0375413405",
       "ISBN-13": "978-0375413407",
       "description": "Julia Child, along with her co-authors, presents the essential techniques and recipes of French cuisine in this iconic cookbook. With detailed instructions and illustrations, this book guides readers through the art of French cooking, from classic dishes to intricate desserts. It's a culinary masterpiece that continues to inspire home cooks and chefs worldwide.",
       "language": "English",
@@ -2850,7 +2850,7 @@
     {
       "title": "The Story of Art",
       "author": "E.H. Gombrich",
-      "ISBN-10": "0714832472",
+      "ISBN10": "0714832472",
       "ISBN-13": "978-0714832470",
       "description": "The Story of Art is a comprehensive and accessible overview of the history of art, from ancient cave paintings to modern abstract sculptures. Written by renowned art historian E.H. Gombrich, this book explores the major artistic movements, styles, and artists that have shaped the world of art. With engaging narratives and vivid illustrations, it offers readers a rich understanding of art's evolution and impact on human culture.",
       "language": "English",
@@ -2894,7 +2894,7 @@
     {
       "title": "Vincent Van Gogh: The Complete Paintings",
       "author": "Rainer Metzger",
-      "ISBN-10": "3836527151",
+      "ISBN10": "3836527151",
       "ISBN-13": "978-3836527155",
       "description": "Vincent Van Gogh: The Complete Paintings is a comprehensive collection showcasing the entire body of work of the legendary Dutch painter Vincent van Gogh. With over 2000 high-quality reproductions, this book offers a detailed exploration of Van Gogh's masterpieces, including his iconic self-portraits, vibrant landscapes, and expressive still lifes. Accompanied by insightful commentary, this volume provides a deep insight into the life and art of one of the most influential artists of all time.",
       "language": "English",
@@ -2938,7 +2938,7 @@
     {
       "title": "The Artist's Way: A Spiritual Path to Higher Creativity",
       "author": "Julia Cameron",
-      "ISBN-10": "1585421464",
+      "ISBN10": "1585421464",
       "ISBN-13": "978-1585421466",
       "description": "The Artist's Way is a transformative guidebook for artists, writers, and anyone seeking to enhance their creativity and embrace their artistic potential. Written by Julia Cameron, a renowned creativity expert, this book offers a 12-week program designed to unlock the creative spirit within. Through a series of exercises, reflections, and inspirational guidance, readers can overcome creative blocks, tap into their imagination, and discover the joy of self-expression. Whether you're a seasoned artist or a beginner, this book provides valuable insights and practical tools to nurture your creative journey.",
       "language": "English",
@@ -2984,7 +2984,7 @@
     {
       "title": "Sophie's World",
       "author": "Jostein Gaarder",
-      "ISBN-10": "0374530718",
+      "ISBN10": "0374530718",
       "ISBN-13": "978-0374530716",
       "description": "Sophie's World is a captivating journey through the history of philosophy, exploring fundamental ideas and philosophical concepts from ancient thinkers to modern philosophers. The story follows a young girl named Sophie who embarks on a philosophical quest guided by a mysterious mentor. As she delves into the world of philosophy, readers are introduced to key philosophical theories, from Socrates and Plato to Nietzsche and Sartre. This engaging and thought-provoking novel provides a comprehensive overview of philosophy's evolution, making complex ideas accessible and inspiring readers to contemplate life's biggest questions.",
       "language": "English",
@@ -3028,7 +3028,7 @@
     {
       "title": "Meditations",
       "author": "Marcus Aurelius",
-      "ISBN-10": "048629823X",
+      "ISBN10": "048629823X",
       "ISBN-13": "978-0486298238",
       "description": "Meditations is a series of personal writings by Marcus Aurelius, the Roman Emperor, in which he outlines his Stoic philosophy and reflections on life, leadership, and virtue. Written as a source of guidance for himself, Aurelius explores themes of self-discipline, emotional resilience, and ethical conduct. This timeless work offers profound insights into the human psyche and the pursuit of inner peace amid the challenges of existence. Meditations continues to inspire readers with its wisdom and introspective depth, making it a classic in the realm of philosophy.",
       "language": "English",
@@ -3072,7 +3072,7 @@
     {
       "title": "The Republic",
       "author": "Plato",
-      "ISBN-10": "0140449140",
+      "ISBN10": "0140449140",
       "ISBN-13": "978-0140449143",
       "description": "The Republic is a philosophical dialogue by Plato that explores the nature of justice, the ideal state, and the essence of the human soul. Written in the form of a conversation between Socrates and other characters, the book delves into fundamental questions about governance, morality, and the meaning of an ethical life. Through allegories, metaphors, and intellectual discourse, Plato presents his vision of a just society governed by philosopher-kings. The Republic remains a cornerstone of Western philosophy, addressing timeless themes and challenging readers to contemplate the foundations of a just and harmonious society.",
       "language": "English",
@@ -3118,7 +3118,7 @@
     {
       "title": "A Brief History of Time",
       "author": "Stephen Hawking",
-      "ISBN-10": "0553380168",
+      "ISBN10": "0553380168",
       "ISBN-13": "978-0553380163",
       "description": "A Brief History of Time is a landmark book in the field of theoretical physics, written by the renowned physicist Stephen Hawking. In this accessible and engaging work, Hawking explores complex scientific concepts such as the Big Bang theory, black holes, and the nature of the universe. With clarity and wit, he delves into the fundamental questions of existence, time, and the cosmos. A Brief History of Time continues to captivate readers, offering profound insights into the nature of the universe and our place in it.",
       "language": "English",
@@ -3162,7 +3162,7 @@
     {
       "title": "Sapiens: A Brief History of Humankind",
       "author": "Yuval Noah Harari",
-      "ISBN-10": "0062316095",
+      "ISBN10": "0062316095",
       "ISBN-13": "978-0062316097",
       "description": "Sapiens: A Brief History of Humankind provides a compelling overview of the history of our species, Homo sapiens. From the emergence of Homo sapiens in Africa to the present day, Yuval Noah Harari explores the key events, revolutions, and developments that have shaped human history. With a focus on cultural, social, and cognitive revolutions, Harari offers insights into the factors that have enabled Homo sapiens to dominate the planet. This thought-provoking book challenges conventional narratives and encourages readers to reconsider their understanding of human history and the future of humanity.",
       "language": "English",
@@ -3206,7 +3206,7 @@
     {
       "title": "Astrophysics for Young People in a Hurry",
       "author": "Neil deGrasse Tyson",
-      "ISBN-10": "0393356506",
+      "ISBN10": "0393356506",
       "ISBN-13": "978-0393356502",
       "description": "Astrophysics for Young People in a Hurry simplifies the complex field of astrophysics for young readers. Written by renowned astrophysicist Neil deGrasse Tyson, this book presents fundamental concepts in astronomy and astrophysics in an accessible and engaging manner. Through clear explanations and captivating illustrations, young readers can explore topics such as black holes, the Big Bang, and the nature of the universe. This book serves as a gateway to the wonders of the cosmos, inspiring curiosity and a passion for science in young minds.",
       "language": "English",
@@ -3250,7 +3250,7 @@
     {
       "title": "The Gene: An Intimate History",
       "author": "Siddhartha Mukherjee",
-      "ISBN-10": "1476733503",
+      "ISBN10": "1476733503",
       "ISBN-13": "978-1476733500",
       "description": "The Gene: An Intimate History provides a comprehensive exploration of the history, impact, and future implications of genetics. Written by Pulitzer Prize-winning author Siddhartha Mukherjee, this book delves into the science of genetics and its profound influence on human life, health, and society. From the discovery of DNA to the ethical dilemmas of genetic engineering, Mukherjee examines the complex and fascinating world of genetics. Through captivating storytelling and meticulous research, The Gene offers readers a deep understanding of the genetic code that shapes all living beings.",
       "language": "English",
@@ -3294,7 +3294,7 @@
     {
       "title": "A Short History of Nearly Everything",
       "author": "Bill Bryson",
-      "ISBN-10": "076790818X",
+      "ISBN10": "076790818X",
       "ISBN-13": "978-0767908184",
       "description": "A Short History of Nearly Everything is a fascinating journey through the realms of science and discovery. In this enlightening work, Bill Bryson explores the wonders of the natural world, the universe, and the history of scientific inquiry. With humor and curiosity, Bryson delves into topics ranging from geology and chemistry to astronomy and biology. He uncovers the stories of remarkable scientists and their contributions, shedding light on the complexities of our existence and the mysteries of the cosmos. A captivating blend of storytelling and scientific exploration, this book offers readers a profound appreciation for the intricacies of the universe.",
       "language": "English",
@@ -3340,7 +3340,7 @@
     {
       "title": "The Waste Land",
       "author": "T.S. Eliot",
-      "ISBN-10": "0156027321",
+      "ISBN10": "0156027321",
       "ISBN-13": "978-0156027322",
       "description": "The Waste Land is a landmark poem in 20th-century literature, written by T.S. Eliot. This complex and multi-layered work explores themes of disillusionment, despair, and the fragmented nature of modern life after World War I. Drawing from various mythologies, literary traditions, and cultural references, Eliot creates a poetic collage that captures the dissonance and uncertainty of the post-war era. The Waste Land remains a seminal work in the realm of modernist poetry, challenging readers with its intricate structure and profound reflections on the human condition.",
       "language": "English",
@@ -3384,7 +3384,7 @@
     {
       "title": "Leaves of Grass",
       "author": "Walt Whitman",
-      "ISBN-10": "0486417093",
+      "ISBN10": "0486417093",
       "ISBN-13": "978-0486417091",
       "description": "Leaves of Grass is a collection of poems by Walt Whitman, one of the most influential American poets. First published in 1855, this groundbreaking work celebrates the diversity and unity of the American experience. Whitman's free verse poetry captures the essence of democracy, individualism, and the interconnectedness of humanity. With its exploration of nature, love, and the human spirit, Leaves of Grass continues to inspire readers and remains a timeless classic of American literature.",
       "language": "English",
@@ -3428,7 +3428,7 @@
     {
       "title": "The Raven",
       "author": "Edgar Allan Poe",
-      "ISBN-10": "0486272954",
+      "ISBN10": "0486272954",
       "ISBN-13": "978-0486272955",
       "description": "The Raven is a narrative poem by Edgar Allan Poe, first published in 1845. This haunting and melancholic poem tells the story of a man who is visited by a mysterious raven late at night. Through a series of eerie and supernatural events, the poem explores themes of grief, loss, and the descent into madness. Poe's mastery of language and atmosphere creates a chilling and unforgettable reading experience, making The Raven one of the most famous and enduring works in American poetry.",
       "language": "English",
@@ -3472,7 +3472,7 @@
     {
       "title": "The Love Poems of Rumi",
       "author": "Rumi",
-      "ISBN-10": "0520932404",
+      "ISBN10": "0520932404",
       "ISBN-13": "978-0520932409",
       "description": "The Love Poems of Rumi is a collection of mystical and passionate poetry by the renowned 13th-century Persian poet and Sufi mystic, Rumi. Translated by Nader Khalili, this book captures the essence of Rumi's spiritual teachings and his deep love for the divine. The poems explore themes of love, spirituality, and the soul's journey towards union with the divine beloved. Rumi's profound verses continue to inspire readers around the world, offering solace and insight into the nature of love and existence.",
       "language": "English",
@@ -3518,7 +3518,7 @@
     {
       "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
-      "ISBN-10": "059035342X",
+      "ISBN10": "059035342X",
       "ISBN-13": "978-0590353427",
       "description": "Harry Potter and the Sorcerer's Stone follows the journey of a young wizard, Harry Potter, who discovers his magical heritage and begins his education at Hogwarts School of Witchcraft and Wizardry. As Harry navigates the challenges of the wizarding world, he uncovers the truth about his parents' mysterious past and confronts the dark wizard Voldemort. This captivating tale of magic, friendship, and bravery has enchanted readers of all ages and continues to be a beloved classic.",
       "language": "English",
@@ -3562,7 +3562,7 @@
     {
       "title": "Where the Wild Things Are",
       "author": "Maurice Sendak",
-      "ISBN-10": "0060254920",
+      "ISBN10": "0060254920",
       "ISBN-13": "978-0060254926",
       "description": "Where the Wild Things Are tells the story of Max, a young boy who embarks on a magical journey to an island inhabited by the Wild Things. In this imaginative world, Max becomes their king and experiences the joy of wild adventures. Through Maurice Sendak's evocative illustrations and heartfelt narrative, readers are transported into a realm of creativity and imagination. This timeless children's book explores themes of friendship, imagination, and the comfort of home, resonating with readers of all ages.",
       "language": "English",
@@ -3606,7 +3606,7 @@
     {
       "title": "Charlotte's Web",
       "author": "E.B. White",
-      "ISBN-10": "0061124958",
+      "ISBN10": "0061124958",
       "ISBN-13": "978-0061124952",
       "description": "Charlotte's Web is a heartwarming tale of friendship and loyalty between a young girl named Fern and a wise and caring spider named Charlotte. When Wilbur, a pig destined for slaughter, befriends Charlotte, she hatches a plan to save him from his fate. Through the power of words and compassion, Charlotte weaves messages in her web to convince the farm's owner and the community of Wilbur's worth. E.B. White's timeless story explores themes of kindness, acceptance, and the enduring bonds of friendship.",
       "language": "English",
@@ -3650,7 +3650,7 @@
     {
       "title": "Matilda",
       "author": "Roald Dahl",
-      "ISBN-10": "0142410373",
+      "ISBN10": "0142410373",
       "ISBN-13": "978-0142410370",
       "description": "Matilda is a brilliant and precocious young girl who discovers her extraordinary telekinetic powers while navigating the challenges of her dysfunctional family and the oppressive school she attends. Despite facing adversity, Matilda's intelligence and resilience lead her to unexpected friendships and triumphs. Roald Dahl's enchanting tale celebrates the power of knowledge, kindness, and the courage to stand up against injustice. Matilda's story continues to captivate readers with its empowering message and whimsical storytelling.",
       "language": "English",
@@ -3694,7 +3694,7 @@
     {
       "title": "The Very Hungry Caterpillar",
       "author": "Eric Carle",
-      "ISBN-10": "0399226907",
+      "ISBN10": "0399226907",
       "ISBN-13": "978-0399226908",
       "description": "The Very Hungry Caterpillar is a beloved children's book that follows the journey of a tiny caterpillar as it eats its way through various foods before transforming into a beautiful butterfly. With vibrant illustrations and simple, rhythmic text, Eric Carle captures the wonder of nature's transformations. The book also introduces basic concepts such as counting, days of the week, and different types of food. Perfect for young readers, this timeless story encourages learning and exploration.",
       "language": "English",
@@ -3740,7 +3740,7 @@
     {
       "title": "The Whole 30: The 30-Day Guide to Total Health and Food Freedom",
       "author": "Melissa Hartwig Urban and Dallas Hartwig",
-      "ISBN-10": "0544609719",
+      "ISBN10": "0544609719",
       "ISBN-13": "978-0544609716",
       "description": "The Whole 30 is a 30-day nutritional reset program designed to help individuals improve their health, habits, and relationship with food. This comprehensive guide provides a step-by-step plan to eliminate certain food groups and focus on whole, nutrient-dense foods. Through the Whole 30 program, readers can achieve better digestion, increased energy, improved sleep, and a healthier relationship with food. The book includes meal plans, recipes, and practical tips to support a transformative journey to better health and fitness.",
       "language": "English",
@@ -3784,7 +3784,7 @@
     {
       "title": "Becoming",
       "author": "Michelle Obama",
-      "ISBN-10": "1524763136",
+      "ISBN10": "1524763136",
       "ISBN-13": "978-1524763138",
       "description": "Becoming is a powerful and inspiring memoir by Michelle Obama, the former First Lady of the United States. In this candid account, Michelle Obama shares her personal journey, from her childhood in Chicago to her experiences in the White House. The memoir explores her values, struggles, triumphs, and the importance of embracing one's true identity. With honesty and grace, Michelle Obama's narrative resonates with readers, offering insights into resilience, leadership, and the pursuit of a meaningful life.",
       "language": "English",
@@ -3828,7 +3828,7 @@
     {
       "title": "Born a Crime: Stories from a South African Childhood",
       "author": "Trevor Noah",
-      "ISBN-10": "0399588175",
+      "ISBN10": "0399588175",
       "ISBN-13": "978-0399588174",
       "description": "Born a Crime is a memoir by Trevor Noah, the host of The Daily Show. The book chronicles Trevor's experiences growing up in South Africa during the final years of apartheid and the tumultuous transition to a post-apartheid society. Despite being born to a black mother and a white father, Trevor was classified as 'colored' under apartheid law, making his existence a crime. Through humor, wit, and poignant storytelling, Trevor Noah explores themes of identity, race, and resilience, offering a unique perspective on the challenges and absurdities of life.",
       "language": "English",
@@ -3872,7 +3872,7 @@
     {
       "title": "The Immortal Life of Henrietta Lacks",
       "author": "Rebecca Skloot",
-      "ISBN-10": "1400052173",
+      "ISBN10": "1400052173",
       "ISBN-13": "978-1400052172",
       "description": "The Immortal Life of Henrietta Lacks tells the remarkable story of Henrietta Lacks, an African American woman whose cells were unknowingly harvested and became the foundation for groundbreaking medical research. The book explores the ethical and scientific implications of this event, examining issues of consent, medical ethics, and the impact of Henrietta's legacy on her family. Through extensive research and compelling narrative, Rebecca Skloot delves into the intersection of science, ethics, and humanity, creating a thought-provoking and emotionally resonant account.",
       "language": "English",
@@ -3918,7 +3918,7 @@
     {
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
-      "ISBN-10": "0061120081",
+      "ISBN10": "0061120081",
       "ISBN-13": "978-0061120084",
       "description": "To Kill a Mockingbird is a classic novel that explores themes of racial injustice, moral growth, and compassion. Set in the American South during the 1930s, the story follows Scout Finch, a young girl, and her brother Jem as their father, Atticus Finch, a lawyer, defends a black man accused of raping a white woman. Through the eyes of Scout, the novel delves into the complexities of human nature and societal prejudices, offering profound insights into empathy, courage, and the fight for justice.",
       "language": "English",
@@ -3964,7 +3964,7 @@
     {
       "title": "Maus",
       "author": "Art Spiegelman",
-      "ISBN-10": "0394747232",
+      "ISBN10": "0394747232",
       "ISBN-13": "978-0394747231",
       "description": "Maus is a graphic novel that tells the story of the author's father's experiences during the Holocaust, portraying Jews as mice and Nazis as cats. Through the unique visual narrative, Maus explores the impact of historical trauma, family relationships, and survival against all odds. The novel delves into the complexities of human nature and the enduring legacy of the Holocaust, offering profound insights into resilience, memory, and the human spirit.",
       "language": "English",
@@ -4010,7 +4010,7 @@
     {
       "title": "The Tao Te Ching",
       "author": "Laozi",
-      "ISBN-10": "014044131X",
+      "ISBN10": "014044131X",
       "ISBN-13": "978-0140441314",
       "description": "The Tao Te Ching, also known as the Laozi, is a fundamental text in Taoism. It offers philosophical and spiritual insights on living in harmony with the Tao, the fundamental principle that is the source, pattern, and substance of everything that exists. Written in poetic and profound language, the Tao Te Ching explores themes of balance, simplicity, and the natural way of life. It has been highly influential in Eastern philosophy and continues to inspire readers seeking wisdom and inner peace.",
       "language": "English",
@@ -4054,7 +4054,7 @@
     {
       "title": "The Book of Mormon",
       "author": "Joseph Smith Jr.",
-      "ISBN-10": "0974012483",
+      "ISBN10": "0974012483",
       "ISBN-13": "978-0974012482",
       "description": "The Book of Mormon is a religious scripture of the Latter-day Saint movement. It is regarded as a sacred text by members of The Church of Jesus Christ of Latter-day Saints. The Book of Mormon tells the story of ancient inhabitants of the Americas and their interactions with God. It explores themes of faith, repentance, and the plan of salvation. For believers, it is a testament to the divinity of Jesus Christ and serves as a guide for moral and spiritual living.",
       "language": "English",
@@ -4098,7 +4098,7 @@
     {
       "title": "The Dhammapada",
       "author": "Anonymous",
-      "ISBN-10": "0140442847",
+      "ISBN10": "0140442847",
       "ISBN-13": "978-0140442847",
       "description": "The Dhammapada is a collection of verses that are among the earliest and most beloved of Buddhist scriptures. It consists of teachings attributed to Gautama Buddha and covers various aspects of ethical and spiritual conduct. The verses provide insights into the path of righteousness, the nature of the mind, and the importance of mindfulness. The Dhammapada is highly regarded in Buddhism and offers guidance for practitioners seeking enlightenment and inner peace.",
       "language": "English",

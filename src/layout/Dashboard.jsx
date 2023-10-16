@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import {
-    FaAngleLeft,
-    FaAngleRight,
-    FaBook,
-    FaChartBar,
-    FaCog,
-    FaFileAlt,
-    FaHome,
-    FaRegUser,
-    FaUserGraduate,
+  FaAngleLeft,
+  FaAngleRight,
+  FaBook,
+  FaCaretSquareRight,
+  FaChartBar,
+  FaCog,
+  FaFileAlt,
+  FaHome,
+  FaRegUser,
+  FaUserGraduate,
 } from 'react-icons/fa';
 import { Link, Outlet } from 'react-router-dom';
 
@@ -16,15 +17,16 @@ const menuItems = [
   { id: 1, icon: FaHome, text: 'Home', to: '/' },
   { id: 2, icon: FaChartBar, text: 'Analytics', to: 'analytics' },
   { id: 3, icon: FaFileAlt, text: 'Reports', to: 'reports' },
-  { id: 4, icon: FaBook, text: 'Upload Course', to: 'upload-course' },
+  { id: 4, icon: FaBook, text: 'Books', to: 'all-books' },
+  { id: 5, icon: FaCaretSquareRight, text: 'Upload Course', to: 'upload-course' },
   {
-    id: 5,
+    id: 6,
     icon: FaUserGraduate,
     text: 'Total Students',
     to: 'total-students',
   },
-  { id: 6, icon: FaCog, text: 'Settings', to: 'settings' },
-  { id: 7, icon: FaRegUser, text: 'Logout' },
+  { id: 7, icon: FaCog, text: 'Settings', to: 'settings' },
+  { id: 8, icon: FaRegUser, text: 'Logout' },
 ];
 
 const Dashboard = () => {
@@ -97,7 +99,7 @@ const Dashboard = () => {
       </aside>
 
       {/* Main Content Area */}
-      <div className="p-2">
+      <div className="p-2 w-full">
         {/* Content specific to each route */}
         <Outlet />
       </div>

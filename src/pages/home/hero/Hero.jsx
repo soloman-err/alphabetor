@@ -19,7 +19,7 @@ const bookData = [
   {
     id: 2,
     imageUrl:
-      'https://gatekeeperpress.com/wp-content/uploads/image8-207x300.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKDsvkGJWN6yExE-026e3qLtU8wdqz9WIhbEo6abk2_kg_RwYu8a8WECx9yd_36LmIRF4&usqp=CAU',
     title: 'Data Science: From Basics to Advanced Techniques',
     description:
       'Explore the world of data science and analytics. This book covers a wide range of topics, from data preprocessing to machine learning algorithms, making it suitable for beginners and experienced data scientists alike.',
@@ -78,7 +78,7 @@ const Hero = () => {
         <div className="mx-auto flex flex-row items-center gap-5">
           {bookData.map((book) => (
             <SwiperSlide key={book.id} className="">
-              <div className="w-[80%] lg:w-[60%] mx-auto flex flex-col md:flex-row items-center gap-8">
+              <div className="w-[80%] lg:w-[60%] mx-auto flex flex-col md:flex-row items-center gap-8 py-5">
                 {/* Book Image */}
                 <section className="relative w-full">
                   <img
@@ -86,8 +86,8 @@ const Hero = () => {
                     alt=""
                     className="w-[200px] md:w-[350px] -skew-y-2 overflow-hidden z-10"
                   />
-                  <div className="absolute skew-y-12 -right-4 -top-0 w-4 h-full bg-gray-50"></div>
-                  <div className="absolute -skew-y-3 -bottom-2 -right-4 h-3 w-full bg-gray-50 z-0"></div>
+                  <div className="absolute -skew-y-2 -z-10 -right-4 -top-0 w-full h-full bg-gray-50"></div>
+                  {/* <div className="absolute -skew-y-3 -bottom-2 -right-4 h-3 w-full bg-gray-50 z-0"></div> */}
                 </section>
 
                 {/* Book Info */}
