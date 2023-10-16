@@ -8,6 +8,7 @@ import {
 } from 'react-icons/fa';
 import Rating from 'react-rating';
 import { useLocation } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 const BookDetails = () => {
   const location = useLocation();
@@ -31,6 +32,55 @@ const BookDetails = () => {
     format,
     dimensions,
   } = book;
+
+  // Add-to-cart Handler:
+  const handleAddToCart = () => {
+    Swal.fire({
+      title: 'Want to add this item?',
+      text: '',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#A5DC86',
+      background: '#164B59',
+      color: '#fff',
+      backdrop: `
+      rgba(22, 75, 89, 0.1)
+    `,
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Add to Cart',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: 'Added to Cart!',
+          text: 'The item has been added to cart.',
+          icon: 'success',
+          confirmButtonColor: '#A5DC86',
+          background: '#164B59',
+          color: '#fff',
+          backdrop: `
+      rgba(22, 75, 89, 0.1)
+    `,
+        });
+      }
+    });
+  };
+
+  // Wishlist Handler:
+  const handleWishlist = () => {
+    Swal.fire({
+      title: 'Added to Wishlist!',
+      text: 'The item has been added to your wishlist.',
+      icon: 'success',
+      confirmButtonText: 'OK',
+      confirmButtonColor: '#A5DC86',
+      background: '#164B59',
+      color: '#fff',
+      backdrop: `
+      rgba(22, 75, 89, 0.1)
+    `,
+      timer: 2000,
+    });
+  };
 
   return (
     <div className="container mx-auto mt-10 h-full w-[95%] space-y-2">
@@ -116,13 +166,19 @@ const BookDetails = () => {
           {/* Cart Options */}
           <div className="flex flex-col md:flex-row items-center gap-2 w-full mt-4">
             <div className="flex flex-col md:flex-row gap-2 items-center justify-start w-full md:w-fit">
-              <button className="flex items-center gap-1 text-center justify-center bg-[#FFAD33] border border-[#FFAD33] text-white font-semibold py-2 px-6 rounded-sm focus:outline-none focus:shadow-outline w-full md:w-fit hover:scale-95 duration-200">
+              <button
+                onClick={handleAddToCart}
+                className="flex items-center gap-1 text-center justify-center bg-[#FFAD33] border border-[#FFAD33] text-white font-semibold py-2 px-6 rounded-sm focus:outline-none focus:shadow-outline w-full md:w-fit hover:scale-95 duration-200"
+              >
                 <FaCartPlus size={18} />{' '}
                 <span className="block">Add to Cart</span>
               </button>
-              <button className="flex items-center gap-1 text-center justify-center border bg-gray-50 font-semibold py-2 px-6 rounded-sm w-full md:w-fit hover:scale-95 duration-200">
+              <button
+                onClick={handleWishlist}
+                className="flex items-center gap-1 text-center justify-center border bg-gray-50 font-semibold py-2 px-6 rounded-sm w-full md:w-fit hover:scale-95 duration-200"
+              >
                 <FaRegHeart size={18} />{' '}
-                <span className="block">Add to List</span>
+                <span className="block">Add to Wishist</span>
               </button>
             </div>
 

@@ -42,12 +42,12 @@ const BooksCard = ({ book }) => {
             <p className="text-lg font-semibold">${price}</p>
           </div>
 
-          <button className="text-black font-bold rounded-sm">
+          <button className="text-black font-bold rounded-sm bg-gray-100 px-2">
             <Link
               to={`/book/${title}`}
               state={book}
               book={book}
-              className="flex items-center gap-1 hover:scale-95 duration-200"
+              className="flex items-center gap-1 hover:scale-95 duration-100"
             >
               View Details <FaAngleDoubleRight/>
             </Link>
