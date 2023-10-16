@@ -3,8 +3,6 @@ import Footer from '../shared/footer/Footer';
 import Navbar from '../shared/navbar/Navbar';
 
 const Root = () => {
-  // const isLoginPage = window.location.pathname === '/login';
-
   return (
     <div className="flex flex-col justify-between min-h-screen gap-20">
       <div>
