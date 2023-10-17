@@ -72,7 +72,7 @@ const AddNewBook = () => {
   };
 
   return (
-    <div className="mx-auto px-4">
+    <div className="px-4">
       <div className="border rounded-md p-6 shadow-lg mt-4">
         <h2 className="text-center text-2xl font-semibold pb-2">
           Add New Book
