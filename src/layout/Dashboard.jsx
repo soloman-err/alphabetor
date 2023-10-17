@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  FaAddressBook,
   FaAngleLeft,
   FaAngleRight,
   FaBook,
@@ -18,7 +19,13 @@ const menuItems = [
   { id: 2, icon: FaChartBar, text: 'Analytics', to: 'analytics' },
   { id: 3, icon: FaFileAlt, text: 'Reports', to: 'reports' },
   { id: 4, icon: FaBook, text: 'Books', to: 'all-books' },
-  { id: 5, icon: FaCaretSquareRight, text: 'Upload Course', to: 'upload-course' },
+  { id: 4, icon: FaAddressBook, text: 'Add New Book', to: 'add-new-book' },
+  {
+    id: 5,
+    icon: FaCaretSquareRight,
+    text: 'Upload Course',
+    to: 'upload-course',
+  },
   {
     id: 6,
     icon: FaUserGraduate,
@@ -38,14 +45,8 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="flex flex-row min-h-screen bg-gray-100">
+    <div className="flex flex-row bg-gray-100 min-h-screen">
       {/* Sidebar Navigation Drawer */}
-      {/* <aside
-        className={`w-64 bg-gray-900 text-white h-full fixed transform transition-transform duration-300 ${
-          isDrawerOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}
-      > */}
-
       <aside className="bg-[#113C4B] z-50 text-white space-y-2 py-2 transform transition-transform duration-500">
         <div className="relative flex items-center justify-between gap-2 px-5">
           <div
@@ -99,8 +100,7 @@ const Dashboard = () => {
       </aside>
 
       {/* Main Content Area */}
-      <div className="p-2 w-full">
-        {/* Content specific to each route */}
+      <div className="p-2 w-full h-full">
         <Outlet />
       </div>
     </div>

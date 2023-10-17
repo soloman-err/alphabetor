@@ -27,10 +27,10 @@ const BookCategory = () => {
       <div className="mt-5 w-full">
         <table className="border w-full">
           <thead className="">
-            <tr className="bg-black/80">
-              <th className="py-2 px-4 font-semibold text-left">Book Name</th>
-              <th className="py-2 px-4 font-semibold text-left">Author</th>
-              <th className="py-2 px-4 font-semibold text-center">Status</th>
+            <tr className="bg-gray-200 font-bold">
+              <th className="py-2 px-4 font-semibold text-left border-r border-gray-300">Book Name</th>
+              <th className="py-2 px-4 font-semibold text-left border-r border-gray-300">Author</th>
+              <th className="py-2 px-4 font-semibold text-center border-r">Status</th>
             </tr>
           </thead>
           <tbody className="">
@@ -41,9 +41,9 @@ const BookCategory = () => {
                   index % 2 === 0 ? 'bg-gray-50' : 'bg-white'
                 }`}
               >
-                <td className="font-semibold p-2 border-b">{book?.title}</td>
-                <td className="p-2 border-b">{book?.author}</td>
-                <td className="flex items-center justify-around p-2 border-b">
+                <td className="font-semibold p-2 border-r border-gray-200">{book?.title}</td>
+                <td className="p-2 border-r border-gray-200">{book?.author}</td>
+                <td className="flex items-center justify-around p-2">
                   <button className="pt-2 text-blue-800/80">
                     <FaEdit size={18} />
                   </button>
