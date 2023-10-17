@@ -20,7 +20,7 @@ const AllBooks = () => {
             to={`/dashboard/all-books/${categoryName}`}
             state={categoryName}
             key={categoryName}
-            className="font-bold capitalize border block w-ful h-full bg-black/20 rounded-sm py-1 px-4"
+            className="font-bold capitalize border block w-ful h-full rounded-sm py-1 px-4"
           >
             {categoryName}
           </Link>
