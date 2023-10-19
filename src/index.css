@@ -16,13 +16,3 @@
   color: #111;
   background-color: #fff;
 }
-/* 
-.alpha-btn {
-  @apply uppercase px-2 border-l border-b-2 border-zinc-500 rounded-sm font-medium text-zinc-800 text-sm;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.alpha-container {
-  @apply w-[80%] mx-auto;
-} */

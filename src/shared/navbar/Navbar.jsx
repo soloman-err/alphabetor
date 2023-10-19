@@ -132,11 +132,11 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#164B59] text-white shadow-md sticky top-0 z-50">
-      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-6 font-normal uppercase px-2">
+      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-3 md:py-6 font-normal uppercase px-2">
         {/* ICON/LOGO */}
         <div className="flex justify-between items-center gap-10">
           <NavLink to={'/'}>
-            <h2 className="font-bold italic text-3xl">Alphabetor</h2>
+            <h2 className="font-bold italic text-2xl md:text-3xl">Alphabetor</h2>
           </NavLink>
         </div>
 
