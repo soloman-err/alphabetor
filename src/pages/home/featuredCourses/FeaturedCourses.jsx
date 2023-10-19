@@ -52,9 +52,6 @@ const FeaturedCourses = () => {
           loop={true}
           slidesPerView={3}
           spaceBetween={10}
-          pagination={{
-            clickable: true,
-          }}
           navigation={true}
           autoplay={true}
           modules={[Pagination, Navigation, Autoplay]}
