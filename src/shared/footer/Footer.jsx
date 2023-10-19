@@ -2,10 +2,25 @@ import { Link } from 'react-router-dom';
 import apple from '/apple-store-badge-en.svg';
 import google from '/google-play-badge-en.webp';
 
+const quickLinks = [
+  { id: 1, text: 'Courses', link: '/courses' },
+  { id: 2, text: 'Docs', link: '/docs' },
+  { id: 3, text: 'Forum', link: '/forum' },
+  { id: 4, text: 'About', link: '/about' },
+  { id: 5, text: 'Contact', link: '/contact' },
+];
+
+const socialLinks = [
+  { id: 1, text: 'Facebook', url: 'https://facebook.com/your-page' },
+  { id: 2, text: 'Twitter', url: 'https://twitter.com/your-handle' },
+  { id: 3, text: 'LinkedIn', url: 'https://linkedin.com/company/your-company' },
+  { id: 4, text: 'Instagram', url: 'https://instagram.com/your-profile' },
+];
+
 const Footer = () => {
   return (
-    <footer className="px-5 bg-gray-950 text-white py-10">
-      <div className="container mx-auto">
+    <footer className="bg-gray-950 text-white">
+      <div className="container mx-auto py-10 px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* BRAND-INFO/LOGO */}
           <div className="flex flex-col justify-between md:col-span-2 lg:col-span-1">
@@ -18,24 +33,17 @@ const Footer = () => {
             </div>
 
             {/* INSTALLATION */}
-            <div>
-              <div className="flex flex-col md:flex-row gap-2 mt-5 lg:mt-auto">
-                <img
-                  src={apple}
-                  alt="apple-store-badge"
-                  className="w-[120px] h-10"
-                />
-                <img
-                  src={google}
-                  alt="google-play-badge"
-                  className="w-[120px] h-10"
-                />
-              </div>
-
-              {/* ALPHABETOR COPYRIGHT */}
-              <div className="mt-2">
-                <small>&copy;2023 ALPHABETOR all rights reserved.</small>
-              </div>
+            <div className="flex flex-col md:flex-row gap-2 mt-5 lg:mt-auto">
+              <img
+                src={apple}
+                alt="apple-store-badge"
+                className="w-[120px] h-10"
+              />
+              <img
+                src={google}
+                alt="google-play-badge"
+                className="w-[120px] h-10"
+              />
             </div>
           </div>
 
@@ -43,31 +51,16 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="list-none">
-              <li className="mb-2">
-                <Link to="/courses" className="text-gray-300 hover:text-white">
-                  Courses
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/docs" className="text-gray-300 hover:text-white">
-                  Docs
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/forum" className="text-gray-300 hover:text-white">
-                  Forum
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/about" className="text-gray-300 hover:text-white">
-                  About
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link to="/contact" className="text-gray-300 hover:text-white">
-                  Contact
-                </Link>
-              </li>
+              {quickLinks?.map((link) => (
+                <li key={link.id} className="mb-2 text-sm">
+                  <Link
+                    to={link.link}
+                    className="text-gray-300 hover:text-white"
+                  >
+                    {link.text}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -75,43 +68,23 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <ul className="list-none">
-              <li className="mb-2">
-                <a
-                  href="https://facebook.com/your-page"
-                  className="text-gray-300 hover:text-white"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://twitter.com/your-handle"
-                  className="text-gray-300 hover:text-white"
-                >
-                  Twitter
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://linkedin.com/company/your-company"
-                  className="text-gray-300 hover:text-white"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="https://instagram.com/your-profile"
-                  className="text-gray-300 hover:text-white"
-                >
-                  Instagram
-                </a>
-              </li>
+              {socialLinks?.map((link) => (
+                <li key={link?.id} className="mb-2 text-sm">
+                  <Link
+                    to={link?.url}
+                    className="text-gray-300 hover:text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {link?.text}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
           {/* NEWSLETTER SIGNUP */}
-          <div>
+          <div className="text-sm">
             <h3 className="text-lg font-semibold mb-4">Newsletter Signup</h3>
             <p className="text-gray-400 mb-4">
               Stay updated with our latest courses and news.
@@ -131,6 +104,11 @@ const Footer = () => {
             </form>
           </div>
         </div>
+      </div>
+      
+      {/* ALPHABETOR COPYRIGHT */}
+      <div className="mt-2 bg-black p-5 text-center">
+        <small>&copy;2023 ALPHABETOR all rights reserved.</small>
       </div>
     </footer>
   );
