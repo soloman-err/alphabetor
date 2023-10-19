@@ -11,7 +11,7 @@ const reviewsData = [
     id: 1,
     user: 'John Doe',
     comment:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci nec dolor consectetur, nec ultrices dolor varius.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci consectetur, nec ultrices dolor varius.',
     rating: 5,
   },
   {
@@ -37,6 +37,21 @@ const reviewsData = [
   },
 ];
 
+const breakpoints = {
+  320: {
+    slidesPerView: 1,
+    spaceBetween: 10,
+  },
+  640: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  768: {
+    slidesPerView: 3,
+    spaceBetween: 30,
+  },
+};
+
 const Review = ({ user, comment, rating }) => {
   return (
     <div className="border bg-white p-6 rounded-lg shadow-lg mb-6">
@@ -52,15 +67,16 @@ const Review = ({ user, comment, rating }) => {
 
 const Reviews = () => {
   return (
-    <div className="w-[70%] mx-auto">
-      <h2 className="text-2xl font-bold mb-8 text-center">Feedbacks</h2>
+    <div className="w-[90%] md:w-[70%] mx-auto mt-10 space-y-4">
+      <h2 className="text-2xl font-bold text-center">Feedbacks</h2>
 
       <Swiper
         slidesPerView={3}
-        spaceBetween={40}
+        spaceBetween={20}
         autoplay={{
-          delay: 2000,
+          delay: 3000,
         }}
+        breakpoints={breakpoints}
         pagination={true}
         modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper relative container mx-auto w-full"
@@ -70,7 +86,7 @@ const Reviews = () => {
             <SwiperSlide key={review?.id}>
               <Review
                 user={review?.user}
-                comment={review?.comment}
+                comment={review?.comment.slice(0, 120)}
                 rating={review?.rating}
               />
             </SwiperSlide>
