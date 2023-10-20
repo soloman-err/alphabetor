@@ -13,10 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <UserProvider>
       <QueryClientProvider client={queryClient}>
-      <Container>
-        <RouterProvider router={router} />
-      </Container>
-    </QueryClientProvider>
+        <Container>
+          <RouterProvider router={router} />
+        </Container>
+      </QueryClientProvider>
     </UserProvider>
   </React.StrictMode>
 );
