@@ -12,7 +12,7 @@ const Home = () => {
       <FeaturedCourses />
       <Categories />
       <BecomeInstructor />
-      <Reviews/>
+      <Reviews />
     </div>
   );
 };
