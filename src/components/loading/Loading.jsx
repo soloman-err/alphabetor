@@ -12,7 +12,7 @@ const Loading = () => {
         <div className="book__pg book__pg--4"></div>
         <div className="book__pg book__pg--5"></div>
       </div>
-      <h2 className="text-base font-bold">Reading..</h2>
+      <h2 className="text-white font-bold">Reading..</h2>
     </div>
   );
 };

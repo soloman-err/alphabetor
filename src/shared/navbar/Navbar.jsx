@@ -133,7 +133,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#164B59] text-white shadow-md sticky top-0 z-50">
-      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-3 md:py-6 font-normal uppercase px-2">
+      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-3 md:py-6 font-normal uppercase px-3">
         {/* ICON/LOGO */}
         <div className="flex justify-between items-center gap-10">
           <NavLink to={'/'}>
@@ -313,11 +313,11 @@ const Navbar = () => {
           )}
         </div>
 
-        {/* Phone Screen Navigation */}
+        {/* PHONE SCREEN NAVIGATION TOGGLE */}
         {isOpen && (
-          <div className="fixed inset-0 z-20 left-0 top-0 bottom-0 shadow-lg text-white flex flex-col justify-between text-start py-2 pb-5 pt-4 bg-[#113944] w-[80%] space-y-2 h-screen">
-            <div>
-              <div className="ms-auto w-fit mx-4 p-1 border hover:scale-95 duration-300">
+          <div className="fixed inset-0 z-20 left-0 top-0 bottom-0 shadow-lg text-white flex flex-col justify-between text-start py-2 pb-5 bg-[#113944] w-[80%] space-y-2">
+            <div className="space-y-4">
+              <div className="ms-auto w-fit mx-4 p-1 border rounded-sm hover:scale-95 duration-300">
                 {isOpen ? (
                   <FaTimes size={20} onClick={toggleNavbar} />
                 ) : (
@@ -325,27 +325,27 @@ const Navbar = () => {
                 )}
               </div>
 
-              <hr  className='my-2'/>
-
-              {dropdownItems?.map((item, index) => {
-                return (
-                  <NavLink
-                    key={index}
-                    to={item.link}
-                    onClick={() => {
-                      toggleNavbar();
-                      closeDropdown();
-                      if (item.onClick) {
-                        item.onClick();
-                      }
-                    }}
-                    className="flex items-center gap-2 hover:bg-secondary py-2 font-bold hover:text-[#113944] hover:font-bold w-full px-4"
-                  >
-                    {<item.icon size={20} />}
-                    { item.text }
-                  </NavLink>
-                );
-              })}
+              <div>
+                {dropdownItems?.map((item, index) => {
+                  return (
+                    <NavLink
+                      key={index}
+                      to={item.link}
+                      onClick={() => {
+                        toggleNavbar();
+                        closeDropdown();
+                        if (item.onClick) {
+                          item.onClick();
+                        }
+                      }}
+                      className="flex items-center gap-2 hover:bg-secondary py-2 font-bold hover:text-[#113944] hover:font-bold px-4 my-1 w-[96%] mx-auto bg-primary/40 rounded-sm"
+                    >
+                      {<item.icon size={20} />}
+                      {item.text}
+                    </NavLink>
+                  );
+                })}
+              </div>
             </div>
 
             <span className="mx-4 text-xs mt-auto font-semibold capitalize">
