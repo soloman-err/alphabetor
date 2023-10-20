@@ -101,7 +101,7 @@ const Dashboard = () => {
       </aside>
 
       {/* Main Content Area */}
-      <div className="w-full">
+      <div className="w-full p-4">
         <Outlet />
       </div>
     </div>

@@ -3,8 +3,12 @@ import {
   FaAngleDown,
   FaAngleUp,
   FaBars,
+  FaChartBar,
   FaSearch,
+  FaSignInAlt,
+  FaSignOutAlt,
   FaTimes,
+  FaUser,
   FaUserCircle,
 } from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
@@ -18,6 +22,7 @@ const Navbar = () => {
   const [isBookshopHovered, setIsBookshopHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleCoursesMouseEnter = () => {
     setIsCoursesHovered(true);
@@ -108,19 +113,15 @@ const Navbar = () => {
 
   // User Info
   const dropdownItems = [
-    { text: 'Profile', link: '/user-profile' },
-    { text: 'Dashboard', link: '/dashboard' },
+    { icon: FaUser, text: 'Profile', link: '/user-profile' },
+    { icon: FaChartBar, text: 'Dashboard', link: '/dashboard' },
     ...(currentUser
       ? []
-      : [
-          {
-            text: 'Sign In',
-            link: '/login',
-          },
-        ]),
+      : [{ icon: FaSignInAlt, text: 'Sign In', link: '/login' }]),
     ...(currentUser
       ? [
           {
+            icon: FaSignOutAlt,
             text: 'Sign Out',
             onClick: async () => {
               logOut();
@@ -136,7 +137,9 @@ const Navbar = () => {
         {/* ICON/LOGO */}
         <div className="flex justify-between items-center gap-10">
           <NavLink to={'/'}>
-            <h2 className="font-bold italic text-2xl md:text-3xl">Alphabetor</h2>
+            <h2 className="font-bold italic text-2xl md:text-3xl">
+              Alphabetor
+            </h2>
           </NavLink>
         </div>
 
@@ -312,31 +315,42 @@ const Navbar = () => {
 
         {/* Phone Screen Navigation */}
         {isOpen && (
-          <div className="absolute inset-0 z-20 left-0 top-0 bottom-0 shadow-lg text-white flex flex-col text-start py-2 pb-5 pt-4 bg-[#113944] w-[80%] space-y-2 h-screen">
-            <div className="ms-auto mx-4 p-1 border hover:scale-95 duration-300">
-              {isOpen ? (
-                <FaTimes size={22} onClick={toggleNavbar} />
-              ) : (
-                <FaBars size={22} onClick={toggleNavbar} />
-              )}
+          <div className="fixed inset-0 z-20 left-0 top-0 bottom-0 shadow-lg text-white flex flex-col justify-between text-start py-2 pb-5 pt-4 bg-[#113944] w-[80%] space-y-2 h-screen">
+            <div>
+              <div className="ms-auto w-fit mx-4 p-1 border hover:scale-95 duration-300">
+                {isOpen ? (
+                  <FaTimes size={20} onClick={toggleNavbar} />
+                ) : (
+                  <FaBars size={20} onClick={toggleNavbar} />
+                )}
+              </div>
+
+              <hr  className='my-2'/>
+
+              {dropdownItems?.map((item, index) => {
+                return (
+                  <NavLink
+                    key={index}
+                    to={item.link}
+                    onClick={() => {
+                      toggleNavbar();
+                      closeDropdown();
+                      if (item.onClick) {
+                        item.onClick();
+                      }
+                    }}
+                    className="flex items-center gap-2 hover:bg-secondary py-2 font-bold hover:text-[#113944] hover:font-bold w-full px-4"
+                  >
+                    {<item.icon size={20} />}
+                    { item.text }
+                  </NavLink>
+                );
+              })}
             </div>
-            {dropdownItems?.map((item, index) => {
-              return (
-                <NavLink
-                  key={index}
-                  to={item.link}
-                  onClick={() => {
-                    closeDropdown();
-                    if (item.onClick) {
-                      item.onClick();
-                    }
-                  }}
-                  className="py-2 font-semibold hover:bg-gray-400 hover:text-[#113944] hover:font-bold w-full px-4"
-                >
-                  {item.text}
-                </NavLink>
-              );
-            })}
+
+            <span className="mx-4 text-xs mt-auto font-semibold capitalize">
+              Alphabetor &copy; 2023
+            </span>
           </div>
         )}
       </header>

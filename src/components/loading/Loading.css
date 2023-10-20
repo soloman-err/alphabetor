@@ -15,6 +15,7 @@
 }
 
 .book {
+  border-radius: 2px;
   perspective: 37.5em;
   position: relative;
   transform-origin: center;
