@@ -1,5 +1,6 @@
 import BecomeInstructor from './becomeInstructor/BecomeInstructor';
 import Categories from './categories/Categories';
+import Countdown from './countdown/Countdown';
 import FeaturedCourses from './featuredCourses/FeaturedCourses';
 import Hero from './hero/Hero';
 import NewsLetter from './newsletter/NewsLetter';
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <Sponsors />
       <FeaturedCourses />
+      <Countdown/>
       <Categories />
       <BecomeInstructor />
       <Reviews />
