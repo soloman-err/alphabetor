@@ -3,12 +3,13 @@ import Categories from './categories/Categories';
 import FeaturedCourses from './featuredCourses/FeaturedCourses';
 import Hero from './hero/Hero';
 import Reviews from './reviews/Reviews';
+import Sponsors from './sponsors/Sponsors';
 
 const Home = () => {
   return (
     <div className="">
       <Hero />
-      {/* <Sponsors /> */}
+      <Sponsors />
       <FeaturedCourses />
       <Categories />
       <BecomeInstructor />

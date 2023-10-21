@@ -3,7 +3,7 @@ import './Loading.css';
 
 const Loading = () => {
   return (
-    <div className="loading-container fixed flex flex-col gap-2 justify-center items-center inset-0 h-[100vh] z-50 bg-primary/90">
+    <div className="loading-container fixed flex flex-col gap-2 justify-center items-center inset-0 h-[100vh] z-50 bg-primary">
       <div className="book w-40 h-28 p-1">
         <div className="book__pg-shadow"></div>
         <div className="book__pg"></div>

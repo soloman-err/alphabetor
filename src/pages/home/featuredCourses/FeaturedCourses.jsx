@@ -34,9 +34,6 @@ const breakpoints = {
 const FeaturedCourses = () => {
   const { courses, isLoading, isError, error } = useCourses();
 
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
 
   if (isError) {
     return <div>Error: {error.message}</div>;
@@ -52,13 +49,12 @@ const FeaturedCourses = () => {
           loop={true}
           slidesPerView={3}
           spaceBetween={10}
-          navigation={true}
           autoplay={true}
-          modules={[Pagination, Navigation, Autoplay]}
+          modules={[Pagination, Autoplay]}
           breakpoints={breakpoints}
           className="flex flex-row mt-10 h-full"
         >
-          {courses.map((course, index) => (
+          {courses?.map((course, index) => (
             <SwiperSlide key={index} className="full">
               <CourseCard course={course} />
             </SwiperSlide>

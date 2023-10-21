@@ -4,7 +4,7 @@ import ButtonWide from '../../../components/buttons/ButtonWide';
 
 const BecomeInstructor = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center w-[80%] lg:w-[60%] mx-auto mt-10">
+    <div className="container mx-auto flex flex-col md:flex-row items-center w-[80%] lg:w-[60%] mt-10">
       <div>
         <Player
           autoplay
