@@ -16,7 +16,7 @@ const Root = () => {
   // }
 
   return (
-    <div className="flex flex-col justify-between gap-20">
+    <div className="flex flex-col justify-between">
       <div>
         <Navbar />
         <div className="">

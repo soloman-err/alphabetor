@@ -21,29 +21,37 @@ const Footer = () => {
   return (
     <footer className="bg-gray-950 text-white">
       <div className="container mx-auto py-10 px-5">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* BRAND-INFO/LOGO */}
-          <div className="flex flex-col justify-between md:col-span-2 lg:col-span-1">
+          <div className="flex flex-col justify-between md:col-span-2 lg:col-span-1 h-full">
             <div>
               <h2 className="font-bold italic text-xl uppercase">
                 <Link to={'/'}>Alphabetor</Link>
               </h2>
 
-              <p className="text-gray-400">Where Learning Meets Inspiration</p>
+              <div className="text-gray-400 text-sm font-semibold mt-2">
+                <p>support@alphabetor.com</p>
+                <p>Melbourne, Australia, 104 South Park Avenue</p>
+              </div>
             </div>
 
             {/* INSTALLATION */}
-            <div className="flex flex-col md:flex-row gap-2 mt-5 lg:mt-auto">
-              <img
-                src={apple}
-                alt="apple-store-badge"
-                className="w-[120px] h-10"
-              />
-              <img
-                src={google}
-                alt="google-play-badge"
-                className="w-[120px] h-10"
-              />
+            <div>
+              <p className="text-xs font-semibold">
+                Download our mobile app and learn on the go.
+              </p>
+              <div className="flex flex-col md:flex-row gap-2 mt-2 lg:mt-auto">
+                <img
+                  src={apple}
+                  alt="apple-store-badge"
+                  className="w-[120px] h-10"
+                />
+                <img
+                  src={google}
+                  alt="google-play-badge"
+                  className="w-[120px] h-10"
+                />
+              </div>
             </div>
           </div>
 
@@ -83,29 +91,22 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* NEWSLETTER SIGNUP */}
-          <div className="text-sm">
-            <h3 className="text-lg font-semibold mb-4">Newsletter Signup</h3>
-            <p className="text-gray-400 mb-4">
-              Stay updated with our latest courses and news.
-            </p>
-            <form>
-              <input
-                type="email"
-                placeholder="Your email"
-                className="bg-gray-800 border-2 border-gray-600 rounded-md py-2 px-3 text-gray-200 w-full mb-2"
-              />
-              <button
-                type="submit"
-                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md"
-              >
-                Subscribe
-              </button>
-            </form>
+          {/* LANGUAGE */}
+          <div class="">
+            <h3 class="text-xl font-semibold mb-4">Language</h3>
+            <select
+              id="language"
+              name="language"
+              class="border rounded-sm p-1 bg-gray-800"
+            >
+              <option value="english">English</option>
+              <option value="bangla">Bangla</option>
+              <option value="german">German</option>
+            </select>
           </div>
         </div>
       </div>
-      
+
       {/* ALPHABETOR COPYRIGHT */}
       <div className="mt-2 bg-black p-5 text-center">
         <small>&copy;2023 ALPHABETOR all rights reserved.</small>
