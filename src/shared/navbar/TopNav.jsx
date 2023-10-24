@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaLanguage, FaPhoneAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const TopNav = () => {
   return (
@@ -39,9 +40,13 @@ const TopNav = () => {
       </div>
 
       <div className="flex gap-2 py-3">
-        <button className="hover:scale-95">Register</button>
+        <Link to={'/register'}>
+          <button className="hover:scale-95">Register</button>
+        </Link>
         <span className="bg-black w-[1px]"></span>
-        <button className="hover:scale-95">Login</button>
+        <Link to={'/login'}>
+          <button className="hover:scale-95">Login</button>
+        </Link>
       </div>
     </div>
   );
