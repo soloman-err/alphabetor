@@ -15,11 +15,11 @@ const CourseCard = ({ course }) => {
   return (
     <div
       key={id}
-      className="w-full h-[400px] rounded overflow-hidden shadow-md bg-gray-50 flex flex-col"
+      className="w-full md:h-[450px] xl:h-[400px] rounded overflow-hidden shadow-lg bg-gray-50 flex flex-col"
     >
       {/* CARD IMAGE */}
       <div>
-        <img src={imgURL} alt={title} className="w-full h-32 object-cover" />
+        <img src={imgURL} alt={title} className="w-full h-36 object-cover" />
       </div>
 
       {/* CARD INFO/BODY */}

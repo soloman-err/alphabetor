@@ -26,7 +26,7 @@ const breakpoints = {
     spaceBetween: 30,
   },
   1024: {
-    slidesPerView: 5,
+    slidesPerView: 4,
     spaceBetween: 40,
   },
 };
@@ -34,13 +34,12 @@ const breakpoints = {
 const FeaturedCourses = () => {
   const { courses, isLoading, isError, error } = useCourses();
 
-
   if (isError) {
     return <div>Error: {error.message}</div>;
   }
 
   return (
-    <section className="container mx-auto alpha-container relative mt-10">
+    <section className="container mx-auto alpha-container relative mt-20">
       <Title title={'Featured Courses'} />
 
       {/* COURSES SECTION */}
@@ -48,14 +47,13 @@ const FeaturedCourses = () => {
         <Swiper
           loop={true}
           slidesPerView={3}
-          spaceBetween={10}
           autoplay={true}
           modules={[Pagination, Autoplay]}
           breakpoints={breakpoints}
-          className="flex flex-row mt-10 h-full"
+          className="flex flex-row mt-5"
         >
           {courses?.map((course, index) => (
-            <SwiperSlide key={index} className="full">
+            <SwiperSlide key={index} className="p-5">
               <CourseCard course={course} />
             </SwiperSlide>
           ))}
