@@ -132,7 +132,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-[#164B59] text-white shadow-md sticky top-0 z-50">
+    <div className="sticky top-0 z-50 bg-primary text-white shadow-md">
       <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-3 md:py-6 font-normal uppercase px-3">
         {/* ICON/LOGO */}
         <div className="flex justify-between items-center gap-10">

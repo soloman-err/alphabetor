@@ -24,7 +24,7 @@ const Countdown = () => {
 
   return (
     <section className="bg-primary text-white mt-20 py-5 lg:py-20">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-5 md:gap-10 p-8">
+      <div className="container mx-auto grid grid-cols-2 lg:grid-cols-4 justify-center gap-5 md:gap-10 p-8">
         {stats.map((stat, index) => (
           <div key={index} className="text-center p-6 border rounded-md shadow-md">
             <h2 className="text-4xl md:text-5xl font-bold mb-2 stat-number">

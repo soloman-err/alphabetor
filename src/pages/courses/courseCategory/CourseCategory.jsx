@@ -21,8 +21,8 @@ const CourseCategory = () => {
     <div className="container mx-auto mt-5">
       <h2 className="text-2xl">{courseId}</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10 h-full">
-        {filteredCourses?.map((course) => (
-          <CourseCard course={course} />
+        {filteredCourses?.map((course, index) => (
+          <CourseCard key={index} course={course} />
         ))}
       </div>
     </div>

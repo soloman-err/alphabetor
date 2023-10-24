@@ -92,12 +92,12 @@ const Footer = () => {
           </div>
 
           {/* LANGUAGE */}
-          <div class="">
-            <h3 class="text-xl font-semibold mb-4">Language</h3>
+          <div className="">
+            <h3 className="text-xl font-semibold mb-4">Language</h3>
             <select
               id="language"
               name="language"
-              class="border rounded-sm p-1 bg-gray-800"
+              className="border rounded-sm p-1 bg-gray-800"
             >
               <option value="english">English</option>
               <option value="bangla">Bangla</option>
