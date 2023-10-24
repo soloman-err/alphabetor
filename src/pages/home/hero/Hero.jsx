@@ -1,10 +1,7 @@
-import { FaArrowRight } from 'react-icons/fa';
 import SwiperCore from 'swiper/core';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import ButtonSm from '../../../components/buttons/ButtonSm';
+import { Autoplay } from 'swiper/modules';
 import './Hero.css';
 SwiperCore.use([Autoplay]);
 
@@ -76,8 +73,10 @@ const Hero = () => {
   // }, []);
 
   return (
-    <div className="bg-black py-5 md:py-10 xl:py-20">
-      <Swiper
+    // <div className="bg-black py-5 md:py-10 xl:py-20">
+    <div id="hero" className="h-[60vh] md:h-[70vh] xl:h-[86vh] w-full">
+      {/* <img src="https://images.unsplash.com/photo-1528980917907-8df7f48f6f2a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='relative w-full h-[80vh] object-cover' /> */}
+      {/* <Swiper
         slidesPerView={1}
         spaceBetween={10}
         autoplay={{
@@ -91,7 +90,6 @@ const Hero = () => {
           {bookData.map((book) => (
             <SwiperSlide key={book.id} className="">
               <div className="w-[95%] lg:w-[60%] mx-auto flex flex-co md:flex-row justify-between items-center md:gap-8">
-                {/* Book Image */}
                 <section className="relative w-full h-full md:w-3/6">
                   <img
                     src={book.imageUrl}
@@ -99,10 +97,8 @@ const Hero = () => {
                     className="w-[100%] -skew-y-2 overflow-hidden z-10 mx-auto"
                   />
                   <div className="absolute -skew-y-2 -z-10 -right-4 -top-0 w-full h-full"></div>
-                  {/* <div className="absolute -skew-y-3 -bottom-2 -right-4 h-3 w-full bg-gray-50 z-0"></div> */}
                 </section>
 
-                {/* Book Info */}
                 <div className="relative text-white p-2 rounded-sm space-y-2 md:space-y-4 w-full">
                   <h2 className="font-bold text-xl md:text-2xl lg:text-5xl">
                     {book.title}
@@ -114,18 +110,13 @@ const Hero = () => {
                   <ButtonSm>
                     Learn More <FaArrowRight />
                   </ButtonSm>
-
-                  {/* <div className="absolute right-2 bottom-2 rotate-45 space-x-1">
-                    <span className="bg-black w-[200px] h-[400px] px-1 py-20"></span>
-                    <span className="bg-black w-[200px] h-[400px] px-1 py-20"></span>
-                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
           ))}
         </div>
-      </Swiper>
-      <span className="swiper-pagination mt-10"></span>
+      </Swiper> */}
+
     </div>
   );
 };

@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "courseId": "web-development",
     "title": "Web Development Bootcamp",
     "description": "Learn web development from scratch with HTML, CSS, and JavaScript.",
@@ -31,7 +30,6 @@
     "tools": "Introduction to popular development tools, IDEs, and frameworks used in the industry."
   },
   {
-    "id": 2,
     "courseId": "data-science",
     "title": "Data Science Fundamentals",
     "description": "Master data analysis and visualization with Python and data science tools.",
@@ -50,7 +48,6 @@
     "projects": "Hands-on projects to apply data science concepts in real-world scenarios."
   },
   {
-    "id": 3,
     "courseId": "graphic-design",
     "title": "Mobile App Development",
     "description": "Build mobile apps for iOS and Android using React Native.",
@@ -69,7 +66,6 @@
     "tools": "Hands-on experience with popular mobile app development tools and platforms."
   },
   {
-    "id": 4,
     "courseId": "machine-learning",
     "title": "Machine Learning Essentials",
     "description": "Explore the fundamentals of machine learning and artificial intelligence.",
@@ -88,7 +84,6 @@
     "projects": "Hands-on machine learning projects with real-world datasets."
   },
   {
-    "id": 5,
     "courseId": "javascript",
     "title": "Full-Stack JavaScript Development",
     "description": "Learn how to build full-stack web applications with JavaScript, Node.js, and React.",
@@ -107,7 +102,6 @@
     "projects": "Develop and deploy full-stack web applications with real clients."
   },
   {
-    "id": 6,
     "courseId": "python-programming",
     "title": "Introduction to Artificial Intelligence",
     "description": "Get started with AI and explore its applications in various fields.",
@@ -125,7 +119,6 @@
     "support": "Expert-led workshops and hands-on AI projects for practical learning."
   },
   {
-    "id": 7,
     "courseId": "digital-marketing",
     "title": "Blockchain and Cryptocurrency",
     "description": "Understand blockchain technology and the world of cryptocurrencies.",
@@ -143,7 +136,6 @@
     "support": "Live coding sessions and collaboration with industry experts."
   },
   {
-    "id": 8,
     "courseId": "ux-ui-design",
     "title": "Cybersecurity Fundamentals",
     "description": "Learn the basics of cybersecurity and how to protect digital assets.",
@@ -161,7 +153,6 @@
     "support": "Access to virtual labs and real-time simulations for hands-on experience."
   },
   {
-    "id": 9,
     "courseId": "ios-app-development",
     "title": "Art and Design for Beginners",
     "description": "Explore your creative side with art and design fundamentals.",
@@ -179,7 +170,6 @@
     "support": "Individual feedback sessions and creative workshops with professional artists."
   },
   {
-    "id": 10,
     "courseId": "android-development",
     "title": "Business Management Essentials",
     "description": "Gain essential skills for effective business management and leadership.",
@@ -197,7 +187,6 @@
     "support": "Interactive case studies and guest lectures from industry leaders."
   },
   {
-    "id": 11,
     "courseId": "android-development",
     "title": "Business Management Essentials",
     "description": "Gain essential skills for effective business management and leadership.",
@@ -215,7 +204,6 @@
     "support": "Interactive case studies and guest lectures from industry leaders."
   },
   {
-    "id": 12,
     "courseId": "android-development",
     "title": "Business Management Essentials",
     "description": "Gain essential skills for effective business management and leadership.",
