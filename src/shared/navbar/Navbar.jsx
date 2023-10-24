@@ -10,7 +10,7 @@ import {
   FaSignOutAlt,
   FaTimes,
   FaUser,
-  FaUserCircle
+  FaUserCircle,
 } from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '../../lib/context/user';
@@ -141,7 +141,10 @@ const Navbar = () => {
             <h2 className="font-bold italic text-2xl md:text-3xl">
               Alphabetor
             </h2>
-            <span className='text-xs italic text-end p-1 font-bold capitalize flex items-center justify-end gap-1'> <FaPenNib/> Guides The Way</span>
+            <span className="text-xs italic text-end p-1 font-bold capitalize flex items-center justify-end gap-1">
+              {' '}
+              <FaPenNib /> Guides The Way
+            </span>
           </NavLink>
         </div>
 
@@ -283,7 +286,7 @@ const Navbar = () => {
           <button className="relative">
             <FaUserCircle size={24} onClick={toggleDropdownOpen} />
             {isDropdownOpen && (
-              <div className="absolute z-20 right-0 top-10 shadow-lg bg-white text-black font-semibold rounded-md flex flex-col text-start py-2">
+              <div className="absolute z-20 right-0 top-14 shadow-lg bg-white w-80 text-black font-semibold rounded-sm flex flex-col text-start py-2">
                 {dropdownItems?.map((item, index) => {
                   return (
                     <NavLink

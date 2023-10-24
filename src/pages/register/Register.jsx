@@ -10,10 +10,12 @@ const Register = () => {
         <div className="relative w-fit mx-auto text-center flex flex-col justify-center hover:scale-110 duration-300 items-center bg-primary/90 p-10 text-white rounded-md space-y-5">
           <BadgeSm>Student</BadgeSm>
           <FaUserGraduate size={70} />
-          <ButtonRound>Register as a student</ButtonRound>
+          <Link to={'/register/student'}>
+            <ButtonRound>Register as a student</ButtonRound>
+          </Link>
           <div className="space-y-2 text-sm font-bold">
             <p>Already have an account?</p>
-            <Link to={'/login'} className="underline">
+            <Link to={'/login'} className="underline text-indigo-200">
               Login here
             </Link>
           </div>
@@ -24,10 +26,12 @@ const Register = () => {
         <div className="relative w-fit mx-auto text-center flex flex-col justify-center hover:scale-110 duration-300 items-center bg-primary/90 p-10 text-white rounded-md space-y-5">
           <BadgeSm>Teacher</BadgeSm>
           <FaUserTie size={70} />
-          <ButtonRound className="">Register as a teacher</ButtonRound>
+          <Link to={'/register/teacher'}>
+            <ButtonRound className="">Register as a teacher</ButtonRound>
+          </Link>
           <div className="space-y-2 text-sm font-bold">
             <p>Already have an account?</p>
-            <Link to={'/login'} className="underline">
+            <Link to={'/login'} className="underline text-indigo-200">
               Login here
             </Link>
           </div>

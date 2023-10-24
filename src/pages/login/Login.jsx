@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import ButtonFull from '../../components/buttons/ButtonFull';
 import { account } from '../../lib/appwrite';
 import { useUser } from '../../lib/context/user';
@@ -80,7 +80,7 @@ const Login = () => {
           />
         </div>
 
-        <div className="flex justify-end w-full">
+        <div className="flex flex-col text-center w-full">
           <ButtonFull type="button" onClick={() => login(email, password)}>
             Login
           </ButtonFull>
@@ -104,6 +104,12 @@ const Login = () => {
           >
             Logout
           </button> */}
+          <div className="text-sm mt-5 font-semibold">
+            <p>Don't have an account?</p>
+            <Link to={'/register'}>
+              <p className="underline text-indigo-800">Register Now</p>
+            </Link>
+          </div>
         </div>
       </form>
     </section>
