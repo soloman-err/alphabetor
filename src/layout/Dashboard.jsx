@@ -37,7 +37,7 @@ const menuItems = [
 ];
 
 const Dashboard = () => {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(true);
   const [isDrawerClosed, setIsDrawerClosed] = useState(false);
 
   const toggleDrawer = () => {
