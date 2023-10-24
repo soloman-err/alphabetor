@@ -39,7 +39,7 @@ const FeaturedCourses = () => {
   }
 
   return (
-    <section className="container mx-auto alpha-container relative mt-20">
+    <section className="container mx-auto alpha-container relative mt-10 md:mt-20 px-5 md:px-0">
       <Title title={'Featured Courses'} />
 
       {/* COURSES SECTION */}
@@ -50,10 +50,10 @@ const FeaturedCourses = () => {
           autoplay={true}
           modules={[Pagination, Autoplay]}
           breakpoints={breakpoints}
-          className="flex flex-row mt-5"
+          className="flex flex-row mt-10 md:pt-5"
         >
           {courses?.map((course, index) => (
-            <SwiperSlide key={index} className="p-5">
+            <SwiperSlide key={index} className="md:p-5">
               <CourseCard course={course} />
             </SwiperSlide>
           ))}
