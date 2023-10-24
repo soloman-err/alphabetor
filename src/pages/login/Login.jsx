@@ -1,17 +1,18 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { ID, account } from '../../lib/appwrite';
+import { Link, useNavigate } from 'react-router-dom';
+import ButtonFull from '../../components/buttons/ButtonFull';
+import { account } from '../../lib/appwrite';
 import { useUser } from '../../lib/context/user';
 
 const Login = () => {
   const [loggedInUser, setLoggedInUser] = useState();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [ name, setName ] = useState();
+  const [name, setName] = useState();
   const navigate = useNavigate();
   const user = useUser();
   const currentUser = user?.current;
-  console.log("From login: ", currentUser);
+  console.log('From login: ', currentUser);
 
   // const user = useUser();
   //   console.log( 'From Login: ', email, password, user );
@@ -26,8 +27,8 @@ const Login = () => {
       // setLoggedInUser(response);
 
       await account.createEmailSession(email, password);
-      setLoggedInUser( await account.get() );
-      navigate('/')
+      setLoggedInUser(await account.get());
+      navigate('/');
     } catch (error) {
       console.error('Login failed:', error);
     }
@@ -49,12 +50,12 @@ const Login = () => {
   }
 
   return (
-    <section className="max-w-lg mx-auto mt-20 p-5 rounded-sm shadow-md py-10 bg-gray-50">
-      <h2 className="text-xl font-bold text-center py-2">Sign In</h2>
+    <section className="w-[90%] mx-auto md:max-w-lg my-20 p-5 rounded-lg shadow-lg py-10 bg-primary/10">
+      <h2 className="text-2xl font-bold text-center py-2">Sign In</h2>
 
-      <form className="flex flex-col space-y-2 max-w-sm mx-auto">
+      <form className="flex flex-col space-y-3 max-w-sm mx-auto">
         <div className="flex flex-col space-y-1">
-          <label htmlFor="email" className="text-sm">
+          <label htmlFor="email" className="text-sm font-semibold">
             Email:
           </label>
           <input
@@ -62,12 +63,12 @@ const Login = () => {
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="bg-gray-200 rounded-sm p-1 text-sm"
+            className="bg-white rounded-md p-2 text-sm focus:outline-none focus:scale-105"
           />
         </div>
 
         <div className="flex flex-col space-y-1">
-          <label htmlFor="password" className="text-sm">
+          <label htmlFor="password" className="text-sm font-semibold">
             Password:
           </label>
           <input
@@ -75,15 +76,15 @@ const Login = () => {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="bg-gray-200 rounded-sm p-1 text-sm"
+            className="bg-white rounded-md p-2 text-sm focus:outline-none focus:scale-105"
           />
         </div>
 
-        <div className="flex justify-end w-full">
-          <button type="button" onClick={() => login(email, password)}>
+        <div className="flex flex-col text-center w-full">
+          <ButtonFull type="button" onClick={() => login(email, password)}>
             Login
-          </button>
-
+          </ButtonFull>
+          {/* 
           <button
             type="button"
             onClick={async () => {
@@ -102,13 +103,15 @@ const Login = () => {
             }}
           >
             Logout
-          </button>
+          </button> */}
+          <div className="text-sm mt-5 font-semibold">
+            <p>Don't have an account?</p>
+            <Link to={'/register'}>
+              <p className="underline text-indigo-800">Register Now</p>
+            </Link>
+          </div>
         </div>
       </form>
-
-      <p>
-        {loggedInUser ? `Logged in as ${loggedInUser.name}` : 'Not logged in'}
-      </p>
     </section>
   );
 };
