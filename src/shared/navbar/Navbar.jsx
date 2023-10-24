@@ -4,12 +4,13 @@ import {
   FaAngleUp,
   FaBars,
   FaChartBar,
+  FaPenNib,
   FaSearch,
   FaSignInAlt,
   FaSignOutAlt,
   FaTimes,
   FaUser,
-  FaUserCircle,
+  FaUserCircle
 } from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useUser } from '../../lib/context/user';
@@ -133,13 +134,14 @@ const Navbar = () => {
 
   return (
     <div className="sticky top-0 z-50 bg-primary text-white shadow-md">
-      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-3 md:py-6 font-normal uppercase px-3">
+      <header className="container mx-auto flex flex-row-reverse md:flex-row justify-between items-center py-3 md:py-4 font-normal uppercase px-3">
         {/* ICON/LOGO */}
-        <div className="flex justify-between items-center gap-10">
+        <div className="flex justify-between items-center text-end gap-10">
           <NavLink to={'/'}>
             <h2 className="font-bold italic text-2xl md:text-3xl">
               Alphabetor
             </h2>
+            <span className='text-xs italic text-end p-1 font-bold capitalize flex items-center justify-end gap-1'> <FaPenNib/> Guides The Way</span>
           </NavLink>
         </div>
 

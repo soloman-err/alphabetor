@@ -1,9 +1,9 @@
-#marquee{
-    position: relative;
+#marquee {
+  position: relative;
 }
 
-#marquee::after{
-      background: url('https://demoxml.com/html/wooland/images/gridtile.png') repeat;
+#marquee::after {
+  background: url('https://demoxml.com/html/wooland/images/gridtile.png') repeat;
   content: '';
   height: 100%;
   left: 0;
