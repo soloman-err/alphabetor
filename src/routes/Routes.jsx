@@ -22,9 +22,7 @@ import Forum from '../pages/forum/Forum';
 import Home from '../pages/home/Home';
 import Login from '../pages/login/Login';
 import UserProfile from '../pages/profile/UserProfile';
-import Register from '../pages/register/Register';
-import StudentReg from '../pages/register/StudentReg';
-import TeacherReg from '../pages/register/teacherReg';
+import RegistrationForm from '../pages/register/RegistrationForm';
 
 const router = createBrowserRouter([
   {
@@ -43,9 +41,9 @@ const router = createBrowserRouter([
       { path: '/courses/:id', element: <CourseDetails /> },
       { path: '/user-profile', element: <UserProfile /> },
       { path: '/login', element: <Login /> },
-      { path: '/register', element: <Register /> },
-      { path: '/register/student', element: <StudentReg /> },
-      { path: '/register/teacher', element: <TeacherReg /> },
+      { path: '/register', element: <RegistrationForm /> },
+      // { path: '/api/users/register/student', element: <StudentReg /> },
+      // { path: '/api/users/register/teacher', element: <TeacherReg /> },
     ],
   },
   {

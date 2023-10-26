@@ -10,7 +10,7 @@ const Register = () => {
         <div className="relative w-fit mx-auto text-center flex flex-col justify-center hover:scale-110 duration-300 items-center bg-primary/90 p-10 text-white rounded-md space-y-5">
           <BadgeSm>Student</BadgeSm>
           <FaUserGraduate size={70} />
-          <Link to={'/register/student'}>
+          <Link to={'/api/users/register/student'}>
             <ButtonRound>Register as a student</ButtonRound>
           </Link>
           <div className="space-y-2 text-sm font-bold">
@@ -26,7 +26,7 @@ const Register = () => {
         <div className="relative w-fit mx-auto text-center flex flex-col justify-center hover:scale-110 duration-300 items-center bg-primary/90 p-10 text-white rounded-md space-y-5">
           <BadgeSm>Teacher</BadgeSm>
           <FaUserTie size={70} />
-          <Link to={'/register/teacher'}>
+          <Link to={'/api/users/register/teacher'}>
             <ButtonRound className="">Register as a teacher</ButtonRound>
           </Link>
           <div className="space-y-2 text-sm font-bold">

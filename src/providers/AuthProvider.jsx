@@ -23,7 +23,7 @@ const AuthProvider = ({ children }) => {
   // PROVIDERS:
   const googleProvider = new GoogleAuthProvider();
 
-  // create a new user:
+  // CREATE NEW USER:
   const createUser = (email, password) => {
     return createUserWithEmailAndPassword(auth, email, password);
   };
@@ -52,7 +52,7 @@ const AuthProvider = ({ children }) => {
     return sendPasswordResetEmail(auth, email);
   };
 
-  // user state observer:
+  // STATE OBSERVER:
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -82,9 +82,7 @@ const AuthProvider = ({ children }) => {
     };
   }, [auth]);
 
-  // }, [axiosSecure, auth]);
-
-  // logging out:
+  // LOGOUT:
   const logOut = () => {
     setLoading(true);
     return signOut(auth);

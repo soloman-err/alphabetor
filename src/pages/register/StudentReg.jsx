@@ -1,10 +1,11 @@
 import React from 'react';
+import RegistrationForm from './RegistrationForm';
 
 const StudentReg = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <RegistrationForm role="student" />
+        </>
     );
 };
 
