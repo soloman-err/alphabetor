@@ -1,12 +1,14 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 
-const RegistrationForm = ({role}) => {
+const RegistrationForm = ({ role }) => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
     email: '',
-    password: '',
     phone: '',
+    password: '',
+    confirmPassword: '',
     address: '',
     city: '',
     state: '',
@@ -30,12 +32,12 @@ const RegistrationForm = ({role}) => {
     } catch (error) {
       console.error(error);
     }
-    };
-    
+  };
+
   return (
     <div className="flex flex-col items-center justify-center min-h-[70vh] py-10 bg-gray-100">
       <div className="bg-white rounded-lg shadow-lg p-6">
-        <h1 className="text-2xl font-bold mb-4">Teacher Registration</h1>
+        <h1 className="text-2xl font-bold mb-4">Registration Form</h1>
         <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-4">
           {Object?.entries(formData)?.map(([name, value]) => (
             <div key={name} className="flex flex-col">
@@ -44,19 +46,40 @@ const RegistrationForm = ({role}) => {
                   htmlFor={name}
                   className="text-gray-700 font-medium mb-2 capitalize"
                 >
-                  {name}:
+                  {name === 'password'
+                    ? 'Password'
+                    : name === 'confirmPassword'
+                    ? 'Confirm Password'
+                    : name === 'firstName'
+                    ? 'First Name'
+                    : name === 'lastName'
+                    ? 'Last Name'
+                    : name}
+                  :
                 </label>
               ) : null}
               {name !== 'acceptTerms' ? (
                 <input
-                  type="text"
+                  type={
+                    name === 'password' || name === 'confirmPassword'
+                      ? 'password'
+                      : 'text'
+                  }
                   id={name}
                   name={name}
                   value={value}
                   onChange={handleChange}
                   required
-                  className={`border border-gray-400 bg-gray-50 rounded-md py-2 px-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm capitalize`}
-                  placeholder={`Enter ${name}`}
+                  className={`border border-gray-400 bg-gray-50 rounded-md py-2 px-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm`}
+                  placeholder={`${
+                    name === 'confirmPassword'
+                      ? 'confirm password'
+                      : name === 'firstName'
+                      ? 'first name'
+                      : name === 'lastName'
+                      ? 'last name'
+                      : name
+                  }`}
                 />
               ) : null}
             </div>
