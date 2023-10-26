@@ -1,5 +1,5 @@
 import React from 'react';
-import { useUser } from '../../lib/context/user';
+import useAuth from '../../hooks/useAuth';
 
 // const user = {
 //   name: 'John Doe',
@@ -41,7 +41,9 @@ import { useUser } from '../../lib/context/user';
 // };
 
 const UserProfile = () => {
-  const user = useUser();
+  // const user = useUser();
+  const {user} = useAuth();
+  console.log(user);
   const currentUser = user?.current;
   console.log(currentUser?.email);
 
