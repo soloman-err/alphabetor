@@ -13,10 +13,13 @@ import {
   FaUserCircle,
 } from 'react-icons/fa';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { useUser } from '../../lib/context/user';
+import useAuth from '../../hooks/useAuth';
+// import { useUser } from '../../lib/context/user';
 
 const Navbar = () => {
-  const { current: currentUser, logOut } = useUser();
+  const { user } = useAuth()
+  console.log(user);
+  // const { current: user, logOut } = useUser();
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isCoursesHovered, setIsCoursesHovered] = useState(false);
@@ -116,10 +119,10 @@ const Navbar = () => {
   const dropdownItems = [
     { icon: FaUser, text: 'Profile', link: '/user-profile' },
     { icon: FaChartBar, text: 'Dashboard', link: '/dashboard' },
-    ...(currentUser
+    ...(user
       ? []
       : [{ icon: FaSignInAlt, text: 'Sign In', link: '/login' }]),
-    ...(currentUser
+    ...(user
       ? [
           {
             icon: FaSignOutAlt,

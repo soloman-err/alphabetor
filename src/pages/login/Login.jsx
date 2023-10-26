@@ -1,18 +1,44 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import ButtonFull from '../../components/buttons/ButtonFull';
-import { account } from '../../lib/appwrite';
-import { useUser } from '../../lib/context/user';
+import Loading from '../../components/loading/Loading';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
+  const { user, login, loading } = useAuth();
   const [loggedInUser, setLoggedInUser] = useState();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState();
   const navigate = useNavigate();
-  const user = useUser();
-  const currentUser = user?.current;
-  console.log('From login: ', currentUser);
+  // const user = useUser();
+  // const currentUser = user?.current;
+  // console.log( 'From login: ', currentUser );
+  console.log("From Login", user);
+
+  if (!login) {
+    return <Loading/>;
+  }
+
+  // const handleLogin = async (event) => {
+  //   event.preventDefault();
+  //   const { email, password } = event.target.elements;
+  //   try {
+  //     const result = await login( email?.value, password?.value );
+  //     console.log( result );
+      
+  //     Swal.fire({
+  //       text: 'Login successful!',
+  //       icon: 'success',
+  //       background: '#222',
+  //     });
+
+  //     navigate('/');
+  //   } catch (error) {
+  //     console.log(error);
+  //     setErrorMessage('Invalid email or password');
+  //   }
+  // };
 
   // const user = useUser();
   //   console.log( 'From Login: ', email, password, user );
@@ -21,39 +47,42 @@ const Login = () => {
   //     user.login(email, password);
   //   };
 
-  async function login(email, password) {
-    try {
-      // const response = await account.createEmailSession(email, password);
-      // setLoggedInUser(response);
+  // async function login(email, password) {
+  //   try {
+  //     // const response = await account.createEmailSession(email, password);
+  //     // setLoggedInUser(response);
 
-      await account.createEmailSession(email, password);
-      setLoggedInUser(await account.get());
-      navigate('/');
-    } catch (error) {
-      console.error('Login failed:', error);
-    }
-  }
+  //     await account.createEmailSession(email, password);
+  //     setLoggedInUser(await account.get());
+  //     navigate('/');
+  //   } catch (error) {
+  //     console.error('Login failed:', error);
+  //   }
+  // }
 
-  async function handleRegistration() {
-    if (!email || !password) {
-      console.error('Email and password are required.');
-      return;
-    }
-    console.log('Registration Handler: ', email, password);
+  // async function handleRegistration() {
+  //   if (!email || !password) {
+  //     console.error('Email and password are required.');
+  //     return;
+  //   }
+  //   console.log('Registration Handler: ', email, password);
 
-    try {
-      const response = await user.register(email, password);
-      console.log('Registration successful:', response);
-    } catch (error) {
-      console.error('Registration failed:', error);
-    }
-  }
+  //   try {
+  //     const response = await user.register(email, password);
+  //     console.log('Registration successful:', response);
+  //   } catch (error) {
+  //     console.error('Registration failed:', error);
+  //   }
+  // }
 
   return (
-    <section className="w-[90%] mx-auto md:max-w-lg my-20 p-5 rounded-lg shadow-lg py-10 bg-primary/10">
+    <section className="w-[90%] mx-auto md:max-w-md my-20 p-5 rounded-lg shadow-lg py-20 bg-primary/10">
       <h2 className="text-2xl font-bold text-center py-2">Sign In</h2>
 
-      <form className="flex flex-col space-y-3 max-w-sm mx-auto">
+      <form
+        // onSubmit={handleLogin}
+        className="flex flex-col space-y-3 max-w-sm mx-auto"
+      >
         <div className="flex flex-col space-y-1">
           <label htmlFor="email" className="text-sm font-semibold">
             Email:
