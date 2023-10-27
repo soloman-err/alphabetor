@@ -12,14 +12,14 @@ import {
   FaUser,
   FaUserCircle,
 } from 'react-icons/fa';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { handleLogOut } from '../../controllers/auth';
 import useAuth from '../../hooks/useAuth';
-// import { useUser } from '../../lib/context/user';
 
 const Navbar = () => {
-  const { user } = useAuth()
+  const { user, logOut } = useAuth();
+  const navigate = useNavigate();
   console.log(user);
-  // const { current: user, logOut } = useUser();
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isCoursesHovered, setIsCoursesHovered] = useState(false);
@@ -119,17 +119,13 @@ const Navbar = () => {
   const dropdownItems = [
     { icon: FaUser, text: 'Profile', link: '/user-profile' },
     { icon: FaChartBar, text: 'Dashboard', link: '/dashboard' },
-    ...(user
-      ? []
-      : [{ icon: FaSignInAlt, text: 'Sign In', link: '/login' }]),
+    ...(user ? [] : [{ icon: FaSignInAlt, text: 'Sign In', link: '/login' }]),
     ...(user
       ? [
           {
             icon: FaSignOutAlt,
             text: 'Sign Out',
-            onClick: async () => {
-              logOut();
-            },
+            onClick: async () => handleLogOut(logOut, navigate),
           },
         ]
       : []),

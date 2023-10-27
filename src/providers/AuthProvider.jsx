@@ -1,17 +1,17 @@
 import axios from 'axios';
 import {
-    GoogleAuthProvider,
-    createUserWithEmailAndPassword,
-    getAuth,
-    onAuthStateChanged,
-    sendPasswordResetEmail,
-    signInWithEmailAndPassword,
-    signInWithPopup,
-    signOut,
-    updateProfile,
+  GoogleAuthProvider,
+  createUserWithEmailAndPassword,
+  getAuth,
+  onAuthStateChanged,
+  sendPasswordResetEmail,
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  signOut,
+  updateProfile,
 } from 'firebase/auth';
 import { createContext, useEffect, useState } from 'react';
-import { app } from '../firebase/firebase.config';
+import app from '../firebase/firebase.config';
 
 export const AuthContext = createContext(null);
 const auth = getAuth(app);
@@ -54,24 +54,26 @@ const AuthProvider = ({ children }) => {
 
   // STATE OBSERVER:
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       setUser(currentUser);
 
-      if (currentUser && currentUser?.email) {
+      if (currentUser) {
         console.log('User is logged in:', currentUser);
-        axios
-          .post(`${import.meta.env.VITE_SERVER_URL}/jwt`, {
-            email: currentUser?.email,
-          })
-          .then((data) => {
-            console.log('Received token data:', data.data.token);
-            localStorage.setItem('access_token', data.data.token);
-            setLoading(false);
-          })
-          .catch((error) => {
-            console.error('Error fetching token:', error);
-            setLoading(false);
-          });
+
+        try {
+          const res = await axios.post(
+            `${import.meta.env.VITE_SERVER_URL}/jwt`,
+            {
+              email: currentUser.email,
+            }
+          );
+          console.log(res);
+          localStorage.setItem('access_token', res.data.token);
+          setLoading(false);
+        } catch (err) {
+          console.error('Unauthorized access', err);
+          await logOut();
+        }
       } else {
         localStorage.removeItem('access_token');
         setLoading(false);
@@ -80,7 +82,7 @@ const AuthProvider = ({ children }) => {
     return () => {
       return unsubscribe();
     };
-  }, [auth]);
+  }, []);
 
   // LOGOUT:
   const logOut = () => {
