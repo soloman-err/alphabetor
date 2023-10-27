@@ -36,7 +36,7 @@ const RegistrationForm = () => {
       acceptTerms,
     } = data;
     try {
-      setLoading(true);
+      setLoading( true );
       const userResult = await createUser(email, password);
       const user = userResult.user;
 
