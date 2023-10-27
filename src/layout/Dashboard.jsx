@@ -10,7 +10,7 @@ import {
   FaFileAlt,
   FaHome,
   FaRegUser,
-  FaUserGraduate,
+  FaUserFriends
 } from 'react-icons/fa';
 import { Link, Outlet } from 'react-router-dom';
 
@@ -27,9 +27,9 @@ const menuItems = [
   },
   {
     id: 6,
-    icon: FaUserGraduate,
-    text: 'Total Students',
-    to: 'total-students',
+    icon: FaUserFriends ,
+    text: 'Total Users',
+    to: 'total-users',
   },
   { id: 7, icon: FaFileAlt, text: 'Reports', to: 'reports' },
   { id: 8, icon: FaCog, text: 'Settings', to: 'settings' },
