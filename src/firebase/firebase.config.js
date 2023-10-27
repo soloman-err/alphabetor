@@ -2,12 +2,14 @@ import { initializeApp } from 'firebase/app';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyAUKb5xGPovDtnp1ERnn4fvR7OmFM0eynQ',
-  authDomain: 'alphabetor-edu.firebaseapp.com',
-  projectId: 'alphabetor-edu',
-  storageBucket: 'alphabetor-edu.appspot.com',
-  messagingSenderId: '806415210695',
-  appId: '1:806415210695:web:786ca870f534d12b4e46e2',
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
-export const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+
+export default app;

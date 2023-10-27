@@ -16,6 +16,7 @@ export default {
       yellow: colors.yellow,
       primary: '#164b59',
       secondary: '#ddd',
+      danger: '#e81212',
     },
   },
   plugins: [],
