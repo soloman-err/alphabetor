@@ -19,7 +19,6 @@ import useAuth from '../../hooks/useAuth';
 const Navbar = () => {
   const { user, logOut } = useAuth();
   const navigate = useNavigate();
-  console.log(user);
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isCoursesHovered, setIsCoursesHovered] = useState(false);
