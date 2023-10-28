@@ -11,7 +11,6 @@ const Login = () => {
   const location = useLocation();
 
   const from = location.state?.from?.pathname || '/';
-  console.log(from);
 
   const handleLogin = async (event) => {
     event.preventDefault();
@@ -42,10 +41,7 @@ const Login = () => {
       <div className="max-w-sm bg-white rounded-md shadow-lg p-8 w-full">
         <h2 className="text-2xl font-bold text-center py-2">Sign In</h2>
 
-        <form
-          onSubmit={handleLogin}
-          className="flex flex-col space-y-4"
-        >
+        <form onSubmit={handleLogin} className="flex flex-col space-y-4">
           <div className="flex flex-col space-y-1">
             <label htmlFor="email" className="text-sm font-semibold">
               Email:

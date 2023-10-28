@@ -33,8 +33,9 @@ const RegistrationForm = () => {
       city,
       state,
       zip,
-      acceptTerms,
     } = data;
+    console.log("Onsubmit user data:", data);
+
     try {
       setLoading( true );
       const userResult = await createUser(email, password);
@@ -49,7 +50,6 @@ const RegistrationForm = () => {
         city,
         state,
         zip,
-        acceptTerms,
       });
 
       reset();

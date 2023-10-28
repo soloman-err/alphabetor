@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
 import useUsers from '../../../../hooks/useUsers';
@@ -12,15 +13,38 @@ const tableHeaders = [
   { label: 'Actions' },
 ];
 
-const TotalUsers = () => {
+const AllUsers = () => {
   const { users } = useUsers();
   console.log(users);
   const [userRoles, setUserRoles] = useState(users?.map((user) => user.role));
 
-  const handleRoleChange = (index, role) => {
-    const newRoles = [...userRoles];
-    newRoles[index] = role;
-    setUserRoles(newRoles);
+  const updateUserRole = async (email, newRole) => {
+    try {
+      console.log(email, newRole);
+      const res = await axios.patch(
+        `${import.meta.env.VITE_SERVER_URL}/users/update-role/${email}`,
+        {
+          role: newRole,
+        }
+      );
+      console.log(res);
+      console.log(`User role updated to ${newRole}`);
+    } catch (err) {
+      console.error('Error updating user role', err);
+      throw err;
+    }
+  };
+
+  const handleRoleChange = async (index, role) => {
+    try {
+      const userEmail = users[index]?.email;
+      await updateUserRole(userEmail, role);
+      const newRoles = [...userRoles];
+      newRoles[index] = role;
+      setUserRoles(newRoles);
+    } catch (err) {
+      console.error('Error updating user role', err);
+    }
   };
 
   return (
@@ -45,7 +69,7 @@ const TotalUsers = () => {
 
               <tbody className="bg-white divide-y divide-gray-200">
                 {users?.map((user, index) => (
-                  <tr key={user?.id}>
+                  <tr key={index}>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                       {index + 1}
                     </td>
@@ -66,7 +90,7 @@ const TotalUsers = () => {
                         }
                         className="px-2 py-1 border border-gray-300 bg-white rounded-sm shadow-sm focus:outline-none sm:text-sm"
                       >
-                        {roles.map((role) => (
+                        {roles?.map((role) => (
                           <option key={role} value={role}>
                             {role.charAt(0).toUpperCase() + role.slice(1)}
                           </option>
@@ -90,4 +114,4 @@ const TotalUsers = () => {
   );
 };
 
-export default TotalUsers;
+export default AllUsers;

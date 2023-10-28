@@ -11,12 +11,12 @@ import Courses from '../pages/courses/Courses';
 import CourseCategory from '../pages/courses/courseCategory/CourseCategory';
 import DashboardHome from '../pages/dashboard/DashboardHome';
 import AddNewBook from '../pages/dashboard/admin/addNewBook/AddNewBook';
+import AllUsers from '../pages/dashboard/admin/allUsers/allUsers';
 import Analytics from '../pages/dashboard/admin/analytics/Analytics';
 import AllBooks from '../pages/dashboard/admin/books/allBooks/AllBooks';
 import BookCategory from '../pages/dashboard/admin/books/allBooks/bookCategory/BookCategory';
 import Reports from '../pages/dashboard/admin/reports/Reports';
 import Settings from '../pages/dashboard/admin/settings/Settings';
-import TotalUsers from '../pages/dashboard/admin/totalUsers/TotalUsers';
 import UploadCourse from '../pages/dashboard/admin/uploadCourse/UploadCourse';
 import Forum from '../pages/forum/Forum';
 import Home from '../pages/home/Home';
@@ -62,7 +62,7 @@ const router = createBrowserRouter([
       },
       { path: 'add-new-book', element: <AddNewBook /> },
       { path: 'upload-course', element: <UploadCourse /> },
-      { path: 'total-users', element: <TotalUsers /> },
+      { path: 'all-users', element: <AllUsers /> }, 
       { path: 'settings', element: <Settings /> },
     ],
   },
