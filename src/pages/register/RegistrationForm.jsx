@@ -45,6 +45,7 @@ const RegistrationForm = () => {
         ...user,
         firstName,
         lastName,
+        password,
         phone,
         address,
         city,
