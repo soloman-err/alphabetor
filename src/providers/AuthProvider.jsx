@@ -47,6 +47,7 @@ const AuthProvider = ({ children }) => {
     setLoading(true);
     return signInWithPopup(auth, googleProvider);
   };
+  
   const resetPassword = (email) => {
     setLoading(true);
     return sendPasswordResetEmail(auth, email);
@@ -58,8 +59,6 @@ const AuthProvider = ({ children }) => {
       setUser(currentUser);
 
       if (currentUser) {
-        console.log('User is logged in:', currentUser);
-
         try {
           const res = await axios.post(
             `${import.meta.env.VITE_SERVER_URL}/jwt`,
@@ -67,7 +66,7 @@ const AuthProvider = ({ children }) => {
               email: currentUser.email,
             }
           );
-          console.log(res);
+          console.log('Authorization Status:', res.status);
           localStorage.setItem('access_token', res.data.token);
           setLoading(false);
         } catch (err) {

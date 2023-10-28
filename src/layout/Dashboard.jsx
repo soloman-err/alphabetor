@@ -28,8 +28,8 @@ const menuItems = [
   {
     id: 6,
     icon: FaUserFriends ,
-    text: 'Total Users',
-    to: 'total-users',
+    text: 'All Users',
+    to: 'all-users',
   },
   { id: 7, icon: FaFileAlt, text: 'Reports', to: 'reports' },
   { id: 8, icon: FaCog, text: 'Settings', to: 'settings' },
