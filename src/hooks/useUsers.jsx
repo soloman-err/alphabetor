@@ -21,7 +21,7 @@ const useUsers = () => {
     fetchData();
   }, []);
 
-  return { users, isLoading, error };
+  return { users, setUsers, isLoading, error };
 };
 
 export default useUsers;

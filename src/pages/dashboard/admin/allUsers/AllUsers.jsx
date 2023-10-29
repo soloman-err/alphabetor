@@ -14,24 +14,31 @@ const tableHeaders = [
 ];
 
 const AllUsers = () => {
-  const { users } = useUsers();
-  console.log(users);
+  const { users, setUsers } = useUsers();
   const [userRoles, setUserRoles] = useState(users?.map((user) => user.role));
 
   const updateUserRole = async (email, newRole) => {
     try {
-      console.log(email, newRole);
-      const res = await axios.patch(
-        `${import.meta.env.VITE_SERVER_URL}/users/update-role/${email}`,
+      const response = await axios.patch(
+        `${import.meta.env.VITE_SERVER_URL}/users/${email}`,
         {
           role: newRole,
         }
       );
-      console.log(res);
-      console.log(`User role updated to ${newRole}`);
-    } catch (err) {
-      console.error('Error updating user role', err);
-      throw err;
+
+      const updatedUser = response.data.user;
+
+      setUsers((prevUsers) => {
+        return prevUsers.map((user) =>
+          user.email === email ? updatedUser : user
+        );
+      });
+
+      console.log(`User role updated successfully. New role: ${newRole}`);
+      console.log('Updated user:', updatedUser);
+    } catch (error) {
+      console.error('Error updating user role:', error);
+      throw error;
     }
   };
 
@@ -82,6 +89,8 @@ const AllUsers = () => {
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                       {userRoles[index] || 'user'}
                     </td>
+
+                    {/* ACTIONS */}
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 flex items-center">
                       <select
                         value={userRoles[index]}
